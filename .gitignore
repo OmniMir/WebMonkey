@@ -1,0 +1,22 @@
+# Windows Thumbnail Cache
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Windows Folder Config
+Desktop.ini
+
+# Windows Recycle Bin
+$RECYCLE.BIN/
+
+# Windows Installer
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Shortcuts
+*.lnk
+
+# Windows Executables
+*.exe
