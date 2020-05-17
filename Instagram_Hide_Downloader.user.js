@@ -15,7 +15,7 @@
 	window.addEventListener(
 		"load",
 		function () {
-			hideExtensionButtons;
+			hideExtensionButtons();
 			document.querySelector(".ext_tooltip").remove();
 			document.querySelector(".ext_stories_page_icon").remove();
 			document.querySelector(".ext_mobile_mode_icon").remove();
@@ -26,7 +26,7 @@
 		false
 	);
 	//Going with page scroll
-	window.addEventListener("scroll", hideExtensionButtons, false);
+	window.addEventListener("scroll", hideExtensionButtons(), false);
 	//Hide all Download and Delete buttons
 	function hideExtensionButtons() {
 		document.querySelectorAll(".ext_desktop_dl_btnn").forEach((element) => {
