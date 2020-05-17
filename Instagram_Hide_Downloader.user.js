@@ -12,10 +12,10 @@
 (function () {
 	"use strict";
 	//Start on page load to take effect
-	window.addEventListener("load", hideExtensionButtons, false);
 	window.addEventListener(
 		"load",
 		function () {
+			hideExtensionButtons;
 			document.querySelector(".ext_tooltip").remove();
 			document.querySelector(".ext_stories_page_icon").remove();
 			document.querySelector(".ext_mobile_mode_icon").remove();
