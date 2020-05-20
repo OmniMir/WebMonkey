@@ -23,6 +23,3 @@
 		false
 	);
 })();
-
-
-body > div.viewitem-panel > div > div.viewitem-inner > div > div > div.article-content.entry-content > div > div:nth-child(3) > a
