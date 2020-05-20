@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         RealDealTeam HotKey Download
 // @namespace    https://vash.omnimir.ru/
-// @version      0.1
+// @version      0.2
 // @description  Press DOWN to DOWNload
 // @author       kapsilon
 // @match        https://realdealteam.blogspot.com/*
