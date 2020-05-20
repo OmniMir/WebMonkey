@@ -1,10 +1,11 @@
 // ==UserScript==
-// @name         SpaikComics HotKey Download
+// @name         uCoz Sites HotKey Download
 // @namespace    https://vash.omnimir.ru/
 // @version      0.2
 // @description  Press DOWN to DOWNload
 // @author       kapsilon
 // @match        http://spaikcomics.moy.su/*
+// @match        http://frankengeek.ru/*
 // @grant        none
 // ==/UserScript==
 
