@@ -1,10 +1,11 @@
 // ==UserScript==
-// @name		GMail Hide Apps Button
+// @name		GoogleApps Hide Apps Button
 // @namespace	https://vash.omnimir.ru/
 // @version		0.1
 // @description	Hide button to various google apps
 // @author		kapsilon
 // @license		MIT
+// @match		https://drive.google.com/drive/*
 // @match		https://mail.google.com/mail/*
 // @grant		none
 // ==/UserScript==

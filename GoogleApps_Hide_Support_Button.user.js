@@ -1,11 +1,12 @@
 // ==UserScript==
-// @name		GoogleDocs Hide SidePanel
+// @name		GoogleApps Hide Support Button
 // @namespace	https://vash.omnimir.ru/
 // @version		0.1
-// @description	Hide button to call right sidebar
+// @description	Hide button to support
 // @author		kapsilon
 // @license		MIT
-// @match		https://docs.google.com/document/*
+// @match		https://drive.google.com/drive/*
+// @match		https://mail.google.com/mail/*
 // @grant		none
 // ==/UserScript==
 
@@ -15,7 +16,7 @@
 	window.addEventListener(
 		"load",
 		function () {
-			document.querySelector(".companion-collapser-button-container").style.display = "none";
+			document.querySelector(".gb_Be").style.display = "none";
 		},
 		false
 	);
