@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name		VK HotKey Download
 // @namespace	https://vash.omnimir.ru/
-// @version		0.3
+// @version		0.4
 // @description	Press DOWN to DOWNload
 // @author		kapsilon
 // @license		MIT
-// @match		https://vk.com/*
+// @match		https://vk.com/wall*
+// @match		https://vk.com/@*
 // @grant		none
 // ==/UserScript==
 
