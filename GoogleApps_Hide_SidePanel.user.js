@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name		GMail Hide SidePanel
+// @name		GoogleApps Hide SidePanel
 // @namespace	https://vash.omnimir.ru/
 // @version		0.1
 // @description	Hide button to call right sidebar
