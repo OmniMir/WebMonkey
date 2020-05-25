@@ -298,6 +298,9 @@ wikipedia.org##.header-chrome.header-container
 wikipedia.org##.minerva-footer
 wikipedia.org##.cbnnr-main
 
+!! Quora
+www.quora.com##.qu-bg--black_transparent_dark
+
 !! Yandex Zen
 zen.yandex.ru###zen-header_mobile
 zen.yandex.ru###article-footer-content
