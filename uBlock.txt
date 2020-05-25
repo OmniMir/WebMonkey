@@ -64,6 +64,8 @@ m.habr.com##.tm-news-block
 m.habr.com##.tm-page__header
 m.habr.com##.tm-page-article__counters-panel_sticky
 m.habr.com##.tm-page-article__sharing
+m.habr.com##.tm-projects-blocks_courses
+m.habr.com##.tm-projects-blocks_vacancies
 m.habr.com##.tm-promo-block
 
 !! Kanobu
