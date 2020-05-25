@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name		Kaspersky_Hide_Shields
 // @namespace	https://vash.omnimir.ru/
-// @version		0.3
+// @version		0.5
 // @description	Hide annoying green shields from search
 // @author		kapsilon
 // @license		MIT
 // @match		https://www.google.com/search*
+// @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.js
 // @grant		none
 // ==/UserScript==
 
@@ -18,12 +19,8 @@
 			//Waiting to Kapsersky Protection Extension
 			setTimeout(() => {
 				//Search special image by name and hide all of them
-				document.querySelectorAll("h3 + img").forEach((element) => {
-					element.style.display = "none";
-				});
-				document.querySelectorAll("h3 > img").forEach((element) => {
-					element.style.display = "none";
-				});
+				wmHideAll("h3 + img")
+				wmHideAll("h3 > img")
 			}, 2000);
 		},
 		false

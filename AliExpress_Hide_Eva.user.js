@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name		AliExpress Hide Eva
 // @namespace	https://vash.omnimir.ru/
-// @version		0.1
+// @version		0.5
 // @description	Hide annoying chatbot
 // @author		kapsilon
 // @license		MIT
 // @match		https://*.aliexpress.com/*
+// @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.js
 // @grant		none
 // ==/UserScript==
 
@@ -15,9 +16,7 @@
 	window.addEventListener(
 		"load",
 		function () {
-			setTimeout(() => {
-				document.querySelector("#J_xiaomi_dialog").style.display = "none";
-			}, 2000);
+			wmWaitAndHide("#J_xiaomi_dialog");
 		},
 		false
 	);

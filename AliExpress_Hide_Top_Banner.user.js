@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name		AliExpress Hide Top Banner
 // @namespace	https://vash.omnimir.ru/
-// @version		0.1
+// @version		0.5
 // @description	Hide that huge top banner
 // @author		kapsilon
 // @license		MIT
 // @match		https://*.aliexpress.com/*
+// @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.js
 // @grant		none
 // ==/UserScript==
 
@@ -15,10 +16,8 @@
 	window.addEventListener(
 		"load",
 		function () {
-			if (document.querySelector(".top-banner-container")) {
-				document.querySelector(".top-banner-container").style.display = "none";
-			}
-		},
+			wmHide(".top-banner-container");
+			},
 		false
 	);
 })();

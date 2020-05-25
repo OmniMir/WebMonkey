@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name		VK HotKey Download
 // @namespace	https://vash.omnimir.ru/
-// @version		0.4
+// @version		0.5
 // @description	Press DOWN to DOWNload
 // @author		kapsilon
 // @license		MIT
 // @match		https://vk.com/wall*
 // @match		https://vk.com/@*
+// @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.js
 // @grant		none
 // ==/UserScript==
 
@@ -18,30 +19,15 @@
 		function (event) {
 			if (event.code == "ArrowDown") {
 				//First style choice
-				if (document.querySelector(".mail_link")) {
-					document.querySelector(".mail_link").click();
-				}
+				wmClick(".mail_link");
 				//Second style choice
-				if (document.querySelector(".page_doc_title")) {
-					document.querySelector(".page_doc_title").click();
-				}
+				wmClick(".page_doc_title");
 				//Third style choice
-				if (document.querySelector(".flat_button.fl_r")) {
-					document.querySelector(".flat_button.fl_r").click();
-				}
+				wmClick(".flat_button.fl_r");
 				//Fourth style choice
-				if (document.querySelector(".thumbed_link a")) {
-					document.querySelector(".thumbed_link a").click();
-				}
+				wmClick(".thumbed_link a");
 				//Fifth style choice
-				if (document.querySelector(".article_decoration_before a")) {
-					//Maybe two links on page
-					let downlinks = document.querySelectorAll(".article_decoration_before a");
-					//Choosing last link
-					if (downlinks) {
-						downlinks[downlinks.length - 1].click();
-					}
-				}
+				wmClickLast(".article_decoration_before a");
 			}
 		},
 		false

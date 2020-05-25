@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name		GoogleDrive HotKey Download
 // @namespace	https://vash.omnimir.ru/
-// @version		0.2
+// @version		0.5
 // @description	Press DOWN to DOWNload
 // @author		kapsilon
 // @license		MIT
 // @match		https://drive.google.com/*
+// @require 	https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.js
 // @grant		none
 // ==/UserScript==
 
@@ -16,10 +17,9 @@
 		"keydown",
 		function (event) {
 			if (event.code == "ArrowDown") {
-				if (document.querySelector("#uc-download-link")) {
-					document.querySelector("#uc-download-link").click();
-				}
-				/*Video Player mode is blocked(
+				wmClick("#uc-download-link");
+
+				/*Video Player mode is blocked🙁
 				if (
 					document.querySelector(
 						".ndfHFb-c4YZDc-to915-LgbsSe.ndfHFb-c4YZDc-C7uZwb-LgbsSe.VIpgJd-TzA9Ye-eEGnhe.ndfHFb-c4YZDc-LgbsSe.ndfHFb-c4YZDc-C7uZwb-LgbsSe-SfQLQb-Bz112c"

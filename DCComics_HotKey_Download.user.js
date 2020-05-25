@@ -1,11 +1,12 @@
 // ==UserScript==
-// @name         DCComics HotKey Download
-// @namespace    https://vash.omnimir.ru/
-// @version      0.2
-// @description  Press DOWN to DOWNload
-// @author       kapsilon
-// @match        http://dccomics.ru/*
-// @grant        none
+// @name		DCComics HotKey Download
+// @namespace	https://vash.omnimir.ru/
+// @version		0.5
+// @description	Press DOWN to DOWNload
+// @author		kapsilon
+// @match		http://dccomics.ru/*
+// @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.js
+// @grant		none
 // ==/UserScript==
 
 (function () {
@@ -16,11 +17,7 @@
 		function (event) {
 			if (event.code == "ArrowDown") {
 				//Maybe two links on page
-				let downlinks = document.querySelectorAll(".kp");
-				//Choosing last link
-				if (downlinks) {
-					downlinks[downlinks.length - 1].click();
-				}
+				wmClickLast(".kp");
 			}
 		},
 		false

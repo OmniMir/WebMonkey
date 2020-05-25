@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name		YandexDisk HotKey Download
 // @namespace	https://vash.omnimir.ru/
-// @version		0.2
+// @version		0.5
 // @description	Press DOWN to DOWNload
 // @author		kapsilon
 // @license		MIT
 // @match		https://yadi.sk/d/*
+// @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.js
 // @grant		none
 // ==/UserScript==
 
@@ -17,13 +18,9 @@
 		function (event) {
 			if (event.code == "ArrowDown") {
 				//First style choice
-				if (document.querySelector(".action-buttons__button_download")) {
-					document.querySelector(".action-buttons__button_download").click();
-				}
+				wmClick(".action-buttons__button_download");
 				//Second style choice
-				if (document.querySelector(".download-button")) {
-					document.querySelector(".download-button").click();
-				}
+				wmClick(".download-button");
 			}
 		},
 		false

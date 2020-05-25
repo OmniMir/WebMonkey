@@ -1,13 +1,14 @@
 // ==UserScript==
 // @name		GoogleApps Hide SidePanel
 // @namespace	https://vash.omnimir.ru/
-// @version		0.1
+// @version		0.5
 // @description	Hide button to call right sidebar
 // @author		kapsilon
 // @license		MIT
 // @match		https://docs.google.com/document/*
 // @match		https://drive.google.com/drive/*
 // @match		https://mail.google.com/mail/*
+// @require 	https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.js
 // @grant		none
 // ==/UserScript==
 
@@ -18,17 +19,11 @@
 		"load",
 		function () {
 			//GMail Side Panel
-			if (document.querySelector(".brC-dA-I-Jw")) {
-				document.querySelector(".brC-dA-I-Jw").style.display = "none";
-			}
+			wmHide(".brC-dA-I-Jw");
 			//Google Drive Side Panel
-			if (document.querySelector(".Kk7lMc-QWPxkf-d-j")) {
-				document.querySelector(".Kk7lMc-QWPxkf-d-j").style.display = "none";
-			}
+			wmHide(".Kk7lMc-QWPxkf-d-j");
 			//Google Docs Side Panel
-			if (document.querySelector(".companion-collapser-button-container")) {
-				document.querySelector(".companion-collapser-button-container").style.display =	"none";
-			}
+			wmHide(".companion-collapser-button-container");
 		},
 		false
 	);

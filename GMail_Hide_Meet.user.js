@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name		GMail Hide Meet
 // @namespace	https://vash.omnimir.ru/
-// @version		0.1
+// @version		0.5
 // @description	Disable New Google Meet Section in left sidebar (something as old Google Chat in GMail)
 // @author		kapsilon
 // @license		MIT
 // @match		https://mail.google.com/mail/*
+// @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.js
 // @grant		none
 // ==/UserScript==
 
@@ -15,8 +16,8 @@
 	window.addEventListener(
 		"load",
 		function () {
-			document.querySelector(".aeO").remove(); //Only remove not hide!!!
-			document.querySelector(".akc.aZ6.YX").remove();
+			wmRemove(".aeO");
+			wmRemove(".akc.aZ6.YX");
 		},
 		false
 	);

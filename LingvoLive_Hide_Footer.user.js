@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name		LingvoLive Hide Footer
 // @namespace	https://vash.omnimir.ru/
-// @version		0.1
+// @version		0.5
 // @description	Hide that big black footer
 // @author		kapsilon
 // @license		MIT
 // @match		https://www.lingvolive.com/*
+// @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.js
 // @grant		none
 // ==/UserScript==
 
@@ -15,7 +16,7 @@
 	window.addEventListener(
 		"load",
 		function () {
-			document.querySelector("._3nyLP").style.display = "none";
+			wmHide("._3nyLP");
 		},
 		false
 	);

@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name		Instagram Hide Downloader
 // @namespace	https://vash.omnimir.ru/
-// @version		0.1
+// @version		0.5
 // @description	Hide Annoying Things from Downloader for Instagram Extension
 // @author		kapsilon
 // @license		MIT
 // @match		https://www.instagram.com/*
+// @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.js
 // @grant		none
 // ==/UserScript==
 
@@ -15,12 +16,12 @@
 	window.addEventListener(
 		"load",
 		function () {
-			document.querySelector(".ext_tooltip").remove();
-			document.querySelector(".ext_stories_page_icon").remove();
-			document.querySelector(".ext_mobile_mode_icon").remove();
+			wmRemove(".ext_tooltip");
+			wmRemove(".ext_stories_page_icon");
+			wmRemove(".ext_mobile_mode_icon");
 			setTimeout(() => {
-				document.querySelector(".download_all_wrap_wrap").remove();
-                hideExtensionButtons();
+				wmRemove(".download_all_wrap_wrap");
+				hideExtensionButtons();
 			}, 2000);
 		},
 		false
@@ -29,14 +30,8 @@
 	window.addEventListener("scroll", hideExtensionButtons, false);
 	//Hide all Download and Delete buttons
 	function hideExtensionButtons() {
-		document.querySelectorAll(".ext_desktop_dl_btnn").forEach((element) => {
-			element.remove();
-		});
-		document.querySelectorAll(".ext_del_btn").forEach((element) => {
-			element.remove();
-		});
-		if (document.querySelector(".download_all_wrap_wrap")) {
-		document.querySelector(".download_all_wrap_wrap").remove();
-		}
+		wmRemoveAll(".ext_desktop_dl_btnn");
+		wmRemoveAll(".ext_del_btn");
+		wmRemove(".download_all_wrap_wrap");
 	}
 })();

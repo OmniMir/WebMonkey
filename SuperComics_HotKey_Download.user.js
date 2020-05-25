@@ -1,11 +1,12 @@
 // ==UserScript==
-// @name         SuperComics HotKey Download
-// @namespace    https://vash.omnimir.ru/
-// @version      0.2
-// @description  Press DOWN to DOWNload
-// @author       kapsilon
-// @match        http://supercomics.ru/*
-// @grant        none
+// @name		SuperComics HotKey Download
+// @namespace	https://vash.omnimir.ru/
+// @version		0.5
+// @description	Press DOWN to DOWNload
+// @author		kapsilon
+// @match		http://supercomics.ru/*
+// @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.js
+// @grant		none
 // ==/UserScript==
 
 (function () {
@@ -15,9 +16,7 @@
 		"keydown",
 		function (event) {
 			if (event.code == "ArrowDown") {
-				if (document.querySelector(".eBlock a")) {
-					document.querySelector(".eBlock a").click();
-				}
+				wmClick(".eBlock a");
 			}
 		},
 		false

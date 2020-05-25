@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name		BoardGameArena Hide Footer
 // @namespace	https://vash.omnimir.ru/
-// @version		0.1
+// @version		0.5
 // @description	Hide that big footer
 // @author		kapsilon
 // @license		MIT
 // @match		https://boardgamearena.com/*
+// @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.js
 // @grant		none
 // ==/UserScript==
 
@@ -15,7 +16,7 @@
 	window.addEventListener(
 		"load",
 		function () {
-			document.querySelector("#overall-footer").style.display = "none";
+			wmHide("#overall-footer");
 		},
 		false
 	);
