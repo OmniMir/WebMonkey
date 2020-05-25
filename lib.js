@@ -28,7 +28,7 @@ function wmWaitAndHide(cssSelector) {
 	}, 2000);
 }
 //Wait 2 seconds and Remove element by CSS
-function wmWaitAndHide(cssSelector) {
+function wmWaitAndRemove(cssSelector) {
 	setTimeout(() => {
 		wmRemove(cssSelector);
 	}, 2000);
