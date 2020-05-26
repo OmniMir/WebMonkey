@@ -1,7 +1,7 @@
 // ==UserScriptLibrary==
 // @name		WebMonkey Library
 // @namespace	https://vash.omnimir.ru/
-// @version		1.0
+// @version		1.1
 // @description	Some useful functions for other WebMonkey Scripts
 // @author		kapsilon
 // @license		MIT
@@ -59,5 +59,12 @@ function wmClickLast(cssSelector) {
 		if (downlinks) {
 			downlinks[downlinks.length - 1].click();
 		}
+	}
+}
+//Click last element by CSS and its order
+function wmClickNumber(cssSelector, order) {
+	if (document.querySelector(cssSelector)) {
+		//Choosing only link by order
+		document.querySelectorAll(cssSelector)[order - 1].click()
 	}
 }
