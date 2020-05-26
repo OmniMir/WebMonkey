@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name		LingvoLive Hide Footer
 // @namespace	https://vash.omnimir.ru/
-// @version		0.5
+// @version		0.6
 // @description	Hide that big black footer
 // @author		kapsilon
 // @license		MIT
@@ -15,6 +15,14 @@
 	//Start on page load to take effect
 	window.addEventListener(
 		"load",
+		function () {
+			wmHide("._3nyLP");
+		},
+		false
+	);
+	//Going with page scroll
+	window.addEventListener(
+		"scroll",
 		function () {
 			wmHide("._3nyLP");
 		},
