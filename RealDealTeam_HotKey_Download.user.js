@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name		RealDealTeam HotKey Download
 // @namespace	https://vash.omnimir.ru/
-// @version		0.3
+// @version		0.6
 // @description	Press DOWN to DOWNload
 // @author		kapsilon
 // @match		https://realdealteam.blogspot.com/*
+// @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
 
@@ -15,9 +16,7 @@
 		"keydown",
 		function (event) {
 			if (event.code == "ArrowDown") {
-				if (document.querySelectorAll(".article-content a")[1]) {
-					document.querySelectorAll(".article-content a")[1].click()
-				}
+				wmClickNumber(".article-content a", 2)
 			}
 		},
 		false
