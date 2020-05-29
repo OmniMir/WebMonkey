@@ -15,7 +15,7 @@ kanobu.ru##.a_a
 kanobu.ru##.aa_eg
 kanobu.ru##.aa_eN
 kanobu.ru##.aa_eT
-kanobu.ru##.aa_eu
+!kanobu.ru##.aa_eu
 kanobu.ru##.aa_ev
 kanobu.ru##.aa_eZ
 kanobu.ru##.aA_gm
@@ -25,8 +25,8 @@ kanobu.ru##.aC_eM
 kanobu.ru##.ae_ec
 kanobu.ru##.ae_eo
 kanobu.ru##.ae_eR
-!kanobu.ru##.ae_et
-!kanobu.ru##.ae_eu
+kanobu.ru##.ae_et
+kanobu.ru##.ae_eu
 kanobu.ru##.ae_eU
 kanobu.ru##.aE_cF
 kanobu.ru##.af_eB
