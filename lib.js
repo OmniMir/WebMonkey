@@ -61,7 +61,7 @@ function wmClickLast(cssSelector) {
 		}
 	}
 }
-//Click last element by CSS and its order
+//Click element by CSS and its order
 function wmClickNumber(cssSelector, order) {
 	if (document.querySelector(cssSelector)) {
 		//Choosing only link by order
