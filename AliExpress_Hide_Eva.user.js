@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name		AliExpress Hide Eva
 // @namespace	https://vash.omnimir.ru/
-// @version		0.5
+// @version		0.6
 // @description	Hide annoying chatbot
 // @author		kapsilon
 // @license		MIT
 // @match		https://*.aliexpress.com/*
-// @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.js
+// @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
 

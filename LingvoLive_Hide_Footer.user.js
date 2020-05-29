@@ -6,7 +6,7 @@
 // @author		kapsilon
 // @license		MIT
 // @match		https://www.lingvolive.com/*
-// @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.js
+// @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
 

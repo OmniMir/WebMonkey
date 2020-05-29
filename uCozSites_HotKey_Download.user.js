@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name		uCoz Sites HotKey Download
 // @namespace	https://vash.omnimir.ru/
-// @version		0.5
+// @version		0.6
 // @description	Press DOWN to DOWNload
 // @author		kapsilon
 // @match		http://spaikcomics.moy.su/*
 // @match		http://frankengeek.ru/*
-// @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.js
+// @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
 

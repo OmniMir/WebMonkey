@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name		GoogleApps Hide SidePanel
 // @namespace	https://vash.omnimir.ru/
-// @version		0.5
+// @version		0.6
 // @description	Hide button to call right sidebar
 // @author		kapsilon
 // @license		MIT
 // @match		https://docs.google.com/document/*
 // @match		https://drive.google.com/drive/*
 // @match		https://mail.google.com/mail/*
-// @require 	https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.js
+// @require 	https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
 

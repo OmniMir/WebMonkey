@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name		Baibako HotKey Download
 // @namespace	https://vash.omnimir.ru/
-// @version		0.5
+// @version		0.6
 // @description	Press DOWN to DOWNload
 // @author		kapsilon
 // @license		MIT
 // @match		http://baibako.tv/*
-// @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.js
+// @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
 

@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name		Kaspersky_Hide_Shields
 // @namespace	https://vash.omnimir.ru/
-// @version		0.5
+// @version		0.6
 // @description	Hide annoying green shields from search
 // @author		kapsilon
 // @license		MIT
 // @match		https://www.google.com/search*
-// @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.js
+// @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
 

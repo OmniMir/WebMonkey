@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name		Instagram Hide Downloader
 // @namespace	https://vash.omnimir.ru/
-// @version		0.5
+// @version		0.6
 // @description	Hide Annoying Things from Downloader for Instagram Extension
 // @author		kapsilon
 // @license		MIT
 // @match		https://www.instagram.com/*
-// @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.js
+// @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
 
