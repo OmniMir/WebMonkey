@@ -174,7 +174,7 @@ lifehacker.ru##.stripe.container-fluid
 lifehacker.ru##.subscription-switch
 lifehacker.ru##.top-menu--wrapper
 lifehacker.ru##.web_conference
-lifehacker.ru##.white-box
+!lifehacker.ru##.white-box
 lifehacker.ru##.widgets-above-comments.widgets-area
 lifehacker.ru##[href*="https://ads.adfox.ru/200984/goLink"]
 lifehacker.ru##[class*="js-tp-powered-by-wrapper-klit"]
