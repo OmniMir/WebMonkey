@@ -6,6 +6,7 @@
 // @author		kapsilon
 // @license		MIT
 // @match		http://www.mediafire.com/file/*
+// @match		https://www.mediafire.com/file/*
 // @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
