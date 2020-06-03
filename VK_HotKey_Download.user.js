@@ -5,8 +5,9 @@
 // @description	Press DOWN to DOWNload
 // @author		kapsilon
 // @license		MIT
-// @match		https://vk.com/wall*
 // @match		https://vk.com/@*
+// @match		https://vk.com/doc*
+// @match		https://vk.com/wall*
 // @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
