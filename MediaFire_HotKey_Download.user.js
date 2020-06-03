@@ -5,8 +5,8 @@
 // @description	Press DOWN to DOWNload
 // @author		kapsilon
 // @license		MIT
-// @match		http://www.mediafire.com/file/*
-// @match		https://www.mediafire.com/file/*
+// @match		http://www.mediafire.com/*
+// @match		https://www.mediafire.com/*
 // @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
