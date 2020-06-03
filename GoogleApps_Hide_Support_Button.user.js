@@ -18,6 +18,7 @@
 		"load",
 		function () {
 			wmHide(".gb_Be");
+			wmHide(".gb_Ee");
 		},
 		false
 	);
