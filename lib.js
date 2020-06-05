@@ -1,7 +1,7 @@
 // ==UserScriptLibrary==
 // @name		WebMonkey Library
 // @namespace	https://vash.omnimir.ru/
-// @version		1.1
+// @version		1.2
 // @description	Some useful functions for other WebMonkey Scripts
 // @author		kapsilon
 // @license		MIT
@@ -32,6 +32,12 @@ function wmWaitAndRemove(cssSelector) {
 	setTimeout(() => {
 		wmRemove(cssSelector);
 	}, 2000);
+}
+//Wait 4 seconds and Remove element by CSS
+function wmWaitWaitAndRemove(cssSelector) {
+	setTimeout(() => {
+		wmRemove(cssSelector);
+	}, 4000);
 }
 //Hide All elements by CSS
 function wmHideAll(cssSelector) {
