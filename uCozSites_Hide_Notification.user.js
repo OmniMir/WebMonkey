@@ -7,6 +7,7 @@
 // @match		http://*.ucoz.com/*
 // @match		http://*.ucoz.org/*
 // @match		http://*.ucoz.ru/*
+// @match		http://*.3dn.ru/*
 // @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
