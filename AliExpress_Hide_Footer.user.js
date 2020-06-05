@@ -6,6 +6,7 @@
 // @author		kapsilon
 // @license		MIT
 // @match		https://*.aliexpress.com/*
+// @match		https://aliexpress.ru/*
 // @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
@@ -17,8 +18,8 @@
 		"load",
 		function () {
 			wmHide(".footer-copywrite");
-			wmHide(".site-footer")
-			},
+			wmHide(".site-footer");
+		},
 		false
 	);
 })();

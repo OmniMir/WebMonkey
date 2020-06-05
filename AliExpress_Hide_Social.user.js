@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name		AliExpress Hide Top Banner
+// @name		AliExpress Hide Social
 // @namespace	https://vash.omnimir.ru/
 // @version		0.6
-// @description	Hide that huge top banner
+// @description	Hide Social Buttons
 // @author		kapsilon
 // @license		MIT
 // @match		https://*.aliexpress.com/*
@@ -17,7 +17,7 @@
 	window.addEventListener(
 		"load",
 		function () {
-			wmHide(".top-banner-container");
+			wmHide(".product-fix-sns");
 		},
 		false
 	);
