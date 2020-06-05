@@ -154,6 +154,7 @@ lifehacker.ru##.input-area
 lifehacker.ru##.input-area__button
 lifehacker.ru##.input-area__container
 lifehacker.ru##.jLfVpt
+lifehacker.ru##.jOjJUx
 lifehacker.ru##.jZUUkH
 lifehacker.ru##.lh-jumper__footer
 lifehacker.ru##.lh-jumper__scroll-to-site
@@ -179,6 +180,7 @@ lifehacker.ru##.widgets-above-comments.widgets-area
 lifehacker.ru##[href*="https://ads.adfox.ru/200984/goLink"]
 lifehacker.ru##[class*="js-tp-powered-by-wrapper-klit"]
 lifehacker.ru##label
+lifehacker.ru##p > em
 ||ad.adriver.ru/cgi-bin/rle.cgi$image
 ||ads.adfox.ru/*/getCode$image
 ||embed.simplecast.com/*$subdocument
