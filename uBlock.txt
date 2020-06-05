@@ -119,6 +119,7 @@ kanobu.ru##.vn-player
 kanobu.ru##.wrap_top
 kanobu.ru##header.p-r
 kanobu.ru##li > a > strong
+kanobu.ru##li > p
 kanobu.ru##li > strong > a
 kanobu.ru##li.d-f.c-item:nth-of-type(2)
 !kanobu.ru/images/6c433800d6ba2c0b5439cf604ac3868a.gif

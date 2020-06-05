@@ -20,6 +20,7 @@ kanobu.ru##.aa_ev
 kanobu.ru##.aa_eZ
 kanobu.ru##.aA_gm
 kanobu.ru##.aB_bJ
+kanobu.ru##.ac_ew
 kanobu.ru##.ac_fp
 kanobu.ru##.aC_eM
 kanobu.ru##.ae_ec
@@ -39,6 +40,7 @@ kanobu.ru##.af_ft
 kanobu.ru##.ag_bU
 kanobu.ru##.ag_eK
 kanobu.ru##.ag_eL
+kanobu.ru##.ag_ex
 kanobu.ru##.ag_fb
 kanobu.ru##.ag_fi
 kanobu.ru##.aG_fg
@@ -74,6 +76,7 @@ kanobu.ru##.ak_gf
 kanobu.ru##.ak_cV
 kanobu.ru##.al_cG
 kanobu.ru##.al_eE
+kanobu.ru##.al_eP
 kanobu.ru##.al_eQ
 kanobu.ru##.al_fg
 kanobu.ru##.ah_fi
@@ -125,9 +128,14 @@ kanobu.ru##.aR_eq
 kanobu.ru##.aR_gX
 kanobu.ru##.as_bl
 kanobu.ru##.as_eg
+kanobu.ru##.as_eU
+kanobu.ru##.as_fu
 kanobu.ru##.as_fx
 kanobu.ru##.at_bT
 kanobu.ru##.at_bQ
+kanobu.ru##.at_fE
+kanobu.ru##.at_fh
+kanobu.ru##.at_fH
 kanobu.ru##.at_gP
 kanobu.ru##.au_fh
 kanobu.ru##.av_bJ
@@ -199,11 +207,13 @@ kanobu.ru##.L_bt
 kanobu.ru##.L_eh
 kanobu.ru##.m_aa
 kanobu.ru##.m_W
+kanobu.ru##.m_Z
 kanobu.ru##.M_cA
 kanobu.ru##.M_cB
 kanobu.ru##.M_cl
 kanobu.ru##.M_cx
 kanobu.ru##.M_ea
+kanobu.ru##.n_aa
 kanobu.ru##.n_ae
 kanobu.ru##.n_ah
 kanobu.ru##.N_aa
@@ -214,6 +224,7 @@ kanobu.ru##.N_cG
 kanobu.ru##.N_cF
 kanobu.ru##.N_cY
 kanobu.ru##.N_ep
+kanobu.ru##.o_ab
 kanobu.ru##.O_aa
 kanobu.ru##.O_af
 kanobu.ru##.O_bg
@@ -234,9 +245,13 @@ kanobu.ru##.P_cu
 kanobu.ru##.Q_ar
 kanobu.ru##.Q_bs
 kanobu.ru##.Q_bW
+kanobu.ru##.Q_cB
 kanobu.ru##.Q_cG
+kanobu.ru##.Q_cJ
+kanobu.ru##.Q_cN
 kanobu.ru##.r_as
 kanobu.ru##.R_ar
+kanobu.ru##.R_cE
 kanobu.ru##.R_cO
 kanobu.ru##.R_cP
 kanobu.ru##.R_cR
@@ -264,13 +279,16 @@ kanobu.ru##.u_aB
 kanobu.ru##.U_bC
 kanobu.ru##.U_bZ
 kanobu.ru##.U_cN
+kanobu.ru##.v_aC
 kanobu.ru##.v_ap
 kanobu.ru##.V_cY
 kanobu.ru##.W_an
+kanobu.ru##.w_aN
 kanobu.ru##.W_eX
 kanobu.ru##.W_fs
 kanobu.ru##.W_fu
 kanobu.ru##.W_fv
+kanobu.ru##.x_aQ
 kanobu.ru##.x_as
 kanobu.ru##.x_bc
 kanobu.ru##.X_eO
@@ -284,6 +302,7 @@ kanobu.ru##.Y_ey
 kanobu.ru##.z_bK
 kanobu.ru##.z_bL
 kanobu.ru##.z_bv
+kanobu.ru##.Z_ec
 
 !! 2x2tv
 2x2tv.ru##.justify-content-between.align-items-center.d-flex.pl-5-5.px-5.p-3.col-12
