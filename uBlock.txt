@@ -294,6 +294,7 @@ www.instagram.com##.Yx5HN.RnEpo
 
 !! Wikipedia
 wikipedia.org###cnotice-main
+wikipedia.org##.banner-container
 wikipedia.org##.header-chrome.header-container
 wikipedia.org##.minerva-footer
 wikipedia.org##.cbnnr-main
