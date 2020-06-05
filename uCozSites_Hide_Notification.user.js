@@ -5,6 +5,7 @@
 // @description	Hide annoying fake notification from all uCoz sites
 // @author		kapsilon
 // @match		http://*.ucoz.com/*
+// @match		http://*..ucoz.net/*
 // @match		http://*.ucoz.org/*
 // @match		http://*.ucoz.ru/*
 // @match		http://*.3dn.ru/*
