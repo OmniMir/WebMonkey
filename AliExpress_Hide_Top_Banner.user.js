@@ -18,6 +18,7 @@
 		"load",
 		function () {
 			wmHide(".top-banner-container");
+			wmHide("a[data-spm-anchor-id]");
 		},
 		false
 	);
