@@ -29,9 +29,11 @@ kanobu.ru##.ae_eR
 kanobu.ru##.ae_et
 kanobu.ru##.ae_eu
 kanobu.ru##.ae_eU
+kanobu.ru##.ae_ez
 kanobu.ru##.aE_cF
 kanobu.ru##.af_eB
-kanobu.ru##.af_eW
+kanobu.ru##.af_eH
+!kanobu.ru##.af_eW
 kanobu.ru##.af_ey
 kanobu.ru##.af_eY
 kanobu.ru##.af_fb
@@ -50,6 +52,7 @@ kanobu.ru##.ah_cS
 kanobu.ru##.ah_fe
 kanobu.ru##.ah_fq
 kanobu.ru##.ah_fU
+kanobu.ru##.aH_bU > figure
 kanobu.ru##.aH_gE
 kanobu.ru##.aH_gt
 kanobu.ru##.aH_eq
@@ -100,6 +103,7 @@ kanobu.ru##.an_ft
 kanobu.ru##.an_fY
 kanobu.ru##.an_gf
 kanobu.ru##.an_gv
+kanobu.ru##.aN_bU > figure
 kanobu.ru##.ao_aE
 kanobu.ru##.ao_bB
 kanobu.ru##.ao_eX
@@ -108,8 +112,13 @@ kanobu.ru##.ao_fq
 kanobu.ru##.ao_fr
 kanobu.ru##.aO_gN
 kanobu.ru##.ap_bQ
+kanobu.ru##.ap_eT
+kanobu.ru##.ap_fb
+kanobu.ru##.ap_fB
 kanobu.ru##.ap_fF
 kanobu.ru##.ap_fO
+kanobu.ru##.ap_fq
+kanobu.ru##.ap_ft
 kanobu.ru##.aq_bU
 kanobu.ru##.aq_fA
 kanobu.ru##.aq_ft
@@ -117,6 +126,7 @@ kanobu.ru##.aq_fu
 kanobu.ru##.aq_gE
 kanobu.ru##.aq_gO
 kanobu.ru##.aq_v
+kanobu.ru##.aQ_bA > figure
 kanobu.ru##.aQ_gq
 kanobu.ru##.ar_bR
 kanobu.ru##.ar_bQ
@@ -136,6 +146,7 @@ kanobu.ru##.at_bQ
 kanobu.ru##.at_fE
 kanobu.ru##.at_fh
 kanobu.ru##.at_fH
+kanobu.ru##.at_fK
 kanobu.ru##.at_gP
 kanobu.ru##.au_fh
 kanobu.ru##.av_bJ
@@ -195,6 +206,7 @@ kanobu.ru##.J_ck
 kanobu.ru##.J_cl
 kanobu.ru##.j_N
 kanobu.ru##.k_Q
+kanobu.ru##.k_R
 kanobu.ru##.K_ar
 kanobu.ru##.K_co
 kanobu.ru##.K_bv
@@ -252,6 +264,7 @@ kanobu.ru##.Q_cN
 kanobu.ru##.r_as
 kanobu.ru##.R_ar
 kanobu.ru##.R_cE
+kanobu.ru##.R_cJ
 kanobu.ru##.R_cO
 kanobu.ru##.R_cP
 kanobu.ru##.R_cR
@@ -280,6 +293,7 @@ kanobu.ru##.U_bC
 kanobu.ru##.U_bZ
 kanobu.ru##.U_cN
 kanobu.ru##.v_aC
+kanobu.ru##.v_aG
 kanobu.ru##.v_ap
 kanobu.ru##.V_cY
 kanobu.ru##.W_an
