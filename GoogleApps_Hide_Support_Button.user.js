@@ -19,6 +19,7 @@
 		function () {
 			wmHide(".gb_Be");
 			wmHide(".gb_Ee");
+			wmHide(".zo");
 		},
 		false
 	);

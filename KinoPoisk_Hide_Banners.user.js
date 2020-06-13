@@ -18,9 +18,10 @@
 		function () {
 			//After filmcard banner
 			wmRemove("div[data-metrika=film_card] + *");
+			wmRemove("div[class^=view_people__]");
 			//Right side banner
 			wmRemove("div[data-type=teaserspec] + *");
-            wmRemove(".inviteFriends + *");
+			wmRemove(".inviteFriends + *");
 			//Hovering corner banner
 			wmRemove(".promo.banner__area");
 			//Top banner

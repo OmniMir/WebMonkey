@@ -17,6 +17,7 @@
 		"load",
 		function () {
 			wmHide("#partial_component__footer");
+			wmHide("#footer_wrapper");
 		},
 		false
 	);
