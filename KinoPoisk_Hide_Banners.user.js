@@ -24,6 +24,10 @@
 			wmRemove(".inviteFriends + *");
 			//Hovering corner banner
 			wmRemove(".promo.banner__area");
+			//Movie Ads
+			wmRemove("#partial_component__watch-online-person-slider");
+			//Annoying RandomMovie
+			wmHide(".randomMovie");
 			//Top banner
 			wmWaitAndRemove("div[style='min-height: 0px;']");
 			wmWaitWaitAndRemove("div[style='min-height: 0px;']");
