@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name		GoogleApps Hide SidePanel
+// @name		GoogleApps Hide Elements
 // @namespace	https://vash.omnimir.ru/
 // @version		0.6
-// @description	Hide button to call right sidebar
+// @description	Hide annoying elements
 // @author		kapsilon
 // @license		MIT
 // @match		https://docs.google.com/document/*
@@ -18,13 +18,27 @@
 	window.addEventListener(
 		"load",
 		function () {
-			//GMail Side Panel
+			//Hide Add Task (GMail)
+			wmRemove(".VJ");
+			//Hide Apps Button
+			wmHide(".gb_Sc");
+			//Hide Side Panel (GMail)
 			wmHide(".brC-dA-I-Jw");
-			//Google Drive Side Panel
-			wmHide(".Kk7lMc-QWPxkf-d-j");
-			//Google Docs Side Panel
+			//Hide Side Panel (Google Docs)
 			wmHide(".companion-collapser-button-container");
+			//Hide Side Panel (Google Drive)
+			wmHide(".Kk7lMc-QWPxkf-d-j");
+			//Hide Support Button
+			wmHide(".gb_Be");
+			wmHide(".gb_Ee");
+			wmHide(".zo");
 		},
 		false
 	);
+	//Hide Add Task (GMail)
+	//Restart with changing of label&etc
+	window.onhashchange = function () {
+		//This function only for changes after '#' in URL, not for full URL change
+		wmRemove(".VJ");
+	};
 })();
