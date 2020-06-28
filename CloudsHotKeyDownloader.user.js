@@ -10,6 +10,7 @@
 // @match		http://www.mediafire.com/*
 // @match		https://www.mediafire.com/*
 // @match		https://mega.nz/*
+// @match		https://yadi.sk/d/*
 // @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
@@ -30,6 +31,9 @@
 				wmClick(".popsok");
 				//Mega
 				wmClick(".download-file");
+				//YandexDisk
+				wmClick(".action-buttons__button_download");
+				wmClick(".download-button");
 			}
 		},
 		false
