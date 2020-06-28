@@ -5,34 +5,42 @@
 // @description	Press DOWN to DOWNload
 // @author		kapsilon
 // @license		MIT
-// @match		https://drive.google.com/*
+// @match		https://drive.google.com/file/d/*
+// @match		https://drive.google.com/uc?id=*
 // @require 	https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
 
 (function () {
 	"use strict";
-	//Press Down Arrow to Action
+	//Start on page load to take effect
 	window.addEventListener(
-		"keydown",
-		function (event) {
-			if (event.code == "ArrowDown") {
-				wmClick("#uc-download-link");
-
-				/*Video Player mode is blocked🙁
+		"load",
+		function () {
+			//View mode is blocked🙁 Therefore only automated opening new tab to downloading page
+			setTimeout(() => {
 				if (
+					//Only with "Add to Drive" Button that appear some time later
 					document.querySelector(
-						".ndfHFb-c4YZDc-to915-LgbsSe.ndfHFb-c4YZDc-C7uZwb-LgbsSe.VIpgJd-TzA9Ye-eEGnhe.ndfHFb-c4YZDc-LgbsSe.ndfHFb-c4YZDc-C7uZwb-LgbsSe-SfQLQb-Bz112c"
+						".ndfHFb-c4YZDc-Wrql6b-htvI8d-wcotoc-wHEfpf-ndfHFb-Bz112c"
 					)
 				) {
-					console.log("OK3")
 					let downURL = document.baseURI;
 					downURL = downURL
 						.replace("file/d/", "u/0/uc?id=")
 						.replace("/view", "&export=download");
 					window.open(downURL);
 				}
-				*/
+			}, 1000);
+		},
+		false
+	);
+	//Press Down Arrow to Action
+	window.addEventListener(
+		"keydown",
+		function (event) {
+			if (event.code == "ArrowDown") {
+				wmClick("#uc-download-link");
 			}
 		},
 		false
