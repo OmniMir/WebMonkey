@@ -1,19 +1,40 @@
 // ==UserScript==
-// @name		GoogleDrive HotKey Download
+// @name		TEST Clouds HotKey Downloader
 // @namespace	https://vash.omnimir.ru/
-// @version		0.6
+// @version		0.7
 // @description	Press DOWN to DOWNload
 // @author		kapsilon
-// @license		MIT
+// @match		https://cloud.mail.ru/*
 // @match		https://drive.google.com/file/d/*
 // @match		https://drive.google.com/uc?id=*
-// @require 	https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
+// @match		http://www.mediafire.com/*
+// @match		https://www.mediafire.com/*
+// @match		https://mega.nz/*
+// @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
 
 (function () {
 	"use strict";
-	//Start on page load to take effect
+	//Press Down Arrow to Action
+	window.addEventListener(
+		"keydown",
+		function (event) {
+			if (event.code == "ArrowDown") {
+				//GoogleDrive
+				wmClick("#uc-download-link");
+				//MailRu
+				wmClick(".b-toolbar__btn_download");
+				wmClick(".btn_main");
+				//MediaFire
+				wmClick(".popsok");
+				//Mega
+				wmClick(".download-file");
+			}
+		},
+		false
+	);
+	//GoogleDrive, Start on page load to take effect
 	window.addEventListener(
 		"load",
 		function () {
@@ -32,16 +53,6 @@
 					window.open(downURL);
 				}
 			}, 1000);
-		},
-		false
-	);
-	//Press Down Arrow to Action
-	window.addEventListener(
-		"keydown",
-		function (event) {
-			if (event.code == "ArrowDown") {
-				wmClick("#uc-download-link");
-			}
 		},
 		false
 	);
