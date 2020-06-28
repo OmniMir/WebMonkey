@@ -17,8 +17,11 @@
 		"keydown",
 		function (event) {
 			if (event.code == "ArrowDown") {
+				//LostfiLm Site
 				wmClickLast(".external-btn");
+				//Insearch Site
 				wmClickNumber(".inner-box--link.main a", 2);
+				wmClickNumber(".block_3 a", 2);
 			}
 		},
 		false
