@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name		GoogleApps Hide Elements
 // @namespace	https://vash.omnimir.ru/
-// @version		0.6
+// @version		0.7
 // @description	Hide annoying elements
 // @author		kapsilon
 // @license		MIT

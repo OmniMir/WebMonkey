@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name		Baibako Hide Footer
 // @namespace	https://vash.omnimir.ru/
-// @version		0.6
+// @version		0.7
 // @description	Hide Big Footer
 // @author		kapsilon
 // @license		MIT

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name		VK Hide Ads
 // @namespace	https://vash.omnimir.ru/
-// @version		0.6
+// @version		0.7
 // @description	Hide some advertisements on VK
 // @author		kapsilon
 // @license		MIT
