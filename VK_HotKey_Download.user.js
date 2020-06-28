@@ -5,6 +5,7 @@
 // @description	Press DOWN to DOWNload
 // @author		kapsilon
 // @license		MIT
+// @match		https://vk.com/*?w=wall-*
 // @match		https://vk.com/@*
 // @match		https://vk.com/doc*
 // @match		https://vk.com/wall*
@@ -19,16 +20,20 @@
 		"keydown",
 		function (event) {
 			if (event.code == "ArrowDown") {
-				//First style choice
-				wmClick(".mail_link");
-				//Second style choice
+				//Only one Post
+				wmClick(".big_wall .mail_link");
+				//Second style
 				wmClick(".page_doc_title");
-				//Third style choice
+				//Third style
 				wmClick(".flat_button.fl_r");
-				//Fourth style choice
+				//Fourth style
 				wmClick(".thumbed_link a");
-				//Fifth style choice
-				wmClickLast(".article_decoration_before a");
+				//Article
+				wmClick(".article_decoration_before a[href^='/away.php?to=https%3A%2F%2Fyadi.sk']");
+				//Post in front of Wall
+				wmClick("#wk_content .article_snippet");
+				wmClick("#wk_content .media_link__title");
+				wmClick("#wk_content .mail_link");
 			}
 		},
 		false
