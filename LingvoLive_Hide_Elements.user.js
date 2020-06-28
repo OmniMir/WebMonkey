@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name		LingvoLive Hide Footer
+// @name		LingvoLive Hide Elements
 // @namespace	https://vash.omnimir.ru/
 // @version		0.6
-// @description	Hide that big black footer
+// @description	Hide annoying elements
 // @author		kapsilon
 // @license		MIT
 // @match		https://www.lingvolive.com/*
@@ -16,6 +16,10 @@
 	window.addEventListener(
 		"load",
 		function () {
+			//Hide Grey Footer
+			wmHide(".HLjpm");
+			wmHide("._1404x");
+			//Hide Grey Footer
 			wmHide("._3nyLP");
 		},
 		false
@@ -24,6 +28,10 @@
 	window.addEventListener(
 		"scroll",
 		function () {
+			//Hide Grey Footer
+			wmHide(".HLjpm");
+			wmHide("._1404x");
+			//Hide Black Footer
 			wmHide("._3nyLP");
 		},
 		false

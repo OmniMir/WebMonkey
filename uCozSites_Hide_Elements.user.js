@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name		uCoz Sites Hide Notification
+// @name		uCozSites Hide Elements
 // @namespace	https://vash.omnimir.ru/
 // @version		0.6
-// @description	Hide annoying fake notification from all uCoz sites
+// @description	Hide annoying elements
 // @author		kapsilon
 // @match		http://*.ucoz.com/*
 // @match		http://*..ucoz.net/*
@@ -19,6 +19,7 @@
 	window.addEventListener(
 		"load",
 		function () {
+			//Hide fake notification from all uCoz sites
 			wmHide(".pshsndr");
 		},
 		false

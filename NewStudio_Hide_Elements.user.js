@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name		NewStudio Hide News
+// @name		NewStudio Hide Elements
 // @namespace	https://vash.omnimir.ru/
 // @version		0.6
-// @description	Hide Big News Accordion
+// @description	Hide annoying elements
 // @author		kapsilon
 // @license		MIT
 // @match		http://newstudio.tv/*
@@ -16,6 +16,7 @@
 	window.addEventListener(
 		"load",
 		function () {
+			//Hide Big News Accordion
 			wmHide("#newswrap");
 		},
 		false
