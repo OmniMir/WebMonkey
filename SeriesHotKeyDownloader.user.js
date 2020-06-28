@@ -4,7 +4,6 @@
 // @version		0.7
 // @description	Press DOWN to DOWNload
 // @author		kapsilon
-
 // @match		http://baibako.tv/*
 // @match		http://insearch.site/*
 // @match		https://www.lostfilm.tv/*
