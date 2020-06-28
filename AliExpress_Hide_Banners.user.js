@@ -17,8 +17,9 @@
 	window.addEventListener(
 		"load",
 		function () {
+			//Top Banners
 			wmHide(".top-banner-container");
-			wmHide("a[data-spm-anchor-id]");
+			wmWaitAndHide("a[data-spm-anchor-id]");
 		},
 		false
 	);
