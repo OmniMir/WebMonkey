@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name		Baibako Hide Footer
+// @name		Baibako Hide Elements
 // @namespace	https://vash.omnimir.ru/
 // @version		0.7
 // @description	Hide Big Footer
