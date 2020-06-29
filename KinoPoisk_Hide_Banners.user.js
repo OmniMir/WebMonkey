@@ -19,7 +19,14 @@
 			//After filmcard banner
 			wmRemove("div[data-metrika=film_card] + *");
 			wmRemove("div[class^=view_people__]");
+<<<<<<< Updated upstream:KinoPoisk_Hide_Banners.user.js
 			//Right side banner
+=======
+			//Hide Social Buttons
+			wmRemove(".block_social");
+			wmRemove(".new-share-buttons");
+			//Hide Right side banner
+>>>>>>> Stashed changes:KinoPoisk_Hide_Elements.user.js
 			wmRemove("div[data-type=teaserspec] + *");
 			wmRemove(".inviteFriends + *");
 			//Hovering corner banner
