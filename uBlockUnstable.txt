@@ -32,7 +32,7 @@ kanobu.ru##.ae_eU
 kanobu.ru##.ae_ez
 kanobu.ru##.aE_cF
 kanobu.ru##.af_eB
-kanobu.ru##.af_eH
+!kanobu.ru##.af_eH
 !kanobu.ru##.af_eW
 kanobu.ru##.af_ey
 kanobu.ru##.af_eY
