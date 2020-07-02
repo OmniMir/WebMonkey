@@ -19,7 +19,7 @@
 // @match		https://vk.com/*?w=wall-*
 // @match		https://vk.com/@*
 // @match		https://vk.com/doc*
-// @match		https://vk.com/wall*
+// @match		https://vk.com/wall-*
 // @match		https://wondercomics.3dn.ru/*
 // @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
@@ -54,6 +54,7 @@
 				wmClickLast("a[href^='https://rocld.com/']");
 				//VK Only one Post
 				wmClick(".big_wall .mail_link");
+				wmClick(".lnk");
 				//VK Second style
 				wmClick(".page_doc_title");
 				//VK Third style
