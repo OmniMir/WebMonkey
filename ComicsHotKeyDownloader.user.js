@@ -40,8 +40,8 @@
 				wmClickLast(".kp"); //Maybe two links on page
 				//DrawnStories
 				wmClickLast("#idds26 a");
-				//FrankenGeek&SpaikComics
-				wmClick(".eTitle + table a");
+				//FrankenGeek & SpaikComics & SuperComics
+				wmClick(".eBlock a");
 				//LBS
 				wmClick(".separator ~ a");
 				//RealDealTeam
@@ -53,8 +53,6 @@
 				//SudyaDredd
 				wmClickNumber(".su-column-size-2-3 a", 4);
 				wmClick(".FileBase_link_1b7fa");
-				//SuperComics
-				wmClick(".eBlock a");
 				//VK Only one Post
 				wmClick(".big_wall .mail_link");
 				//VK Second style
