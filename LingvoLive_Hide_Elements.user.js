@@ -16,6 +16,8 @@
 	window.addEventListener(
 		"load",
 		function () {
+			//Hide Transparent Footer
+			wmHide(".bg1lt");
 			//Hide Grey Footer
 			wmHide(".HLjpm");
 			wmHide("._1404x");
