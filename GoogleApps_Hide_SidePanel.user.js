@@ -18,12 +18,31 @@
 	window.addEventListener(
 		"load",
 		function () {
+<<<<<<< Updated upstream:GoogleApps_Hide_SidePanel.user.js
 			//GMail Side Panel
 			wmHide(".brC-dA-I-Jw");
 			//Google Drive Side Panel
 			wmHide(".Kk7lMc-QWPxkf-d-j");
 			//Google Docs Side Panel
 			wmHide(".companion-collapser-button-container");
+=======
+			//Hide Add Task (GMail)
+			wmRemove(".VJ");
+			//Hide Apps Button
+			wmHide(".gb_Sc");
+			//Hide ViewMode Button (GMail)
+			wmHideAll(".Cr.aqJ .G-Ni.J-J5-Ji");
+			//Hide Side Panel (GMail)
+			wmWaitAndHide(".brC-dA-I-Jw");
+			//Hide Side Panel (Google Docs)
+			wmWaitAndHide(".companion-collapser-button-container");
+			//Hide Side Panel (Google Drive)
+			wmWaitAndHide(".Kk7lMc-QWPxkf-d-j");
+			//Hide Support Button
+			wmWaitAndHide(".gb_Be");
+			wmWaitAndHide(".gb_Ee");
+			wmWaitAndHide(".zo");
+>>>>>>> Stashed changes:GoogleApps_Hide_Elements.user.js
 		},
 		false
 	);
