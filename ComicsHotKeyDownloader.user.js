@@ -51,8 +51,7 @@
 				//SavageWorld
 				wmClick(".eMessage a");
 				//SudyaDredd
-				wmClickNumber(".su-column-size-2-3 a", 4);
-				wmClick(".FileBase_link_1b7fa");
+				wmClickLast("a[href^='https://rocld.com/']");
 				//VK Only one Post
 				wmClick(".big_wall .mail_link");
 				//VK Second style
