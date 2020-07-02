@@ -16,15 +16,31 @@
 	window.addEventListener(
 		"load",
 		function () {
+			//Hide Streaming Theater
+			wmRemove("._2lIaVuplclqoEPxCO_yWsY._3tmz2UPcIDTjaP7bG35GSc");
+			wmRemove(".movie-info__button-container");
 			//Hide Top banner
 			wmWaitAndRemove("div[style='min-height: 0px;']");
 			wmWaitWaitAndRemove("div[style='min-height: 0px;']");
+			//Hide Add to Collection
+			wmRemove(".addFolder");
+			wmRemove("#div_mustsee_main");
+			wmRemove(".to_friend");
+			//Hide IMAX icon
+			wmRemove(".imax-item");
 			//Hide After filmcard banner
 			wmRemove("div[data-metrika=film_card] + *");
 			wmRemove("div[class^=view_people__]");
+			//Hide Social buttons
+			wmRemove(".block_social");
+			wmRemove(".new-share-buttons");
+			//Hide Recommended movies
+			wmRemove("#film_recom");
 			//Hide Right side banner
 			wmRemove("div[data-type=teaserspec] + *");
 			wmRemove(".inviteFriends + *");
+			//Hide Subscribe feature
+			wmRemove(".subscribe");
 			//Hide Hovering corner banner
 			wmRemove(".promo.banner__area");
 			//Hide Movie Ads
