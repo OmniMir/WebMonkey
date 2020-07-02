@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name		VK Hide Ads
+// @name		VK Hide Elements
 // @namespace	https://vash.omnimir.ru/
 // @version		0.7
-// @description	Hide some advertisements on VK
+// @description	Hide annoying elements
 // @author		kapsilon
 // @license		MIT
 // @match		https://vk.com/*
@@ -19,14 +19,14 @@
 			//Remove Top Audio Player
 			wmHide("#top_audio_layer_place");
 			wmHide("#top_audio_btn_group");
-			//Remove ads from left menu
+			//Remove Ads from Left Menu
 			wmRemove("#ads_left");
-			//Remove ads from feed
+			//Remove Ads from FeedL
 			wmRemove(".ads_ad_box");
 		},
 		false
 	);
-	//Remove ads from feed with scrolling
+	//Remove Ads from Feed with scrolling
 	window.addEventListener(
 		"scroll",
 		function () {
