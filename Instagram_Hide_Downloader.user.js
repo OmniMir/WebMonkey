@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name		Instagram Hide Downloader
 // @namespace	https://vash.omnimir.ru/
-// @version		0.6
+// @version		0.7
 // @description	Hide Annoying Things from Downloader for Instagram Extension
 // @author		kapsilon
 // @license		MIT
@@ -16,22 +16,26 @@
 	window.addEventListener(
 		"load",
 		function () {
-			wmRemove(".ext_tooltip");
-			wmRemove(".ext_stories_page_icon");
-			wmRemove(".ext_mobile_mode_icon");
-			setTimeout(() => {
-				wmRemove(".download_all_wrap_wrap");
-				hideExtensionButtons();
-			}, 2000);
+			//Hide Extension Toolbar
+			wmWaitAndRemove(".ext_tooltip");
+			wmWaitAndRemove(".ext_stories_page_icon");
+			wmWaitAndRemove(".ext_mobile_mode_icon");
+			wmWaitAndRemove(".download_all_wrap_wrap");
+			//Hide Download and Delete Buttons
+			wmRemoveAll(".ext_desktop_dl_btnn");
+			wmRemoveAll(".ext_del_btn");
 		},
 		false
 	);
 	//Going with page scroll
-	window.addEventListener("scroll", hideExtensionButtons, false);
-	//Hide all Download and Delete buttons
-	function hideExtensionButtons() {
-		wmRemoveAll(".ext_desktop_dl_btnn");
-		wmRemoveAll(".ext_del_btn");
-		wmRemove(".download_all_wrap_wrap");
-	}
+	window.addEventListener(
+		"scroll",
+		function () {
+			//Hide all Download and Delete Buttons
+			wmRemoveAll(".ext_desktop_dl_btnn");
+			wmRemoveAll(".ext_del_btn");
+			wmRemove(".download_all_wrap_wrap");
+		},
+		false
+	);
 })();
