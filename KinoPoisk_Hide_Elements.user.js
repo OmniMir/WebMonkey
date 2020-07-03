@@ -25,6 +25,7 @@
 			//Hide Add to Collection
 			wmRemove(".addFolder");
 			wmRemove("#div_mustsee_main");
+			wmRemove(".film-img-box__soundtrack");
 			wmRemove(".to_friend");
 			//Hide IMAX icon
 			wmRemove(".imax-item");
