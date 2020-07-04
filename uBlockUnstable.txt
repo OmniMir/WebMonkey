@@ -112,7 +112,7 @@ kanobu.ru##.ao_fq
 kanobu.ru##.ao_fr
 kanobu.ru##.aO_gN
 kanobu.ru##.ap_bQ
-kanobu.ru##.ap_eT
+!kanobu.ru##.ap_eT
 kanobu.ru##.ap_fb
 kanobu.ru##.ap_fB
 kanobu.ru##.ap_fF
@@ -125,7 +125,7 @@ kanobu.ru##.aq_ft
 kanobu.ru##.aq_fu
 kanobu.ru##.aq_gE
 kanobu.ru##.aq_gO
-kanobu.ru##.aq_v
+!kanobu.ru##.aq_v
 kanobu.ru##.aQ_bA > figure
 kanobu.ru##.aQ_gq
 kanobu.ru##.ar_bR
