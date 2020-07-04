@@ -16,6 +16,8 @@
 	window.addEventListener(
 		"load",
 		function () {
+			//Hide Cards Blinking Dot
+			wmHide("._3685o");
 			//Hide Transparent Footer
 			wmHide(".bg1lt");
 			//Hide Grey Footer
