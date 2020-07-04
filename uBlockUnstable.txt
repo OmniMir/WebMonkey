@@ -120,7 +120,7 @@ kanobu.ru##.ap_fO
 kanobu.ru##.ap_fq
 kanobu.ru##.ap_ft
 kanobu.ru##.aq_bU
-kanobu.ru##.aq_fA
+!kanobu.ru##.aq_fA
 kanobu.ru##.aq_ft
 kanobu.ru##.aq_fu
 kanobu.ru##.aq_gE
