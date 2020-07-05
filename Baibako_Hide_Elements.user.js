@@ -1,12 +1,11 @@
 // ==UserScript==
-// @name		GoogleApps Hide Apps Button
+// @name		Baibako Hide Elements
 // @namespace	https://vash.omnimir.ru/
-// @version		0.6
-// @description	Hide button to various google apps
+// @version		0.7
+// @description	Hide annoying elements
 // @author		kapsilon
 // @license		MIT
-// @match		https://drive.google.com/drive/*
-// @match		https://mail.google.com/mail/*
+// @match		http://baibako.tv/*
 // @require 	https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
@@ -17,7 +16,10 @@
 	window.addEventListener(
 		"load",
 		function () {
-			wmHide(".gb_Sc");
+			//Hide Big Ad at Post
+			wmHide(".advercode");
+			//Hide Big Footer
+			wmHide("#wrap2");
 		},
 		false
 	);

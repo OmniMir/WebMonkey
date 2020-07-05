@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name		LingvoLive Hide Elements
 // @namespace	https://vash.omnimir.ru/
-// @version		0.6
+// @version		0.7
 // @description	Hide annoying elements
 // @author		kapsilon
 // @license		MIT
@@ -16,6 +16,10 @@
 	window.addEventListener(
 		"load",
 		function () {
+			//Hide Cards Blinking Dot
+			wmHide("._3685o");
+			//Hide Transparent Footer
+			wmHide(".bg1lt");
 			//Hide Grey Footer
 			wmHide(".HLjpm");
 			wmHide("._1404x");

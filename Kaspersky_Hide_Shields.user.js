@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name		Kaspersky_Hide_Shields
+// @name		Kaspersky Hide Shields
 // @namespace	https://vash.omnimir.ru/
 // @version		0.6
 // @description	Hide annoying green shields from search
