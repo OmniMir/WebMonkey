@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name		TEST Clouds HotKey Downloader
+// @name		Clouds HotKey Downloader
 // @namespace	https://vash.omnimir.ru/
 // @version		0.7
 // @description	Press DOWN to DOWNload

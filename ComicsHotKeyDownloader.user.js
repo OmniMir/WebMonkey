@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name		TEST Comics HotKey Downloader
+// @name		Comics HotKey Downloader
 // @namespace	https://vash.omnimir.ru/
 // @version		0.7
 // @description	Press DOWN to DOWNload
