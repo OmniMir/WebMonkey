@@ -55,18 +55,20 @@
 				wmClickLast("a[href^='https://rocld.com/']");
 				//VK Only one Post
 				wmClick(".big_wall .mail_link");
-				wmClick(".lnk");
-				wmClick(".page_doc_title");
+				wmClick(".big_wall .lnk");
+				wmClick(".big_wall .page_doc_title");
 				//VK Third style
 				wmClick(".flat_button.fl_r");
 				//VK Fourth style
 				wmClick(".thumbed_link a");
 				//VK Article
 				wmClick(".article_decoration_before a[href^='/away.php?to=https%3A%2F%2Fyadi.sk']");
+				wmClick(".article_decoration_first a[href^='/away.php?to=https%3A%2F%2Fyadi.sk']");
 				//VK Post in front of Wall
 				wmClick("#wk_content .article_snippet");
 				wmClick("#wk_content .media_link__title");
 				wmClick("#wk_content .mail_link");
+				wmClick("#wk_content .page_doc_title");
 				//WonderComics
 				wmClick("input[value='СКАЧАТЬ КОМИКС']");
 			}
