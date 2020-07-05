@@ -1,7 +1,7 @@
 // ==UserScriptLibrary==
 // @name		WebMonkey Library
 // @namespace	https://vash.omnimir.ru/
-// @version		1.3
+// @version		1.4
 // @description	Some useful functions for other WebMonkey Scripts
 // @author		kapsilon
 // @license		MIT
@@ -80,4 +80,10 @@ function wmAddNewStyle(cssStyle) {
 	newStyle.type = "text/css";
 	newStyle.innerText = cssStyle;
 	document.head.appendChild(newStyle);
+}
+//Close Any Tab (Works ONLY with AutoCloser.user.js)
+function wmCloseTab() {
+	//Hardcoded URl in AutoCloser that granted ability to close Tab
+	//Because Chrome is just as: "Scripts may close only the windows that were opened by them."
+	window.open("https://vash.omnimir.ru/tabautoclose/", "_self");
 }
