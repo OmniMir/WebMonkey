@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name		BoardGameArena Hide Footer
+// @name		BoardGameArena Hide Elements
 // @namespace	https://vash.omnimir.ru/
 // @version		0.6
-// @description	Hide that big footer
+// @description	Hide annoying elements
 // @author		kapsilon
 // @license		MIT
 // @match		https://boardgamearena.com/*
@@ -16,6 +16,7 @@
 	window.addEventListener(
 		"load",
 		function () {
+			//Hide that big footer
 			wmHide("#overall-footer");
 		},
 		false

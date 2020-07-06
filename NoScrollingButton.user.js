@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name		No Scrolling Button
+// @name		NoScrollingButton
 // @namespace	https://vash.omnimir.ru/
 // @version		1.0
 // @description	Disable Smooth Scroll by Middle Mouse Button

@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name		Auto Closer
+// @name		AutoCloser
 // @namespace	https://vash.omnimir.ru/
 // @version		1.0
 // @description	Close annoying useless auto-opened web-pages
