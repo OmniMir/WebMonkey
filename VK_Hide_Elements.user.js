@@ -16,17 +16,21 @@
 	window.addEventListener(
 		"load",
 		function () {
-			//Remove Top Audio Player
+			//Hide Top Audio Player
 			wmHide("#top_audio_layer_place");
 			wmHide("#top_audio_btn_group");
-			//Remove Ads from Left Menu
+			//Hide Ads from Left Menu
 			wmRemove("#ads_left");
-			//Remove Ads from FeedL
+			//Hide mini footer
+			wmHide(".left_menu_nav_wrap");
+			//Hide Ads from Feed
 			wmRemove(".ads_ad_box");
+			//Hide Friends&Chat Tab
+			wmRemove("#chat_onl_wrap");
 		},
 		false
 	);
-	//Remove Ads from Feed with scrolling
+	//Hide Ads from Feed with scrolling
 	window.addEventListener(
 		"scroll",
 		function () {
