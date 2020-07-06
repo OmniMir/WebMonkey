@@ -20,6 +20,9 @@
 			//Hide Top Banners
 			wmHide(".top-banner-container");
 			wmHide(".col-xs-48 > div > a");
+			//Hide Mobile App Ads
+			wmHide(".ng-mobile");
+			wmHide(".mobile-app");
 			//Hide Social Buttons
 			wmHide(".product-fix-sns");
 			//Hide Footer
