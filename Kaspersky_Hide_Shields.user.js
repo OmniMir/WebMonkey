@@ -2,7 +2,7 @@
 // @name		Kaspersky Hide Shields
 // @namespace	https://vash.omnimir.ru/
 // @version		0.6
-// @description	Hide annoying green shields from search
+// @description	Hide annoying elements from Kaspersky Protection Extension
 // @author		kapsilon
 // @license		MIT
 // @match		https://www.google.com/search*
@@ -16,6 +16,7 @@
 	window.addEventListener(
 		"load",
 		function () {
+			//Hide annoying green shields from Google Search
 			//Waiting to Kapsersky Protection Extension
 			setTimeout(() => {
 				//Search special image by name and hide all of them
