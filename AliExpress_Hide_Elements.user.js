@@ -17,9 +17,9 @@
 	window.addEventListener(
 		"load",
 		function () {
-			//HideTop Banners
+			//Hide Top Banners
 			wmHide(".top-banner-container");
-			wmWaitAndHide("a[data-spm-anchor-id]");
+			wmHide(".col-xs-48 > div > a");
 			//Hide Social Buttons
 			wmHide(".product-fix-sns");
 			//Hide Footer
