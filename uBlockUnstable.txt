@@ -131,7 +131,7 @@ kanobu.ru##.aQ_gq
 kanobu.ru##.ar_bR
 kanobu.ru##.ar_bQ
 kanobu.ru##.ar_bV
-kanobu.ru##.ar_fG
+!kanobu.ru##.ar_fG
 kanobu.ru##.ar_fS
 kanobu.ru##.ar_ft
 kanobu.ru##.aR_eq
