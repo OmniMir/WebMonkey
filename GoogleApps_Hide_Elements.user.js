@@ -21,17 +21,19 @@
 			//Hide Add Task (GMail)
 			wmRemove(".VJ");
 			//Hide Apps Button
-			wmHide(".gb_Sc");
+			wmWaitAndHide(".gb_Sc");
 			//Hide Side Panel (GMail)
-			wmHide(".brC-dA-I-Jw");
+			wmWaitAndHide(".brC-dA-I-Jw");
 			//Hide Side Panel (Google Docs)
-			wmHide(".companion-collapser-button-container");
+			wmWaitAndHide(".companion-collapser-button-container");
 			//Hide Side Panel (Google Drive)
-			wmHide(".Kk7lMc-QWPxkf-d-j");
-			//Hide Support Button
-			wmHide(".gb_Be");
-			wmHide(".gb_Ee");
-			wmHide(".zo");
+			wmWaitAndHide(".Kk7lMc-QWPxkf-d-j");
+			//Hide Support Button (GMail)
+			wmWaitAndHide(".gb_Be");
+			wmWaitAndHide(".gb_Ee");
+			wmWaitAndHide(".zo");
+			//Hide Support Button (Google Drive)
+			wmWaitAndHide(".bMWlzf.M1zY4b");
 		},
 		false
 	);
