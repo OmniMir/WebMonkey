@@ -1,7 +1,7 @@
 // ==UserScriptLibrary==
 // @name		WebMonkey Library
 // @namespace	https://vash.omnimir.ru/
-// @version		1.4
+// @version		1.5
 // @description	Some useful functions for other WebMonkey Scripts
 // @author		kapsilon
 // @license		MIT
@@ -76,6 +76,9 @@ function wmClickNumber(cssSelector, order) {
 }
 //Click element by CSS and its order
 function wmAddNewStyle(cssStyle) {
+	//Processing of CSS Style to one line
+	cssStyle = cssStyle.replace(/(\n|\t)/g,"");
+	//Add CSS Style to Head Section
 	let newStyle = document.createElement("style");
 	newStyle.type = "text/css";
 	newStyle.innerText = cssStyle;
