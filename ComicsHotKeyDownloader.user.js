@@ -49,7 +49,7 @@
 				//LBS
 				wmClick(".separator ~ a");
 				//RealDealTeam
-				wmClickNumber(".article-content a", 2);
+				wmClick(".article-content a[href^='https://yadi.sk/d/'");
 				//RussianProjectUniverse
 				wmClick(".tabs-sel a");
 				//SavageWorld
