@@ -9,6 +9,7 @@
 // @match		http://dccomics.ru/*
 // @match		https://drawnstories.ru/*
 // @match		http://frankengeek.ru/*
+// @match		https://hunderbridge.bitbucket.io/*
 // @match		https://lectoribenevolosalutem.blogspot.com/*
 // @match		https://realdealteam.blogspot.com/*
 // @match		https://rp-universe.ru/*
@@ -43,6 +44,8 @@
 				wmClickLast("#idds26 a");
 				//FrankenGeek & SpaikComics & SuperComics
 				wmClick(".eBlock a");
+				//HunderBridge
+				wmClick("#links a");
 				//LBS
 				wmClick(".separator ~ a");
 				//RealDealTeam
