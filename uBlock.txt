@@ -160,7 +160,7 @@ lifehacker.ru##.jOjJUx
 lifehacker.ru##.jZUUkH
 lifehacker.ru##.lh-jumper__footer
 lifehacker.ru##.lh-jumper__scroll-to-site
-lifehacker.ru##.lightgrey-box
+!lifehacker.ru##.lightgrey-box
 lifehacker.ru##.mobile-bar
 lifehacker.ru##.mobile-promo-menu
 lifehacker.ru##.new-comments-button__wrapper
