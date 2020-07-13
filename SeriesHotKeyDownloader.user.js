@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name		Series HotKey Downloader
 // @namespace	https://vash.omnimir.ru/
-// @version		0.7
+// @version		0.8
 // @description	Press DOWN to DOWNload
 // @author		kapsilon
 // @match		https://animejoy.ru/*
@@ -31,6 +31,9 @@
 				//LostFilm Insearch
 				wmClickNumber(".inner-box--link.main a", 2);
 				wmClickNumber(".block_3 a", 2);
+
+				//And Close Opened Tab
+				wmWaitAndCloseTab()
 			}
 		},
 		false

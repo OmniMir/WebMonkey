@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name		Clouds HotKey Downloader
 // @namespace	https://vash.omnimir.ru/
-// @version		0.7
+// @version		0.8
 // @description	Press DOWN to DOWNload
 // @author		kapsilon
 // @match		https://cloud.mail.ru/*
@@ -37,6 +37,9 @@
 				//YandexDisk
 				wmClick(".action-buttons__button_download");
 				wmClick(".download-button");
+
+				//And Close Opened Tab
+				wmWaitAndCloseTab()
 			}
 		},
 		false

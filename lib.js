@@ -1,7 +1,7 @@
 // ==UserScriptLibrary==
 // @name		WebMonkey Library
 // @namespace	https://vash.omnimir.ru/
-// @version		1.5
+// @version		1.6
 // @description	Some useful functions for other WebMonkey Scripts
 // @author		kapsilon
 // @license		MIT
@@ -74,10 +74,10 @@ function wmClickNumber(cssSelector, order) {
 		document.querySelectorAll(cssSelector)[order - 1].click();
 	}
 }
-//Click element by CSS and its order
+//Add new/changed custom CSS Style to page
 function wmAddNewStyle(cssStyle) {
 	//Processing of CSS Style to one line
-	cssStyle = cssStyle.replace(/(\n|\t)/g,"");
+	cssStyle = cssStyle.replace(/(\n|\t)/g, "");
 	//Add CSS Style to Head Section
 	let newStyle = document.createElement("style");
 	newStyle.type = "text/css";
@@ -89,4 +89,10 @@ function wmCloseTab() {
 	//Hardcoded URl in AutoCloser that granted ability to close Tab
 	//Because Chrome is just as: "Scripts may close only the windows that were opened by them."
 	window.open("https://vash.omnimir.ru/tabautoclose/", "_self");
+}
+//Wait 2 seconds and Close Any Tab (Works ONLY with AutoCloser.user.js)
+function wmWaitAndCloseTab() {
+	setTimeout(() => {
+		wmCloseTab();
+	}, 2000);
 }

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name		Comics HotKey Downloader
 // @namespace	https://vash.omnimir.ru/
-// @version		0.7
+// @version		0.8
 // @description	Press DOWN to DOWNload
 // @author		kapsilon
 // @match		https://boosty.to/*
@@ -84,6 +84,9 @@
 				wmClick("#wk_content .page_doc_title");
 				//WonderComics
 				wmClick("input[value='СКАЧАТЬ КОМИКС']");
+
+				//And Close Opened Tab
+				wmWaitAndCloseTab();
 			}
 		},
 		false
