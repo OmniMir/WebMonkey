@@ -4,6 +4,7 @@
 // @version		0.7
 // @description	Press DOWN to DOWNload
 // @author		kapsilon
+// @match		https://animejoy.ru/*
 // @match		https://baibako.tv/*
 // @match		http://insearch.site/*
 // @match		https://www.lostfilm.tv/*
@@ -18,6 +19,8 @@
 		"keydown",
 		function (event) {
 			if (event.code == "ArrowDown") {
+				//AnimeJoy
+				wmClick("#softsub a");
 				//Baibako
 				wmClick(".fa-download");
 				//LostFilm

@@ -11,7 +11,10 @@
 // @match		http://frankengeek.ru/*
 // @match		https://hunderbridge.bitbucket.io/*
 // @match		https://lectoribenevolosalutem.blogspot.com/*
+// @match		https://manga-chan.me/*
+// @match		https://omnizod-comics.ucoz.ru/*
 // @match		https://realdealteam.blogspot.com/*
+// @match		http://rikudou.ru/*
 // @match		https://rp-universe.ru/*
 // @match		https://savageworld.ucoz.ru/*
 // @match		http://spaikcomics.moy.su/*
@@ -42,14 +45,18 @@
 				wmClickLast(".kp"); //Maybe two links on page
 				//DrawnStories
 				wmClickLast("#idds26 a");
-				//FrankenGeek & SpaikComics & SuperComics
+				//FrankenGeek, Omnizod, SpaikComics & SuperComics
 				wmClick(".eBlock a");
 				//HunderBridge
 				wmClick("#links a");
 				//LBS
 				wmClick(".separator ~ a");
+				//Manga-Chan
+				wmClick("#content a[href^='/download/'");
 				//RealDealTeam
 				wmClick(".article-content a[href^='https://yadi.sk/d/'");
+				//Rikudou-Sennin Clan
+				wmClickLast("#content section a");
 				//RussianProjectUniverse
 				wmClick(".tabs-sel a");
 				//SavageWorld
