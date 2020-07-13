@@ -22,6 +22,9 @@
 		"keydown",
 		function (event) {
 			if (event.code == "ArrowDown") {
+				//Disable Default Action
+				event.preventDefault();
+
 				//GoogleDrive
 				wmClick("#uc-download-link");
 				//MailRu

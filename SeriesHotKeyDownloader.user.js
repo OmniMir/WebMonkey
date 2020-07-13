@@ -19,6 +19,9 @@
 		"keydown",
 		function (event) {
 			if (event.code == "ArrowDown") {
+				//Disable Default Action
+				event.preventDefault();
+
 				//AnimeJoy
 				wmClick("#softsub a");
 				//Baibako

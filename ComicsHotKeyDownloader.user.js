@@ -37,6 +37,9 @@
 		"keydown",
 		function (event) {
 			if (event.code == "ArrowDown") {
+				//Disable Default Action
+				event.preventDefault();
+
 				//Boosty
 				wmClick(".FileBase_link_1b7fa");
 				//ComicsManiac
