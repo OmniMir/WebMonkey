@@ -5,7 +5,7 @@
 // @description	Hide annoying elements
 // @author		kapsilon
 // @license		MIT
-// @match		http://baibako.tv/*
+// @match		https://baibako.tv/*
 // @require 	https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
