@@ -42,13 +42,13 @@
 			//Hide Social buttons
 			wmHide("#film-share-buttons");
 			//Hide IMAX icon
-			wmHide("div[class^=styles_imaxContainer]");
+			wmHide("span[class^=styles_imaxContainer]");
 			//Hide Ads
 			wmHideAll("div[class*=styles_rootRendered]");
 			//Hide Recommended movies
-			wmHide(".similar-films-block");
+			wmWaitAndHide(".similar-films-block");
 			//Hide Trailers (go to Trailers Page)
-			wmHide(".film-trailers-block");
+			wmWaitAndHide(".film-trailers-block");
 			//Hide Movie Lists
 			wmHide(".styles_root__V9fG5");
 			//Hide Footer
