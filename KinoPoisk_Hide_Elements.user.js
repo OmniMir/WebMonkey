@@ -18,11 +18,27 @@
 		function () {
 			//Hide Streaming Theater
 			wmHide(".kinopoisk-header-featured-menu");
+			wmHide(".hd-nameplate");
+			wmHide(".watch-online-button");
+			wmHideAll("a[class^=styles_nameplate]");
 			//Hide Top banner
 			wmHide("div[class^=styles_themeTopBanner]");
+			wmHide("div[class^=styles_background]");
+			wmAddNewStyle(`
+				.styles_videoContainer__OrZlo {
+					margin-top: 0;
+				}
+				.styles_basicInfoSectionDark__2Jq11 {
+					padding-top: 0;
+				}
+				.styles_basicMediaSectionDark__3jSR- {
+					padding-top: 30px;
+				}
+			`);
 			//Hide Add to Collection
 			wmHide("button[class^=styles_toWatchButton]");
 			wmHide("div[class^=styles_userControlsContainer]");
+			wmHide("a[class^=styles_soundtrackButton");
 			//Hide Social buttons
 			wmHide("#film-share-buttons");
 			//Hide IMAX icon
