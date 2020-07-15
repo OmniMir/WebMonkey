@@ -183,7 +183,7 @@ lifehacker.ru##.wp-image-960216
 lifehacker.ru##[href*="https://ads.adfox.ru/200984/goLink"]
 lifehacker.ru##[class*="js-tp-powered-by-wrapper-klit"]
 lifehacker.ru##label
-lifehacker.ru##p > em
+!lifehacker.ru##p > em
 ||ad.adriver.ru/cgi-bin/rle.cgi$image
 ||ads.adfox.ru/*/getCode$image
 ||embed.simplecast.com/*$subdocument
