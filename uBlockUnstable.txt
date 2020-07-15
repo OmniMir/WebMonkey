@@ -135,7 +135,7 @@ kanobu.ru##.ar_bV
 kanobu.ru##.ar_fS
 kanobu.ru##.ar_ft
 kanobu.ru##.aR_eq
-kanobu.ru##.aR_gX
+!kanobu.ru##.aR_gX
 kanobu.ru##.as_bl
 kanobu.ru##.as_eg
 kanobu.ru##.as_eU
