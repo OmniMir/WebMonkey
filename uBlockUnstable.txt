@@ -117,7 +117,7 @@ kanobu.ru##.ap_fb
 kanobu.ru##.ap_fB
 kanobu.ru##.ap_fF
 kanobu.ru##.ap_fO
-kanobu.ru##.ap_fq
+!kanobu.ru##.ap_fq
 kanobu.ru##.ap_ft
 kanobu.ru##.aq_bU
 !kanobu.ru##.aq_fA
