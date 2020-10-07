@@ -1,7 +1,7 @@
 // ==UserScriptLibrary==
 // @name		WebMonkey Library
 // @namespace	https://vash.omnimir.ru/
-// @version		1.6
+// @version		1.7
 // @description	Some useful functions for other WebMonkey Scripts
 // @author		kapsilon
 // @license		MIT
@@ -50,6 +50,10 @@ function wmRemoveAll(cssSelector) {
 	document.querySelectorAll(cssSelector).forEach((element) => {
 		element.remove();
 	});
+}
+//Hide All elements by CSS via New Style
+function wmHideAllInStyle(cssSelector) {
+	wmAddNewStyle(cssSelector + " {display: none;}");
 }
 //Click element by CSS
 function wmClick(cssSelector) {
