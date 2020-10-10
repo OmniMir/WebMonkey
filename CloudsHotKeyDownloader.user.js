@@ -59,6 +59,7 @@
 						".ndfHFb-c4YZDc-Wrql6b-htvI8d-wcotoc-wHEfpf-ndfHFb-Bz112c"
 					)
 				) {
+					//Open Page with download link
 					let downURL = document.baseURI;
 					downURL = downURL
 						.replace("file/d/", "u/0/uc?id=")
