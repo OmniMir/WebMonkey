@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name		Sites HotKey Previous
 // @namespace	https://vash.omnimir.ru/
-// @version		0.6
+// @version		0.7
 // @description	Press LEFT/RIGHT to CONTROL
 // @author		kapsilon
 // @match		https://aliexpress.com/*
@@ -30,7 +30,7 @@
 	window.addEventListener(
 		"keydown",
 		function (event) {
-			if (event.code == "ArrowLeft") {
+			if (event.code == "ArrowLeft" && event.ctrlKey) {
 				//Disable Default Action
 				event.preventDefault();
 
@@ -68,7 +68,7 @@
 	window.addEventListener(
 		"keydown",
 		function (event) {
-			if (event.code == "ArrowRight") {
+			if (event.code == "ArrowRight" && event.ctrlKey) {
 				//Disable Default Action
 				event.preventDefault();
 
