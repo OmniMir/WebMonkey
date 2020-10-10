@@ -18,6 +18,8 @@
 		function () {
 			//Hide Cards Blinking Dot
 			wmHide("._3685o");
+			wmHide("._3-f2N");
+			wmHide("GQ2Hn");
 			//Hide Transparent Footer
 			wmHide(".bg1lt");
 			//Hide Grey Footer
