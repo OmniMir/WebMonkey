@@ -8,6 +8,7 @@
 // @match		https://docs.google.com/document/*
 // @match		https://drive.google.com/drive/*
 // @match		https://mail.google.com/mail/*
+// @match		https://photos.google.com/*
 // @require 	https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
@@ -21,7 +22,13 @@
 			//Hide Add Task (GMail)
 			wmRemove(".VJ");
 			//Hide Apps Button
+			wmHide(".gb_C");
+			/*
+			wmWaitAndHide(".gb_Rc");
 			wmWaitAndHide(".gb_Sc");
+			wmWaitAndHide(".gb_Uc");
+			wmWaitAndHide(".gb_Vc");
+			*/
 			//Hide Side Panel (GMail)
 			wmWaitAndHide(".brC-dA-I-Jw");
 			//Hide Side Panel (Google Docs)
@@ -34,6 +41,8 @@
 			wmWaitAndHide(".zo");
 			//Hide Support Button (Google Drive)
 			wmWaitAndHide(".bMWlzf.M1zY4b");
+			//Hide Support Button (Google Photos)
+			wmWaitAndHide(".eT1oJ.fdwUje");
 		},
 		false
 	);
