@@ -67,6 +67,7 @@ m.habr.com##.tm-page-article__sharing
 m.habr.com##.tm-projects-blocks_courses
 m.habr.com##.tm-projects-blocks_vacancies
 m.habr.com##.tm-promo-block
+m.habr.com##button.tm-comment-footer__button
 
 !! Kanobu
 kanobu.ru###dzen_409590
