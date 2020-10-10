@@ -10,6 +10,19 @@
 ! Import to external filter lists in uBlock Origin
 ! https://raw.githubusercontent.com/OmniMir/WebMonkey/master/uBlockUnstable.txt
 
+!! 2X2
+2x2tv.ru##.justify-content-between.align-items-center.d-flex.pl-5-5.px-5.p-3.col-12
+2x2tv.ru##.mb-lg-0.mb-3.align-items-center.justify-content-start.d-flex.order-lg-1.order-md-2.col-xl-3.col-lg-3.col-md-6.col-12
+2x2tv.ru##.px-3.col-lg-3.col-md-6.col-12
+2x2tv.ru##.stk-theme_38978__stk-btn_basic
+
+!! Instagram
+www.instagram.com##.GhZ_W._09ncq._8Rna9
+www.instagram.com##.IM32b._4EzTm.eGOV_.IwRSH.Igw0E.QzzMF
+www.instagram.com##.xZ2Xk
+www.instagram.com##.X6gVd.f11OC.NXc7H
+www.instagram.com##.Yx5HN.RnEpo
+
 !! Kanobu
 kanobu.ru##.a_a
 kanobu.ru##.aa_cX
@@ -410,27 +423,8 @@ kanobu.ru##.z_bv
 kanobu.ru##.z_bo
 kanobu.ru##.Z_ec
 
-!! OpenNet
-www.opennet.ru##body > div:nth-of-type(4)
-www.opennet.ru##form > table.thdr:nth-of-type(5)
-www.opennet.ru##table.ttxt2:nth-of-type(2) > tbody > tr:nth-of-type(3)
-www.opennet.ru##table.ttxt2:nth-of-type(6)
-
-!! 2X2
-2x2tv.ru##.justify-content-between.align-items-center.d-flex.pl-5-5.px-5.p-3.col-12
-2x2tv.ru##.mb-lg-0.mb-3.align-items-center.justify-content-start.d-flex.order-lg-1.order-md-2.col-xl-3.col-lg-3.col-md-6.col-12
-2x2tv.ru##.px-3.col-lg-3.col-md-6.col-12
-2x2tv.ru##.stk-theme_38978__stk-btn_basic
-
 !! KinoPoisk
 www.kinopoisk.ru##.n0l3hk
-
-!! Instagram
-www.instagram.com##.GhZ_W._09ncq._8Rna9
-www.instagram.com##.IM32b._4EzTm.eGOV_.IwRSH.Igw0E.QzzMF
-www.instagram.com##.xZ2Xk
-www.instagram.com##.X6gVd.f11OC.NXc7H
-www.instagram.com##.Yx5HN.RnEpo
 
 !! Lifehacker
 lifehacker.ru##.bIyASb
@@ -446,3 +440,9 @@ lifehacker.ru##.imTAwf
 lifehacker.ru##.iNfGwV
 lifehacker.ru##.jOjJUx
 lifehacker.ru##.jZUUkH
+
+!! OpenNet
+www.opennet.ru##body > div:nth-of-type(4)
+www.opennet.ru##form > table.thdr:nth-of-type(5)
+www.opennet.ru##table.ttxt2:nth-of-type(2) > tbody > tr:nth-of-type(3)
+www.opennet.ru##table.ttxt2:nth-of-type(6)

@@ -16,6 +16,42 @@
 !! Disabling PWA "Add to Home Screen" Button
 !*$csp=manifest-src 'none'
 
+!! 2X2
+2x2tv.ru##.card
+2x2tv.ru##.Christmas
+2x2tv.ru##.content-sidebr
+2x2tv.ru##.cook-mob
+2x2tv.ru##.font-folio
+2x2tv.ru##.nav-social
+2x2tv.ru##.no-gutters
+2x2tv.ru##.sidebar-wrapper
+2x2tv.ru##.subscribe-form
+2x2tv.ru##.trash-icon
+2x2tv.ru##.uSocial-Share
+
+!! 4PDA
+4pda.ru##.news-list > li:nth-of-type(1)
+
+!! Afisha
+daily.afisha.ru##.adv__btn-disable-wrapper
+
+!! ClickOrDie
+click-or-die.ru##.social-buttons
+click-or-die.ru##.widget-row
+click-or-die.ru##.tags
+click-or-die.ru##.suggest-header
+click-or-die.ru##.wp-block-block
+
+!! DisgustingMen
+disgustingmen.com##.fix_social_btns
+disgustingmen.com##.mobile_head
+
+!! DTF
+dtf.ru##.l-island-a.vk-happy-birthday__wrapper
+dtf.ru##.shares__open
+dtf.ru##.site-header
+dtf.ru##.vacancies_widget
+
 !! Habrahabr
 habr.com###TMpanel
 habr.com##.column-wrapper_post-additionals.column-wrapper > .content_left > .default-block_content.default-block
@@ -68,6 +104,70 @@ m.habr.com##.tm-projects-blocks_courses
 m.habr.com##.tm-projects-blocks_vacancies
 m.habr.com##.tm-promo-block
 m.habr.com##button.tm-comment-footer__button
+
+!! IgroMania
+m.igromania.ru##.headerline_outer
+
+!! iPhones
+www.iphones.ru###commentform
+www.iphones.ru###gallery-1
+www.iphones.ru###topcontrol
+www.iphones.ru##.action-like
+www.iphones.ru##.adsbygoogle
+www.iphones.ru##.author_photos_link
+www.iphones.ru##.backdrop
+www.iphones.ru##.c_y_style
+www.iphones.ru##.comment-content_block > .adsbygoogle
+www.iphones.ru##.comment__item_new
+www.iphones.ru##.comment__subscription
+www.iphones.ru##.comments__unauth
+www.iphones.ru##.comments__ortho
+www.iphones.ru##.comments__ortho:nth-of-type(5)
+www.iphones.ru##.comments__ortho_errmsg.comments__ortho
+www.iphones.ru##.comments__toadd
+www.iphones.ru##.contestlist
+www.iphones.ru##.cookie_privacy_block
+www.iphones.ru##.externalofferlist-h
+www.iphones.ru##.footer__cont
+www.iphones.ru##.frame_video_fixed
+www.iphones.ru##.gravatar.avatar-100.avatar
+www.iphones.ru##.gravatar.avatar-100.avatars
+www.iphones.ru##.header__cont
+www.iphones.ru##.header__menu-project-cont
+www.iphones.ru##.imageBullet_click
+www.iphones.ru##.links_near_postitem
+www.iphones.ru##.mini_poll
+www.iphones.ru##.need-telemetry
+www.iphones.ru##.onsubject
+www.iphones.ru##.post > div:nth-of-type(1)
+www.iphones.ru##.post_author_desc
+www.iphones.ru##.post__favorites
+www.iphones.ru##.post__neighbors
+www.iphones.ru##.post__questionlist-cont
+www.iphones.ru##.post__tags-cont
+www.iphones.ru##.postitem_hot
+www.iphones.ru##.postitem__dpd_block
+www.iphones.ru##.postlis_tag_block__tags
+www.iphones.ru##.postlist__currency
+www.iphones.ru##.postpage_dont_forget_other
+www.iphones.ru##.postpage_telega
+www.iphones.ru##.postpage__favorites
+www.iphones.ru##.prev
+www.iphones.ru##.push-notifier
+www.iphones.ru##.push-notifier-block
+www.iphones.ru##.questionitem__side-info
+www.iphones.ru##.rand-social-like
+www.iphones.ru##.relatedlist
+www.iphones.ru##.sidebar
+www.iphones.ru##.social-share
+www.iphones.ru##.yota_car_brand
+www.iphones.ru##.yota_float
+www.iphones.ru##.yota_typewriter
+www.iphones.ru##.yota-pavlik-banner
+www.iphones.ru##center
+www.iphones.ru##header
+www.iphones.ru##span[style='background-color: #FFF8DC'
+||www.iphones.ru/wp-content/themes/simpla2/images/bullet.svg$image
 
 !! Kanobu
 kanobu.ru###dzen_409590
@@ -124,6 +224,27 @@ kanobu.ru##li > p
 kanobu.ru##li > strong > a
 kanobu.ru##li.d-f.c-item:nth-of-type(2)
 !kanobu.ru/images/6c433800d6ba2c0b5439cf604ac3868a.gif
+
+!! KinoGovno
+kg-portal.ru##.footer_wrap
+kg-portal.ru##.menu_feedback
+kg-portal.ru##.menu_userbar
+kg-portal.ru##.menu_wrap
+kg-portal.ru##.news_donate_author
+kg-portal.ru##.section-related
+kg-portal.ru##.ten_ears_wrap
+kg-portal.ru##.ten_topbar
+
+!! KinoPoisk
+www.kinopoisk.ru##.app__sticky-header-top
+www.kinopoisk.ru##.header
+www.kinopoisk.ru##.horizontal-menu
+www.kinopoisk.ru##.movie-header__folder
+www.kinopoisk.ru##.movie-header__bookmark
+www.kinopoisk.ru##.movie-page__buttons-container-with-description
+
+!! Lenta
+m.lenta.ru##.box-inline-topic
 
 !! Lifehacker
 lifehacker.ru###custom_html-79
@@ -190,66 +311,17 @@ lifehacker.ru##label
 ||embed.simplecast.com/*$subdocument
 ||lifehacker.ru/*/$subdocument
 
-!! iPhones
-www.iphones.ru###commentform
-www.iphones.ru###gallery-1
-www.iphones.ru###topcontrol
-www.iphones.ru##.action-like
-www.iphones.ru##.adsbygoogle
-www.iphones.ru##.author_photos_link
-www.iphones.ru##.backdrop
-www.iphones.ru##.c_y_style
-www.iphones.ru##.comment-content_block > .adsbygoogle
-www.iphones.ru##.comment__item_new
-www.iphones.ru##.comment__subscription
-www.iphones.ru##.comments__unauth
-www.iphones.ru##.comments__ortho
-www.iphones.ru##.comments__ortho:nth-of-type(5)
-www.iphones.ru##.comments__ortho_errmsg.comments__ortho
-www.iphones.ru##.comments__toadd
-www.iphones.ru##.contestlist
-www.iphones.ru##.cookie_privacy_block
-www.iphones.ru##.externalofferlist-h
-www.iphones.ru##.footer__cont
-www.iphones.ru##.frame_video_fixed
-www.iphones.ru##.gravatar.avatar-100.avatar
-www.iphones.ru##.gravatar.avatar-100.avatars
-www.iphones.ru##.header__cont
-www.iphones.ru##.header__menu-project-cont
-www.iphones.ru##.imageBullet_click
-www.iphones.ru##.links_near_postitem
-www.iphones.ru##.mini_poll
-www.iphones.ru##.need-telemetry
-www.iphones.ru##.onsubject
-www.iphones.ru##.post > div:nth-of-type(1)
-www.iphones.ru##.post_author_desc
-www.iphones.ru##.post__favorites
-www.iphones.ru##.post__neighbors
-www.iphones.ru##.post__questionlist-cont
-www.iphones.ru##.post__tags-cont
-www.iphones.ru##.postitem_hot
-www.iphones.ru##.postitem__dpd_block
-www.iphones.ru##.postlis_tag_block__tags
-www.iphones.ru##.postlist__currency
-www.iphones.ru##.postpage_dont_forget_other
-www.iphones.ru##.postpage_telega
-www.iphones.ru##.postpage__favorites
-www.iphones.ru##.prev
-www.iphones.ru##.push-notifier
-www.iphones.ru##.push-notifier-block
-www.iphones.ru##.questionitem__side-info
-www.iphones.ru##.rand-social-like
-www.iphones.ru##.relatedlist
-www.iphones.ru##.sidebar
-www.iphones.ru##.social-share
-www.iphones.ru##.yota_car_brand
-www.iphones.ru##.yota_float
-www.iphones.ru##.yota_typewriter
-www.iphones.ru##.yota-pavlik-banner
-www.iphones.ru##center
-www.iphones.ru##header
-www.iphones.ru##span[style='background-color: #FFF8DC'
-||www.iphones.ru/wp-content/themes/simpla2/images/bullet.svg$image
+!! LinuxOrgRu
+www.linux.org.ru###boxlets
+www.linux.org.ru###hd
+www.linux.org.ru###interpage
+www.linux.org.ru###ft
+www.linux.org.ru###yandex_rtb
+www.linux.org.ru###yandex_rtb_R-A-337082-3
+
+!! MediaLeaks
+medialeaks.ru##.ads-run-blocks
+medialeaks.ru##.material__seealso
 
 !! OpenNet
 opennet.ru###as1
@@ -266,29 +338,32 @@ www.opennet.ru##a[href^="/cgi-bin/openforum/vsluhboard.cgi"]
 ||www.opennet.ru/img/inferno2.png$image
 ||www.opennet.ru/openforum/Images/newmark.gif$image
 
-!! LinuxOrgRu
-www.linux.org.ru###boxlets
-www.linux.org.ru###hd
-www.linux.org.ru###interpage
-www.linux.org.ru###ft
-www.linux.org.ru###yandex_rtb
-www.linux.org.ru###yandex_rtb_R-A-337082-3
+!! PWNews
+pwnews.net###acform
+pwnews.net###postFormContent
+pwnews.net###top100_widget
+pwnews.net##.btm
+pwnews.net##.follows-channel
+pwnews.net##.icon-menu
+pwnews.net##[href="//www.liveinternet.ru/click"]
+pwnews.net##[href^="/panel/"]
+||pwnews.net/stat/*$image
 
-!! 2X2
-2x2tv.ru##.card
-2x2tv.ru##.Christmas
-2x2tv.ru##.content-sidebr
-2x2tv.ru##.cook-mob
-2x2tv.ru##.font-folio
-2x2tv.ru##.nav-social
-2x2tv.ru##.no-gutters
-2x2tv.ru##.sidebar-wrapper
-2x2tv.ru##.subscribe-form
-2x2tv.ru##.trash-icon
-2x2tv.ru##.uSocial-Share
+!! Quora
+www.quora.com##.qu-bg--black_transparent_dark
 
-!! 4pda
-4pda.ru##.news-list > li:nth-of-type(1)
+!! RadioKP
+radiokp.ru##.rr-m-submenu-wr
+
+!! RBC
+amp.rbc.ru##.article__inline-item
+www.rbc.ru##.article__inline-item
+
+!! Reddit
+www.reddit.com##.XPromoInFeed
+
+!! TJournal
+tjournal.ru##.native-support
 
 !! VC
 vc.ru##.comments_updates_rail__inner
@@ -304,6 +379,8 @@ vc.ru##.videoStratum
 vc.ru##.vk-happy-birthday__wrapper
 vc.ru##.widget_wrapper
 
+!! Viqeo
+cdn.viqeo.tv/js/vq_starter.js
 
 !! Wikipedia
 wikipedia.org###ca-edit
@@ -315,9 +392,6 @@ wikipedia.org##.minerva-footer
 wikipedia.org##.mw-editsection
 wikipedia.org##.cbnnr-main
 
-!! Quora
-www.quora.com##.qu-bg--black_transparent_dark
-
 !! Yandex
 zen.yandex.ru###zen-header_mobile
 zen.yandex.ru###article-footer-content
@@ -325,78 +399,3 @@ zen.yandex.ru##.app-button
 zen.yandex.ru##.article-header-mobile__subscribe-button
 zen.yandex.ru##.article-render-mobile__block_embed
 zen.yandex.ru##.article__zen-feed
-
-!! ClickOrDie
-click-or-die.ru##.social-buttons
-click-or-die.ru##.widget-row
-click-or-die.ru##.tags
-click-or-die.ru##.suggest-header
-click-or-die.ru##.wp-block-block
-
-!! KinoGovno
-kg-portal.ru##.footer_wrap
-kg-portal.ru##.menu_feedback
-kg-portal.ru##.menu_userbar
-kg-portal.ru##.menu_wrap
-kg-portal.ru##.news_donate_author
-kg-portal.ru##.section-related
-kg-portal.ru##.ten_ears_wrap
-kg-portal.ru##.ten_topbar
-
-!! RBC
-amp.rbc.ru##.article__inline-item
-www.rbc.ru##.article__inline-item
-
-!! PWNews
-pwnews.net###acform
-pwnews.net###postFormContent
-pwnews.net###top100_widget
-pwnews.net##.btm
-pwnews.net##.follows-channel
-pwnews.net##.icon-menu
-pwnews.net##[href="//www.liveinternet.ru/click"]
-pwnews.net##[href^="/panel/"]
-||pwnews.net/stat/*$image
-
-!! MediaLeaks
-medialeaks.ru##.ads-run-blocks
-medialeaks.ru##.material__seealso
-
-!! DTF
-dtf.ru##.l-island-a.vk-happy-birthday__wrapper
-dtf.ru##.shares__open
-dtf.ru##.site-header
-dtf.ru##.vacancies_widget
-
-!! Afisha
-daily.afisha.ru##.adv__btn-disable-wrapper
-
-!! TJournal
-tjournal.ru##.native-support
-
-!! Reddit
-www.reddit.com##.XPromoInFeed
-
-!! KinoPoisk
-www.kinopoisk.ru##.app__sticky-header-top
-www.kinopoisk.ru##.header
-www.kinopoisk.ru##.horizontal-menu
-www.kinopoisk.ru##.movie-header__folder
-www.kinopoisk.ru##.movie-header__bookmark
-www.kinopoisk.ru##.movie-page__buttons-container-with-description
-
-!! RadioKP
-radiokp.ru##.rr-m-submenu-wr
-
-!! DisgustingMen
-disgustingmen.com##.fix_social_btns
-disgustingmen.com##.mobile_head
-
-!! Lenta
-m.lenta.ru##.box-inline-topic
-
-!! IgroMania
-m.igromania.ru##.headerline_outer
-
-!! Viqeo
-cdn.viqeo.tv/js/vq_starter.js
