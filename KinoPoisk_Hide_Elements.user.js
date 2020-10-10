@@ -21,7 +21,11 @@
 			wmHide(".kinopoisk-header-featured-menu");
 			wmHide(".hd-nameplate");
 			wmHide(".watch-online-button");
+			wmHide("div[class^=styles_watchOnlineDescription]");
+			wmHide("div[class^=styles_watchOnlineDescription] + div");
 			wmHideAll("a[class^=styles_nameplate]");
+			wmHideAll("a[class*=styles_rootPlus]");
+			wmHideAll("a[class*=styles_rootGhost]");
 			//Hide Top banner
 			wmHide("div[class^=styles_themeTopBanner]");
 			wmHide("div[class^=styles_background]");
@@ -36,22 +40,41 @@
 					padding-top: 30px;
 				}
 			`);
+			wmHide("div[class*=styles_branding]");
+			wmAddNewStyle(`
+				div[class*=styles_navigationWithBranding] {
+					margin-top: 0px;
+				}
+			`);
 			//Hide Add to Collection
 			wmHide("button[class^=styles_toWatchButton]");
 			wmHide("div[class^=styles_userControlsContainer]");
 			wmHide("a[class^=styles_soundtrackButton");
 			//Hide Social buttons
+			wmHide("div[class^=styles_foldersMenu]");
+			wmHide("button[class^=styles_heartButton]");
+			wmHide("div[class^=styles_foldersList]");
 			wmHide("#film-share-buttons");
+			wmHide("#film-share-buttons + div");
+			wmHide("#person-share-buttons");
+			wmHide("button[class^=styles_buttonError]");
+			wmHide("button[class^=styles_buttonInfo]");
+			wmHide("div[class^=styles_kinopoiskRatingSnippet]");
+			wmHide("div[class^=styles_filmRatingSection]");
 			//Hide IMAX icon
 			wmHide("span[class^=styles_imaxContainer]");
 			//Hide Ads
 			wmHideAll("div[class*=styles_rootRendered]");
 			//Hide Recommended movies
 			wmWaitAndHide(".similar-films-block");
+			wmWaitAndHide("a[href='/afisha/new/city'");
+			wmHideAllInStyle("section div[class*=styles_carouselWithPermanentButtons]");
 			//Hide Trailers (go to Trailers Page)
 			wmWaitAndHide(".film-trailers-block");
 			//Hide Movie Lists
 			wmHide(".styles_root__V9fG5");
+			//Hide AdBlock Warning
+			wmHide("div[class^=adblock-warning");
 			//Hide Footer
 			wmHide("div[class^=styles_footerContainer_]");
 
@@ -62,11 +85,18 @@
 			//Hide Top banner
 			wmWaitAndRemove("div[style='min-height: 0px;']");
 			wmWaitWaitAndRemove("div[style='min-height: 0px;']");
+			wmHide("header > div");
+			wmAddNewStyle(`
+				._3CpeWr3-38xpWEr29rPP4h {
+					margin-top: 0px;
+				}
+			`);
 			//Hide Add to Collection
 			wmRemove(".addFolder");
 			wmRemove("#div_mustsee_main");
 			wmRemove(".film-img-box__soundtrack");
 			wmRemove(".to_friend");
+			wmRemoveAll(".MyKP_Folder_Select");
 			//Hide IMAX icon
 			wmRemove(".imax-item");
 			//Hide After filmcard banner
@@ -80,6 +110,7 @@
 			//Hide Right side banner
 			wmRemove("div[data-type=teaserspec] + *");
 			wmRemove(".inviteFriends + *");
+			wmRemove(".no_padds div");
 			//Hide Subscribe feature
 			wmRemove(".subscribe");
 			//Hide Hovering corner banner
