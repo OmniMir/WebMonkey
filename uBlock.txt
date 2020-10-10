@@ -303,6 +303,7 @@ www.linux.org.ru###yandex_rtb_R-A-337082-3
 4pda.ru##.news-list > li:nth-of-type(1)
 
 !! VC
+vc.ru##.comments_updates_rail__inner
 vc.ru##.email_subscribe
 vc.ru##.events_widget
 vc.ru##.island--company_entries
@@ -310,7 +311,9 @@ vc.ru##.main_menu
 vc.ru##.push_offer
 vc.ru##.shares__open
 vc.ru##.vacancies_widget
+vc.ru##.vc-job-branding-head
 vc.ru##.videoStratum
+vc.ru##.vk-happy-birthday__wrapper
 vc.ru##.widget_wrapper
 
 !! Instagram
