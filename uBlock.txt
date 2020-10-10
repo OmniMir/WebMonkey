@@ -266,7 +266,7 @@ www.opennet.ru##a[href^="/cgi-bin/openforum/vsluhboard.cgi"]
 ||www.opennet.ru/img/inferno2.png$image
 ||www.opennet.ru/openforum/Images/newmark.gif$image
 
-!! Linux.Org.Ru
+!! LinuxOrgRu
 www.linux.org.ru###boxlets
 www.linux.org.ru###hd
 www.linux.org.ru###interpage
