@@ -136,6 +136,10 @@ lifehacker.ru###popmechanic-form
 lifehacker.ru##.bIyASb
 lifehacker.ru##.blWmuX
 lifehacker.ru##.bScsv
+lifehacker.ru##.archive-page-title
+lifehacker.ru##.article-card__favorite
+lifehacker.ru##.article-card__share
+lifehacker.ru##.ask-question-button
 lifehacker.ru##.button-simple.comment-reply
 lifehacker.ru##.carousel__wrapper
 lifehacker.ru##.comment-buttons__container
@@ -159,13 +163,18 @@ lifehacker.ru##.input-area__container
 lifehacker.ru##.jLfVpt
 lifehacker.ru##.jOjJUx
 lifehacker.ru##.jZUUkH
+lifehacker.ru##.js-lh-article > p > em
+lifehacker.ru##.js-new-comments-counter
+lifehacker.ru##.large-btn
 lifehacker.ru##.lh-jumper__footer
 lifehacker.ru##.lh-jumper__scroll-to-site
 !lifehacker.ru##.lightgrey-box
 lifehacker.ru##.mobile-bar
 lifehacker.ru##.mobile-promo-menu
 lifehacker.ru##.new-comments-button__wrapper
+lifehacker.ru##.primary-menu
 lifehacker.ru##.read-also
+lifehacker.ru##.promo-block__container
 lifehacker.ru##.show.banner-under-header
 lifehacker.ru##.side-banner--wrapper
 lifehacker.ru##.single__bottom-widgets
@@ -176,6 +185,9 @@ lifehacker.ru##.social-and-date__top
 lifehacker.ru##.sort-switch
 lifehacker.ru##.stripe.container-fluid
 lifehacker.ru##.subscription-switch
+lifehacker.ru##.the-footer
+lifehacker.ru##.the-paginator__cells
+lifehacker.ru##.top-header-container
 lifehacker.ru##.top-menu--wrapper
 lifehacker.ru##.web_conference
 !lifehacker.ru##.white-box
