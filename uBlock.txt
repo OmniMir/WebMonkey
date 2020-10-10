@@ -203,6 +203,7 @@ lifehacker.ru##label
 ||lifehacker.ru/*/$subdocument
 
 !! iPhones
+www.iphones.ru###commentform
 www.iphones.ru###gallery-1
 www.iphones.ru###topcontrol
 www.iphones.ru##.action-like
@@ -214,6 +215,7 @@ www.iphones.ru##.comment-content_block > .adsbygoogle
 www.iphones.ru##.comment__item_new
 www.iphones.ru##.comment__subscription
 www.iphones.ru##.comments__unauth
+www.iphones.ru##.comments__ortho
 www.iphones.ru##.comments__ortho:nth-of-type(5)
 www.iphones.ru##.comments__ortho_errmsg.comments__ortho
 www.iphones.ru##.comments__toadd
@@ -258,6 +260,7 @@ www.iphones.ru##.yota_typewriter
 www.iphones.ru##.yota-pavlik-banner
 www.iphones.ru##center
 www.iphones.ru##header
+www.iphones.ru##span[style='background-color: #FFF8DC'
 ||www.iphones.ru/wp-content/themes/simpla2/images/bullet.svg$image
 
 !! OpenNet
