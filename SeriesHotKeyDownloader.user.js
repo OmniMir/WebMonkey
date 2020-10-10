@@ -7,6 +7,7 @@
 // @match		https://animejoy.ru/*
 // @match		https://baibako.tv/*
 // @match		http://insearch.site/*
+// @match		https://www.lostfilm.run/*
 // @match		https://www.lostfilm.tv/*
 // @match		http://newstudio.tv/*
 // @match		http://a.octopusfilm.org/*
