@@ -4,14 +4,18 @@
 // @version		0.8
 // @description	Press DOWN to DOWNload
 // @author		kapsilon
+// @match		https://adamcomics.ucoz.ru/*
 // @match		https://boosty.to/*
 // @match		http://cm-project.com/*
+// @match		http://comix-base.moy.su/*
 // @match		http://dccomics.ru/*
 // @match		https://drawnstories.ru/*
+// @match		http://elfquest.ucoz.ru/*
 // @match		http://frankengeek.ru/*
 // @match		https://hunderbridge.bitbucket.io/*
 // @match		https://lectoribenevolosalutem.blogspot.com/*
 // @match		https://manga-chan.me/*
+// @match		https://marvel-comics.moy.su/*
 // @match		https://omnizod-comics.ucoz.ru/*
 // @match		https://realdealteam.blogspot.com/*
 // @match		http://rikudou.ru/*
@@ -19,6 +23,8 @@
 // @match		https://savageworld.ucoz.ru/*
 // @match		http://spaikcomics.moy.su/*
 // @match		https://sudya-dredd.ru/*
+// @match		http://super-comics.ru/*
+// @match		http://supercomics.3dn.ru/*
 // @match		http://supercomics.ru/*
 // @match		https://vk.com/*?w=wall-*
 // @match		https://vk.com/@*
@@ -48,8 +54,8 @@
 				wmClickLast(".kp"); //Maybe two links on page
 				//DrawnStories
 				wmClickLast("#idds26 a");
-				//FrankenGeek, Omnizod, SpaikComics & SuperComics
-				wmClick(".eBlock a");
+				//AdamComics, ComixBase, ElfQuest, FrankenGeek, MarvelComics, Omnizod, SpaikComics & SuperComics (uCoz Sites)
+				wmClick(".eBlock a[href^='/load/0']");
 				//HunderBridge
 				wmClick("#links a");
 				//LBS
