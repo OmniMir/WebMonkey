@@ -343,5 +343,77 @@ zen.yandex.ru##.article-header-mobile__subscribe-button
 zen.yandex.ru##.article-render-mobile__block_embed
 zen.yandex.ru##.article__zen-feed
 
+!! ClickOrDie
+click-or-die.ru##.social-buttons
+click-or-die.ru##.widget-row
+click-or-die.ru##.tags
+click-or-die.ru##.suggest-header
+click-or-die.ru##.wp-block-block
+
+!! KinoGovno
+kg-portal.ru##.footer_wrap
+kg-portal.ru##.menu_feedback
+kg-portal.ru##.menu_userbar
+kg-portal.ru##.menu_wrap
+kg-portal.ru##.news_donate_author
+kg-portal.ru##.section-related
+kg-portal.ru##.ten_ears_wrap
+kg-portal.ru##.ten_topbar
+
+!! RBC
+amp.rbc.ru##.article__inline-item
+www.rbc.ru##.article__inline-item
+
+!! PWNews
+pwnews.net###acform
+pwnews.net###postFormContent
+pwnews.net###top100_widget
+pwnews.net##.btm
+pwnews.net##.follows-channel
+pwnews.net##.icon-menu
+pwnews.net##[href="//www.liveinternet.ru/click"]
+pwnews.net##[href^="/panel/"]
+||pwnews.net/stat/*$image
+
+!! MediaLeaks
+medialeaks.ru##.ads-run-blocks
+medialeaks.ru##.material__seealso
+
+!! DTF
+dtf.ru##.l-island-a.vk-happy-birthday__wrapper
+dtf.ru##.shares__open
+dtf.ru##.site-header
+dtf.ru##.vacancies_widget
+
+!! Afisha
+daily.afisha.ru##.adv__btn-disable-wrapper
+
+!! TJournal
+tjournal.ru##.native-support
+
+!! Reddit
+www.reddit.com##.XPromoInFeed
+
+!! KinoPoisk
+www.kinopoisk.ru##.app__sticky-header-top
+www.kinopoisk.ru##.header
+www.kinopoisk.ru##.horizontal-menu
+www.kinopoisk.ru##.movie-header__folder
+www.kinopoisk.ru##.movie-header__bookmark
+www.kinopoisk.ru##.movie-page__buttons-container-with-description
+
+!! RadioKP
+radiokp.ru##.rr-m-submenu-wr
+
+!! DisgustingMen
+disgustingmen.com##.fix_social_btns
+disgustingmen.com##.mobile_head
+
+!! Lenta
+m.lenta.ru##.box-inline-topic
+
+!! IgroMania
+m.igromania.ru##.headerline_outer
+
 !! Viqeo
 cdn.viqeo.tv/js/vq_starter.js
