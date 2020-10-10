@@ -9,6 +9,8 @@
 // @match		http://insearch.site/*
 // @match		https://www.lostfilm.tv/*
 // @match		http://newstudio.tv/*
+// @match		http://a.octopusfilm.org/*
+// @match		http://a.ultradox.xyz/*
 // @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
@@ -34,6 +36,8 @@
 				wmClickNumber(".block_3 a", 2);
 				//NewStudio
 				wmClick("a.genmed");
+				//Octopus
+				wmClick(".torrent a");
 
 				//And Close Opened Tab
 				wmWaitAndCloseTab()
