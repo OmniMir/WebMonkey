@@ -286,7 +286,7 @@ www.linux.org.ru###ft
 www.linux.org.ru###yandex_rtb
 www.linux.org.ru###yandex_rtb_R-A-337082-3
 
-!! 2x2tv
+!! 2X2
 2x2tv.ru##.card
 2x2tv.ru##.Christmas
 2x2tv.ru##.content-sidebr
@@ -294,7 +294,9 @@ www.linux.org.ru###yandex_rtb_R-A-337082-3
 2x2tv.ru##.font-folio
 2x2tv.ru##.nav-social
 2x2tv.ru##.no-gutters
+2x2tv.ru##.sidebar-wrapper
 2x2tv.ru##.subscribe-form
+2x2tv.ru##.trash-icon
 2x2tv.ru##.uSocial-Share
 
 !! 4pda

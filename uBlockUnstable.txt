@@ -318,6 +318,8 @@ kanobu.ru##.z_bL
 kanobu.ru##.z_bv
 kanobu.ru##.Z_ec
 
-!! 2x2tv
+!! 2X2
 2x2tv.ru##.justify-content-between.align-items-center.d-flex.pl-5-5.px-5.p-3.col-12
 2x2tv.ru##.mb-lg-0.mb-3.align-items-center.justify-content-start.d-flex.order-lg-1.order-md-2.col-xl-3.col-lg-3.col-md-6.col-12
+2x2tv.ru##.px-3.col-lg-3.col-md-6.col-12
+2x2tv.ru##.stk-theme_38978__stk-btn_basic
