@@ -41,7 +41,7 @@
 				wmClick(".torrent a");
 
 				//And Close Opened Tab
-				wmWaitAndCloseTab()
+				wmWaitAndCloseTab();
 			}
 		},
 		false
