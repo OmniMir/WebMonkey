@@ -8,6 +8,7 @@
 // @match		https://baibako.tv/*
 // @match		http://insearch.site/*
 // @match		https://www.lostfilm.tv/*
+// @match		http://newstudio.tv/*
 // @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
@@ -31,6 +32,8 @@
 				//LostFilm Insearch
 				wmClickNumber(".inner-box--link.main a", 2);
 				wmClickNumber(".block_3 a", 2);
+				//NewStudio
+				wmClick("a.genmed");
 
 				//And Close Opened Tab
 				wmWaitAndCloseTab()
