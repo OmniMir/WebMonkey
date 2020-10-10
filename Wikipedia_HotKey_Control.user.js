@@ -31,4 +31,13 @@
 		},
 		false
 	);
+	//Start on page load to take effect
+	window.addEventListener(
+		"load",
+		function () {
+			//Hide Language Menu
+			wmHide("#p-lang");
+		},
+		false
+	);
 })();
