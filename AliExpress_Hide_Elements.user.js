@@ -5,8 +5,10 @@
 // @description	Hide annoying elements
 // @author		kapsilon
 // @license		MIT
-// @match		https://*.aliexpress.com/*
+// @match		https://aliexpress.com/*
 // @match		https://aliexpress.ru/*
+// @match		https://*.aliexpress.com/*
+// @match		https://*.aliexpress.ru/*
 // @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
@@ -25,9 +27,13 @@
 			wmHide(".mobile-app");
 			//Hide Social Buttons
 			wmHide(".product-fix-sns");
+			//Hide Shopping Cart Footer
+			wmHide(".recommend-container");
+			//Hide Survey Button
+			wmHide(".survey-link");
 			//Hide Footer
 			wmHide(".footer-copywrite");
-			wmHide(".site-footer");
+			wmWaitAndHide(".site-footer");
 			//Hide Eva
 			wmWaitAndHide("#J_xiaomi_dialog");
 		},
