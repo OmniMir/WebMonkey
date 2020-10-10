@@ -316,11 +316,6 @@ vc.ru##.videoStratum
 vc.ru##.vk-happy-birthday__wrapper
 vc.ru##.widget_wrapper
 
-!! Instagram
-www.instagram.com##.GhZ_W._09ncq._8Rna9
-www.instagram.com##.xZ2Xk
-www.instagram.com##.X6gVd.f11OC.NXc7H
-www.instagram.com##.Yx5HN.RnEpo
 
 !! Wikipedia
 wikipedia.org###ca-edit
