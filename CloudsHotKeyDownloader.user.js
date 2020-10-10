@@ -5,6 +5,7 @@
 // @description	Press DOWN to DOWNload
 // @author		kapsilon
 // @match		https://cloud.mail.ru/*
+// @match		https://www.dropbox.com/s/*
 // @match		https://drive.google.com/file/d/*
 // @match		https://drive.google.com/uc?id=*
 // @match		http://www.mediafire.com/*
@@ -25,6 +26,9 @@
 				//Disable Default Action
 				event.preventDefault();
 
+				//DropBox
+				wmClick(".download-button");
+				wmClick(".mc-popover-content-item");
 				//GoogleDrive
 				wmClick("#uc-download-link");
 				//MailRu
