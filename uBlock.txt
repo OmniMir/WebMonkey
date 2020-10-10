@@ -323,10 +323,13 @@ www.instagram.com##.X6gVd.f11OC.NXc7H
 www.instagram.com##.Yx5HN.RnEpo
 
 !! Wikipedia
+wikipedia.org###ca-edit
+wikipedia.org###ca-watch
 wikipedia.org###cnotice-main
 wikipedia.org##.banner-container
 wikipedia.org##.header-chrome.header-container
 wikipedia.org##.minerva-footer
+wikipedia.org##.mw-editsection
 wikipedia.org##.cbnnr-main
 
 !! Quora
