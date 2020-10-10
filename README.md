@@ -6,6 +6,8 @@ Useful TamperMonkey Scripts & AdBlock Filters
 
 AutoCloser
 
+NoMobile
+
 NoScrollingButton
 
 
