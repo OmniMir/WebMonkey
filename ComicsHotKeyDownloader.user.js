@@ -17,6 +17,8 @@
 // @match		https://manga-chan.me/*
 // @match		https://marvel-comics.moy.su/*
 // @match		https://omnizod-comics.ucoz.ru/*
+// @match		http://www.otaku-team.ru/*
+// @match		http://promethea.katab.asia/*
 // @match		https://realdealteam.blogspot.com/*
 // @match		http://rikudou.ru/*
 // @match		https://rp-universe.ru/*
@@ -32,6 +34,7 @@
 // @match		https://vk.com/wall-*
 // @match		https://vk.com/topic-*
 // @match		https://wondercomics.3dn.ru/*
+// @match		http://young-comics.ru/*
 // @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
@@ -62,6 +65,10 @@
 				wmClick(".separator ~ a");
 				//Manga-Chan
 				wmClick("#content a[href^='/download/'");
+				//OtakuTeam
+				wmClickLast(".type-post > ul li a");
+				//Promethea
+				wmClickLast(".t776__btn_second");
 				//RealDealTeam
 				wmClick(".article-content a[href^='https://yadi.sk/d/'");
 				//Rikudou-Sennin Clan
@@ -90,6 +97,8 @@
 				wmClick("#wk_content .page_doc_title");
 				//WonderComics
 				wmClick("input[value='СКАЧАТЬ КОМИКС']");
+				//YoungComics
+				wmClick(".wn3p");
 
 				//And Close Opened Tab
 				wmWaitAndCloseTab();
