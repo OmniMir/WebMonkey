@@ -271,8 +271,9 @@ opennet.ru###lenta_nav2
 opennet.ru###top_news
 opennet.ru###tabs_top
 opennet.ru##.ttxt
-opennet.ru##small
 opennet.ru##body > form
+opennet.ru##small
+www.opennet.ru##a[href^="/cgi-bin/openforum/vsluhboard.cgi"]
 ||www.opennet.ru/img/dh143x60t.png$image
 ||www.opennet.ru/img/inferno2.png$image
 ||www.opennet.ru/openforum/Images/newmark.gif$image
