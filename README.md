@@ -2,9 +2,13 @@
 
 Useful TamperMonkey Scripts & AdBlock Filters
 
+
+
 **TamperMonkey User Scripts**
 
 AutoCloser
+
+DownLoader(Clouds|Comics|Series)
 
 NoMobile
 
@@ -12,15 +16,7 @@ NoScrollingButton
 
 
 
-CloudsHotKeyDownloader
-
-ComicsHotKeyDownloader
-
-SeriesHotKeyDownloader
-
-
-
-Hide_Elements
+Hide_Elements 
 
 
 
@@ -30,3 +26,4 @@ Hide_Elements
 uBlock
 
 uBlockUnstable
+

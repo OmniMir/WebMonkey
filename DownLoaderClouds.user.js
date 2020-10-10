@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name		Clouds HotKey Downloader
+// @name		DownLoader Clouds
 // @namespace	https://vash.omnimir.ru/
-// @version		0.8
+// @version		1.0
 // @description	Press DOWN to DOWNload
 // @author		kapsilon
 // @match		https://cloud.mail.ru/*

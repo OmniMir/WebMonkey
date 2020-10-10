@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name		Comics HotKey Downloader
+// @name		DownLoader Comics
 // @namespace	https://vash.omnimir.ru/
-// @version		0.8
+// @version		1.0
 // @description	Press DOWN to DOWNload
 // @author		kapsilon
 // @match		https://adamcomics.ucoz.ru/*
