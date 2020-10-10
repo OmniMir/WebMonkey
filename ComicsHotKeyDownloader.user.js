@@ -19,6 +19,7 @@
 // @match		https://omnizod-comics.ucoz.ru/*
 // @match		http://www.otaku-team.ru/*
 // @match		http://promethea.katab.asia/*
+// @match		http://realdealteam.blogspot.com/*
 // @match		https://realdealteam.blogspot.com/*
 // @match		http://rikudou.ru/*
 // @match		https://rp-universe.ru/*
@@ -70,7 +71,7 @@
 				//Promethea
 				wmClickLast(".t776__btn_second");
 				//RealDealTeam
-				wmClick(".article-content a[href^='https://yadi.sk/d/'");
+				wmClick(".article-content a[href^='https://yadi.sk/d/']");
 				//Rikudou-Sennin Clan
 				wmClickLast("#content section a");
 				//RussianProjectUniverse
