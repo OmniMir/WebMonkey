@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name		Instagram Hide Downloader
 // @namespace	https://vash.omnimir.ru/
-// @version		0.7
-// @description	Hide annoying elements from Downloader for Instagram Extension 
+// @version		0.8
+// @description	Hide annoying elements from Downloader for Instagram Extension
 // @author		kapsilon
 // @license		MIT
 // @match		https://www.instagram.com/*
@@ -17,24 +17,20 @@
 		"load",
 		function () {
 			//Hide Extension Toolbar
-			wmWaitAndRemove(".ext_tooltip");
-			wmWaitAndRemove(".ext_stories_page_icon");
-			wmWaitAndRemove(".ext_mobile_mode_icon");
-			wmWaitAndRemove(".download_all_wrap_wrap");
+			wmAddNewStyle(`
+				.ext_tooltip, .ext_stories_page_icon, .ext_mobile_mode_icon, .download_all_wrap_wrap {
+					display: none;
+				}
+			`);
+			//Move Upload Button
+			let newUploadButton = document.querySelector(".upload_btn_wrap")
+			document.querySelector("header section div").appendChild(newUploadButton)
 			//Hide Download and Delete Buttons
-			wmRemoveAll(".ext_desktop_dl_btnn");
-			wmRemoveAll(".ext_del_btn");
-		},
-		false
-	);
-	//Going with page scroll
-	window.addEventListener(
-		"scroll",
-		function () {
-			//Hide all Download and Delete Buttons
-			wmRemoveAll(".ext_desktop_dl_btnn");
-			wmRemoveAll(".ext_del_btn");
-			wmRemove(".download_all_wrap_wrap");
+			wmAddNewStyle(`
+				.ext_desktop_dl_btnn, .ext_del_btn, .ext_icon, .ext_text {
+					display: none;
+				}
+			`);
 		},
 		false
 	);
