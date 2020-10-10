@@ -335,10 +335,13 @@ wikipedia.org##.cbnnr-main
 !! Quora
 www.quora.com##.qu-bg--black_transparent_dark
 
-!! Yandex Zen
+!! Yandex
 zen.yandex.ru###zen-header_mobile
 zen.yandex.ru###article-footer-content
 zen.yandex.ru##.app-button
+zen.yandex.ru##.article-header-mobile__subscribe-button
+zen.yandex.ru##.article-render-mobile__block_embed
+zen.yandex.ru##.article__zen-feed
 
 !! Viqeo
 cdn.viqeo.tv/js/vq_starter.js
