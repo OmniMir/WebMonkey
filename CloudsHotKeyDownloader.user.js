@@ -39,7 +39,6 @@
 				//Mega
 				wmClick(".download-file");
 				//YandexDisk
-				wmClick(".action-buttons__button_download");
 				wmClick(".download-button");
 
 				//And Close Opened Tab
