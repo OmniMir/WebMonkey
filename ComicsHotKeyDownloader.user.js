@@ -62,9 +62,9 @@
 				//HunderBridge
 				wmClick("#links a");
 				//LBS
-				wmClick(".separator ~ a");
-				//Manga-Chan
-				wmClick("#content a[href^='/download/'");
+				wmClickLast(".entry-content a[href^='https://drive.google.com/file/d/']");
+				//MangaChan
+				wmClick("#download_table a[href^='/engine/download.php']");
 				//OtakuTeam
 				wmClickLast(".type-post > ul li a");
 				//Promethea
