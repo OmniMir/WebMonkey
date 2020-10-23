@@ -74,7 +74,8 @@
 			//Hide Movie Lists
 			wmHide(".styles_root__V9fG5");
 			//Hide AdBlock Warning
-			wmHide("div[class^=adblock-warning");
+			wmWaitAndHide("div[class^=adblock-warning");
+			wmWaitAndHide("div[class^=styles_adBlockWarning");
 			//Hide Footer
 			wmHide("div[class^=styles_footerContainer_]");
 
@@ -119,6 +120,8 @@
 			wmRemove("#partial_component__watch-online-person-slider");
 			//Hide Annoying RandomMovie
 			wmHide(".randomMovie");
+			//Hide AdBlock Warning
+			wmHide("#partial_component__header-topline");
 			//Hide Footer
 			wmHide("#partial_component__footer");
 			wmHide("#footer_wrapper");
