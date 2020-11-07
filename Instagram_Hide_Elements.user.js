@@ -23,9 +23,5 @@
 	);
 	//Hide annoying red dot
 	//via CSS because pseudo selectors are NOT just selected
-	wmAddNewStyle(`
-		.q9xVd::after {
-			display: none;
-		}
-	`);
+	wmHideAllInStyle(".q9xVd::after");
 })();

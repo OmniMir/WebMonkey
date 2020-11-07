@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name		Instagram Hide Downloader
 // @namespace	https://vash.omnimir.ru/
-// @version		0.8
+// @version		0.9
 // @description	Hide annoying elements from Downloader for Instagram Extension
 // @author		kapsilon
 // @license		MIT
@@ -17,20 +17,14 @@
 		"load",
 		function () {
 			//Hide Extension Toolbar
-			wmAddNewStyle(`
-				.ext_tooltip, .ext_stories_page_icon, .ext_mobile_mode_icon, .download_all_wrap_wrap {
-					display: none;
-				}
-			`);
-			//Move Upload Button
-			let newUploadButton = document.querySelector(".upload_btn_wrap")
-			document.querySelector("header section div").appendChild(newUploadButton)
+			wmHideAllInStyle(".imdr_top_nav_btn");
+			//Hide Prompt for Upload Button
+			wmHideAllInStyle(".tippy-popper");
 			//Hide Download and Delete Buttons
-			wmAddNewStyle(`
-				.ext_desktop_dl_btnn, .ext_del_btn, .ext_icon, .ext_text {
-					display: none;
-				}
-			`);
+			wmHideAllInStyle(".ext_desktop_dl_btnn");
+			wmHideAllInStyle(".ext_del_btn");
+			wmHideAllInStyle(".ext_icon");
+			wmHideAllInStyle(".ext_text");
 		},
 		false
 	);
