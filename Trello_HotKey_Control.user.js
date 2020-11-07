@@ -48,8 +48,14 @@
 	window.addEventListener(
 		"contextmenu",
 		function (event) {
+			//Context Menu Returns with Ctrl
+			if (event.ctrlKey) {
+				return;
+			}
 			//Disable Default Action
-			event.preventDefault();
+			else {
+				event.preventDefault();
+			}
 		},
 		false
 	);
