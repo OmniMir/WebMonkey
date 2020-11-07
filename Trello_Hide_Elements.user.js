@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name		Trello Hide Elements
 // @namespace	https://vash.omnimir.ru/
-// @version		0.7
+// @version		0.8
 // @description	Hide annoying elements
 // @author		kapsilon
 // @license		MIT
@@ -35,6 +35,8 @@
 			wmHideAllInStyle(".YbF3JXQH2gXlsC");
 			//Hide Stars at Boards
 			wmHideAllInStyle(".board-tile-details-sub-container");
+			//Hide Tables Buttons
+			wmHideAllInStyle(".boards-page-board-section-header-options-item[href$='tables']");
 			//Hide Business Upgrade Buttons (Advertisement)
 			wmHideAllInStyle("button[data-test-id='team-boards-header-upgrade-button']");
 			//Hide Add Board Button (Use Global Plus Button)
@@ -46,78 +48,41 @@
 
 			//BOARD SCREEN
 			//Hide Board View Mode Button
-			wmAddNewStyle(`
-				a[data-test-id='board-views-switcher-button'] {
-					display: none;
-				}
-			`);
+			wmHideAllInStyle("a[data-test-id='board-views-switcher-button']");
 			//Hide Star Button
-			wmAddNewStyle(`
-				.js-star-board {
-					display: none;
-				}
-			`);
+			wmHideAllInStyle(".js-star-board");
 			//Hide Butler Button (Find Butler in Side Panel)
-			wmAddNewStyle(`
-				span.board-header-btn:first-child {
-					display: none;
-				}
-			`);
+			wmHideAllInStyle("span.board-header-btn:first-child");
 			//Hide Card Template Buttons
-			wmAddNewStyle(`
-				.js-card-templates-button {
-					display: none;
-				}
-			`);
+			wmHideAllInStyle(".js-card-templates-button");
 			wmAddNewStyle(`
 				.js-open-card-composer {
-					margin-right: 4px
+					margin-right: 8px
 				}
 			`);
 			//Hide Quick Card Menu Buttons (Use Right Click)
-			wmAddNewStyle(`
-				.js-card-menu {
-					display: none;
-				}
-			`);
+			wmHideAllInStyle(".js-card-menu");
 			//Hide Add List Button (Use Double Click Between Lists)
-			wmAddNewStyle(`
-				.mod-add {
-					display: none;
-				}
-			`);
+			wmHideAllInStyle(".mod-add");
 			//Hide Add PowerUp Button in Sidebar (Advertisement)
+			wmHideAllInStyle(".js-empty-slot-upsell");
+			//Hide Upgrade Buttons in Sidebar (Advertisement)
 			wmAddNewStyle(`
-				.js-empty-slot-upsell {
-					display: none;
+				.board-menu-pill-upgrade {
+					display: none !important;
 				}
 			`);
 
 			//CARD SCREEN
 			//Hide Add Members/Labels Button (Use Sidebar Menu)
-			wmAddNewStyle(`
-				.card-detail-item-add-button {
-					display: none;
-				}
-			`);
+			wmHideAllInStyle(".card-detail-item-add-button");
 			//Hide Add Attachment Button (Use Sidebar Menu)
-			wmAddNewStyle(`
-				.subtle.js-attach {
-					display: none;
-				}
-			`);
+			wmHideAllInStyle(".subtle.js-attach");
 			//Hide Edit Description Button (Click to Description)
-			wmAddNewStyle(`
-				.js-edit-desc-button {
-					display: none;
-				}
-			`);
+			wmHideAllInStyle(".js-edit-desc-button");
 			//Hide Add PowerUp Button (Advertisement)
-			wmAddNewStyle(`
-				.js-card-back-pup-prompt, .js-get-pups {
-					display: none;
-				}
-			`);
+			wmHideAllInStyle(".js-card-back-pup-prompt");
+			wmHideAllInStyle(".js-get-pups");
 		},
 		false
 	);
