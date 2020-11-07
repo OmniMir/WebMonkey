@@ -33,10 +33,12 @@
 				//Disable Default Action
 				event.preventDefault();
 
-				//Click Save Button
-				wmClick(".confirm.js-save-edit");
+				//Click Add Card Button
+				wmClick(".js-add-card.confirm");
 				//Click Create One Card
 				wmClick(".js-cancel.full");
+				//Click Save Description Button
+				wmClick(".js-save-edit.confirm");
 				//Click Update Attachment
 				wmClick(".js-edit-attachment.primary");
 			}
