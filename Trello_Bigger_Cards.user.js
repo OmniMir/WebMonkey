@@ -33,13 +33,15 @@
 			`);
 			//Remove Shortened Card Description (ONLY with !important)
 			wmAddNewStyle(`
-			.is-hide-full {
-				max-height: none !important;
-				overflow: unset !important;
-			}
-			.description-content-fade-button {
-				display: none !important;
-			}
+				.is-hide-full {
+					max-height: none !important;
+					overflow: unset !important;
+				}
+			`);
+			wmAddNewStyle(`
+				.description-content-fade-button {
+					display: none !important;
+				}
 			`);
 		},
 		false
