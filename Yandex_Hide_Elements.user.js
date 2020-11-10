@@ -18,15 +18,19 @@
 	window.addEventListener(
 		"load",
 		function () {
+			//Hide Banner
+			wmHide("div[data-apiary-widget-id='/headBanner']");
 			//Hide Promos
 			wmHide(".money-app-promo2");
 			wmHide(".offerwall-banner");
 			wmHide(".app-promo-banner");
 			wmHide(".b2b-banner");
+			wmHide("div[data-apiary-widget-id='/content/vendorProductLinePromo']");
 			//Hide Advertisements
 			wmHideAll("div[class*='TY__wrapper']");
 			//Hide Footer
 			wmHide("footer");
+			wmHide("div[data-zone-name='footer']");
 			wmHide(".serp-footer__main");
 		},
 		false
