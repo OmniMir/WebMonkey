@@ -37,6 +37,8 @@
 				wmClick(".js-add-card.confirm");
 				//Click Create One Card
 				wmClick(".js-cancel.full");
+				//Click Save Card Button
+				wmClick(".js-save-edits.primary");
 				//Click Save Description Button
 				wmClick(".js-save-edit.confirm");
 				//Click Update Attachment
