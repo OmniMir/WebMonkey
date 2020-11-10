@@ -24,7 +24,7 @@
 			wmHide("div[class^=styles_watchOnlineDescription]");
 			wmHide("div[class^=styles_watchOnlineDescription] + div");
 			wmHideAll("a[class^=styles_nameplate]");
-			wmHideAll("a[class*=styles_rootPlus]");
+			wmHideAllInStyle("a[class*=styles_rootPlus]");
 			wmHideAll("a[class*=styles_rootGhost]");
 			//Hide Top banner
 			wmHide("div[class^=styles_themeTopBanner]");
