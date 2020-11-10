@@ -23,18 +23,21 @@
 // @match		https://realdealteam.blogspot.com/*
 // @match		http://rikudou.ru/*
 // @match		https://rp-universe.ru/*
+// @match		http://rus-bd.com/*
 // @match		https://savageworld.ucoz.ru/*
 // @match		http://spaikcomics.moy.su/*
 // @match		https://sudya-dredd.ru/*
 // @match		http://super-comics.ru/*
 // @match		http://supercomics.3dn.ru/*
 // @match		http://supercomics.ru/*
+// @match		http://swcomics.ru/*
 // @match		https://vk.com/*w=wall-*
 // @match		https://vk.com/@*
 // @match		https://vk.com/doc*
 // @match		https://vk.com/wall-*
 // @match		https://vk.com/*page-*
 // @match		https://vk.com/topic-*
+// @match		http://web-of-comics.3dn.ru/*
 // @match		https://wondercomics.3dn.ru/*
 // @match		http://young-comics.ru/*
 // @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
@@ -75,12 +78,16 @@
 				wmClick(".article-content a[href^='https://yadi.sk/d/']");
 				//Rikudou-Sennin Clan
 				wmClickLast("#content section a");
+				//RusBD
+				wmClickLast("a[href^='https://cloud.mail.ru/public/']");
 				//RussianProjectUniverse
 				wmClick(".tabs-sel a");
 				//SavageWorld
 				wmClick(".eMessage p a");
 				//SudyaDredd
 				wmClickLast("a[href^='https://rocld.com/']");
+				//SWComics
+				wmClick("td[width='200'] a");
 				//VK Only one Post
 				wmClick(".big_wall .mail_link");
 				wmClick(".big_wall .lnk");
@@ -90,8 +97,9 @@
 				wmClick(".flat_button.fl_r");
 				//wmClick(".thumbed_link a");
 				//VK Article
-				wmClick(".article_decoration_before a[href^='/away.php?to=https%3A%2F%2Fyadi.sk']");
-				wmClick(".article_decoration_last a[href^='/away.php?to=https%3A%2F%2Fyadi.sk']");
+				wmClick(".article_decoration_before.article_decoration_last a[href^='/away.php?to=https%3A%2F%2Fyadi.sk']");
+				//wmClick(".article_decoration_before a[href^='/away.php?to=https%3A%2F%2Fyadi.sk']");
+				//wmClick(".article_decoration_last a[href^='/away.php?to=https%3A%2F%2Fyadi.sk']");
 				//VK Post in front of Wall
 				wmClick("#wk_content .article_snippet");
 				wmClick("#wk_content .media_link__title");
@@ -102,6 +110,8 @@
 				wmClick("#wk_content .wall_post_text a[href^='https://vk.com/doc-']");
 				wmClickLast("#wk_content .wk_ext_link");
 				wmClickLast("#wk_content a.wk_photo[href^='https://vk.com/doc-']");
+				//WebOfComics
+				wmClickLast("a img[src='http://web-of-comics.3dn.ru/skachat-2.jpg']");
 				//WonderComics
 				wmClick("input[value='СКАЧАТЬ КОМИКС']");
 				//YoungComics
