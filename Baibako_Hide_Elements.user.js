@@ -6,6 +6,7 @@
 // @author		kapsilon
 // @license		MIT
 // @match		https://baibako.tv/*
+// @match		http://www.baibako.tv/*
 // @require 	https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==

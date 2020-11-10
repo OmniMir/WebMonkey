@@ -10,6 +10,7 @@
 // @match		https://*.aliexpress.ru/*
 // @match		https://animejoy.ru/*
 // @match		https://baibako.tv/*
+// @match		http://www.baibako.tv/*
 // @match		https://www.chookandgeek.ru/*
 // @match		https://comicsdb.ru/*
 // @match		https://comicvine.gamespot.com/*

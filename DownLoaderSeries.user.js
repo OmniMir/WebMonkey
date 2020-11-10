@@ -6,6 +6,7 @@
 // @author		kapsilon
 // @match		https://animejoy.ru/*
 // @match		https://baibako.tv/*
+// @match		http://www.baibako.tv/*
 // @match		http://insearch.site/*
 // @match		https://www.lostfilm.run/*
 // @match		https://www.lostfilm.tv/*
