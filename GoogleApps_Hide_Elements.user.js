@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name		GoogleApps Hide Elements
 // @namespace	https://vash.omnimir.ru/
-// @version		0.7
+// @version		0.8
 // @description	Hide annoying elements
 // @author		kapsilon
 // @license		MIT
@@ -23,12 +23,10 @@
 			wmRemove(".VJ");
 			//Hide Apps Button
 			wmHide(".gb_C");
-			/*
-			wmWaitAndHide(".gb_Rc");
-			wmWaitAndHide(".gb_Sc");
-			wmWaitAndHide(".gb_Uc");
-			wmWaitAndHide(".gb_Vc");
-			*/
+			//Hide Right Menu Button (GMail)
+			wmHide(".gb_yc");
+			//Hide Right Menu Tooltips (GMail)
+			wmHideAllInStyle("div[role='tooltip']");
 			//Hide Side Panel (GMail)
 			wmWaitAndHide(".brC-dA-I-Jw");
 			//Hide Side Panel (Google Docs)
