@@ -21,6 +21,8 @@
 // @match		https://www.ozon.ru/*
 // @match		https://pwnews.net/news/*
 // @match		https://repack.me/*
+// @match		http://swcomics.ru/*
+// @match		https://*.yandex.ru/*
 // @require 	https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
@@ -46,7 +48,7 @@
 				wmClick(".pagination a");
 				//ComicsDB
 				wmClick(".previous a");
-				wmClick("small a");
+				wmClick("h2 small a");
 				//ComicVine
 				wmClick(".paginate__item.prev a");
 				//Google
@@ -61,6 +63,10 @@
 				//NONE
 				//PWNews
 				wmClick(".catPages1 a");
+				//SWComics
+				wmClick("td[width='100'] a");
+				//Yandex
+				wmClick("a[aria-label='Предыдущая страница']");
 			}
 		},
 		false
@@ -77,14 +83,14 @@
 				wmClick(".next-pagination-item.next-next");
 				wmClick(".ui-pagination-next");
 				//AnimeJoy
-				wmClick(".page_next  a");
+				wmClick(".page_next a");
 				//Baibako
 				wmClickLast(".index a");
 				//ChookAndGeek & Repack
 				wmClickLast(".pagination a");
 				//ComicsDB
 				wmClick(".next a");
-				wmClickLast("small a");
+				wmClickLast("h2 small a");
 				//ComicVine
 				wmClick(".paginate__item.next a");
 				//Google
@@ -99,6 +105,10 @@
 				wmClick(".b8n5 a");
 				//PWNews
 				wmClickLast(".catPages1 a");
+				//SWComics
+				wmClickLast("td[width='100'] a");
+				//Yandex
+				wmClick("a[aria-label='Следующая страница']");
 			}
 		},
 		false
