@@ -24,7 +24,7 @@
 			//Hide Apps Button
 			wmHide(".gb_C");
 			//Hide Right Menu Button (GMail)
-			wmHide(".gb_yc");
+			wmHide(".gb_xc");
 			//Hide Right Menu Tooltips (GMail)
 			wmHideAllInStyle("div[role='tooltip']");
 			//Hide Side Panel (GMail)
