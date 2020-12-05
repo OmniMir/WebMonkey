@@ -6,9 +6,11 @@ Useful TamperMonkey Scripts & AdBlock Filters
 
 **TamperMonkey User Scripts**
 
+AutoClicker
+
 AutoCloser
 
-DownLoader(Clouds|Comics|Series)
+DownLoader(Clouds|Comics|Games|Series)
 
 NoMobile
 
