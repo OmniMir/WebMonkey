@@ -16,6 +16,8 @@
 	window.addEventListener(
 		"load",
 		function () {
+			//Hide Banner
+			wmHide("#siteNotice");
 			//Hide Edit Buttons
 			wmHideAll(".mw-editsection");
 			//Hide Footer
