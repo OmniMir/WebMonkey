@@ -370,6 +370,11 @@ www.opennet.ru##a[href^="/cgi-bin/openforum/vsluhboard.cgi"]
 ||www.opennet.ru/img/inferno2.png$image
 ||www.opennet.ru/openforum/Images/newmark.gif$image
 
+!! PopcornNews
+www.popcornnews.ru##.btn-okko
+www.popcornnews.ru##.header
+www.popcornnews.ru##.header-navigation
+
 !! PWNews
 pwnews.net###acform
 pwnews.net###postFormContent
