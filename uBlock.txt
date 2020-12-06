@@ -256,7 +256,14 @@ www.kinopoisk.ru##.movie-header__bookmark
 www.kinopoisk.ru##.movie-page__buttons-container-with-description
 
 !! Lenta
+m.lenta.ru##.bookmark__button
 m.lenta.ru##.box-inline-topic
+m.lenta.ru##.box-snippet
+m.lenta.ru##.chained-topic
+m.lenta.ru##.common-head__info-block-right
+m.lenta.ru##.header
+m.lenta.ru##.social-sharing
+||vp.rambler.ru/player/*/iframe.html$subdocument
 
 !! Lifehacker
 lifehacker.ru###custom_html-79
