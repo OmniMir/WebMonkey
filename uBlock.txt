@@ -344,6 +344,10 @@ www.linux.org.ru###ft
 www.linux.org.ru###yandex_rtb
 www.linux.org.ru###yandex_rtb_R-A-337082-3
 
+!! Losst
+losst.ru##.fa-chevron-up
+losst.ru##.sticky-navigation-active
+
 !! MediaLeaks
 medialeaks.ru##.ads-run-blocks
 medialeaks.ru##.material__seealso
