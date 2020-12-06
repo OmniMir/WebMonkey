@@ -51,6 +51,7 @@ disgustingmen.com##.mobile_head
 
 !! DTF
 dtf.ru##.l-island-a.vk-happy-birthday__wrapper
+dtf.ru##.live-stream__header
 dtf.ru##.shares__open
 dtf.ru##.site-header
 dtf.ru##.vacancies_widget
