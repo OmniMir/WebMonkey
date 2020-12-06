@@ -352,6 +352,9 @@ losst.ru##.sticky-navigation-active
 medialeaks.ru##.ads-run-blocks
 medialeaks.ru##.material__seealso
 
+!! Meduza
+meduza.io##.AdvPanel-visible
+
 !! OpenNet
 opennet.ru###as1
 opennet.ru###edit_link
