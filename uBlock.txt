@@ -37,10 +37,12 @@
 daily.afisha.ru##.adv__btn-disable-wrapper
 
 !! ClickOrDie
+click-or-die.ru##.mobile-menu
+click-or-die.ru##.news-widget
 click-or-die.ru##.social-buttons
-click-or-die.ru##.widget-row
-click-or-die.ru##.tags
 click-or-die.ru##.suggest-header
+click-or-die.ru##.tags
+click-or-die.ru##.widget-row
 click-or-die.ru##.wp-block-block
 
 !! DisgustingMen
