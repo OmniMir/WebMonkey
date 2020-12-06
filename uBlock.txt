@@ -402,6 +402,15 @@ www.rbc.ru##.article__inline-item
 !! Reddit
 www.reddit.com##.XPromoInFeed
 
+!! RIA
+ria.ru###headerSticked
+ria.ru###widgetsButtonChat
+ria.ru##.article__aggr
+ria.ru##.article__article
+ria.ru##.article__supertag-header
+ria.ru##.lenta-mini
+ria.ru##.recommend__place
+
 !! TJournal
 tjournal.ru##.native-support
 
