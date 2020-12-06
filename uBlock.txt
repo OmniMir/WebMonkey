@@ -114,7 +114,11 @@ m.habr.com##.tm-promo-block
 m.habr.com##button.tm-comment-footer__button
 
 !! IgroMania
+m.igromania.ru##.footer
 m.igromania.ru##.headerline_outer
+m.igromania.ru##.remvb
+m.igromania.ru##.share_block
+m.igromania.ru##.sharenav_block
 
 !! iPhones
 www.iphones.ru###commentform
