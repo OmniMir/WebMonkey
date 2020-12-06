@@ -411,6 +411,20 @@ ria.ru##.article__supertag-header
 ria.ru##.lenta-mini
 ria.ru##.recommend__place
 
+!! Shazoo
+shazoo.ru##.asideSocial
+shazoo.ru##.entryLargeRelated
+shazoo.ru##.footerContainer
+shazoo.ru##.headerContainer
+shazoo.ru##.hub-promo-link
+shazoo.ru##.latestComments
+shazoo.ru##.newsStream
+shazoo.ru##.related
+shazoo.ru##.relatedVideo
+shazoo.ru##.socioline
+shazoo.ru##.tagHeaderContainer
+shazoo.ru##.tags
+
 !! TJournal
 tjournal.ru##.native-support
 
