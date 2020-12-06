@@ -421,9 +421,14 @@ wikipedia.org##.mw-editsection
 wikipedia.org##.cbnnr-main
 
 !! Yandex
+yandex.ru##.smart-banner_visible_yes
 zen.yandex.ru###zen-header_mobile
 zen.yandex.ru###article-footer-content
 zen.yandex.ru##.app-button
 zen.yandex.ru##.article-header-mobile__subscribe-button
+zen.yandex.ru##.article-footer_visible
 zen.yandex.ru##.article-render-mobile__block_embed
 zen.yandex.ru##.article__zen-feed
+zen.yandex.ru##.call-to-action-bar
+zen.yandex.ru##.call-to-action-bar_mobile
+zen.yandex.ru##.zen-header-wrapper
