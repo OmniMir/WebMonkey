@@ -78,6 +78,8 @@
 			wmHideAllInStyle(".card-detail-item-add-button");
 			//Hide Add Attachment Button (Use Sidebar Menu)
 			wmHideAllInStyle(".subtle.js-attach");
+			wmHideAllInStyle(".js-show-with-attachments");
+			wmHideAllInStyle(".js-attach-trello-attachment");
 			//Hide Edit Description Button (Click to Description)
 			wmHideAllInStyle(".js-edit-desc-button");
 			//Hide Add PowerUp Button (Advertisement)
