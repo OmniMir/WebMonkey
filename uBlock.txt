@@ -26,6 +26,7 @@
 2x2tv.ru##.no-gutters
 2x2tv.ru##.sidebar-wrapper
 2x2tv.ru##.subscribe-form
+2x2tv.ru##.trash-close__icon
 2x2tv.ru##.trash-icon
 2x2tv.ru##.uSocial-Share
 
