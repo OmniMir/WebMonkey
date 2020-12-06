@@ -388,13 +388,19 @@ www.reddit.com##.XPromoInFeed
 tjournal.ru##.native-support
 
 !! VC
+vc.ru##figure > .l-island-a
+vc.ru##.app--promoted
+vc.ru##.authorCard
 vc.ru##.comments_updates_rail__inner
+vc.ru##.content-counters--with-audio
 vc.ru##.email_subscribe
 vc.ru##.events_widget
 vc.ru##.island--company_entries
 vc.ru##.main_menu
 vc.ru##.push_offer
+vc.ru##.rvc-teaser
 vc.ru##.shares__open
+vc.ru##.site-header
 vc.ru##.vacancies_widget
 vc.ru##.vc-job-branding-head
 vc.ru##.videoStratum
