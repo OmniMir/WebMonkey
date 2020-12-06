@@ -369,7 +369,10 @@ pwnews.net##[href^="/panel/"]
 ||pwnews.net/stat/*$image
 
 !! Quora
+www.quora.com##.kPwyaT.CssComponent-sc-1oskqb9-0
 www.quora.com##.qu-bg--black_transparent_dark
+www.quora.com##.qu-bg--blue.qu-full.q-absolute
+www.quora.com##.qu-boxShadow--n_small.qu-borderTop.qu-zIndex--action_bar.qu-bg--raised.q-box
 
 !! RadioKP
 radiokp.ru##.rr-m-submenu-wr
