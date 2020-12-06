@@ -45,6 +45,12 @@ click-or-die.ru##.tags
 click-or-die.ru##.widget-row
 click-or-die.ru##.wp-block-block
 
+!! CyberSport
+www.cybersport.ru##.article--footer-widgets
+www.cybersport.ru##.footer
+www.cybersport.ru##.header
+www.cybersport.ru##.sticky
+
 !! DisgustingMen
 disgustingmen.com##.fix_social_btns
 disgustingmen.com##.mobile_head
