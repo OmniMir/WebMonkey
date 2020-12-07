@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name		Instagram Hide Elements
 // @namespace	https://vash.omnimir.ru/
-// @version		0.6
+// @version		0.8
 // @description	Hide Annoying Elements
 // @author		kapsilon
 // @license		MIT
@@ -13,14 +13,14 @@
 (function () {
 	"use strict";
 	//Start on page load to take effect
-	window.addEventListener(
-		"load",
-		function () {
-			//Hide New Posts Notification
-			wmWaitWaitAndRemove("._7EEvc");
-		},
-		false
-	);
+	window.addEventListener("load", () => hideElements(), false);
+
+	//Hide Elements
+	function hideElements() {
+		//Hide New Posts Notification
+		wmWaitWaitAndRemove("._7EEvc");
+	}
+
 	//Hide annoying red dot
 	//via CSS because pseudo selectors are NOT just selected
 	wmHideAllInStyle(".q9xVd::after");

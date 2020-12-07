@@ -13,14 +13,13 @@
 (function () {
 	"use strict";
 	//Start on page load to take effect
-	window.addEventListener(
-		"load",
-		function () {
-			//Hide Game Preview
-			wmRemove(".hover");
-			//Hide Footer
-			wmHide(".footer");
-		},
-		false
-	);
+	window.addEventListener("load", () => hideElements(), false);
+
+	//Hide Elements
+	function hideElements() {
+		//Hide Game Preview
+		wmRemove(".hover");
+		//Hide Footer
+		wmHide(".footer");
+	}
 })();

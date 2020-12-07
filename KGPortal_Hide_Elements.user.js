@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name		KGPortal Hide Elements
 // @namespace	https://vash.omnimir.ru/
-// @version		0.6
+// @version		0.8
 // @description	Hide annoying elements
 // @author		kapsilon
 // @license		MIT
@@ -13,32 +13,31 @@
 (function () {
 	"use strict";
 	//Start on page load to take effect
-	window.addEventListener(
-		"load",
-		function () {
-			//Hide Header
-			wmHide(".ten_topbar + div");
+	window.addEventListener("load", () => hideElements(), false);
 
-			//Hide Blank Block
-			wmHideAll(".cough_block");
-			//Hide Social Garbage
-			wmHide(".section_social");
-			//Hide Promo Ads
-			wmHideAll(".kg_promo");
+	//Hide Elements
+	function hideElements() {
+		//Hide Header
+		wmHide(".ten_topbar + div");
 
-			//Hide Donate Button
-			wmHideAll(".news_donate_author");
-			wmHideAll(".donate");
-			//Hide Sharing Button
-			wmHideAll(".sharing");
-			//Hide Comment Button
-			wmHide(".news_commentsjump");
-			//Hide Related Articles
-			wmHide(".section-related");
+		//Hide Blank Block
+		wmHideAll(".cough_block");
+		//Hide Social Garbage
+		wmHide(".section_social");
+		//Hide Promo Ads
+		wmHideAll(".kg_promo");
 
-			//Hide Footer
-			wmHide(".footer_wrap");
-		},
-		false
-	);
+		//Hide Donate Button
+		wmHideAll(".news_donate_author");
+		wmHideAll(".donate");
+		//Hide Sharing Button
+		wmHideAll(".sharing");
+		//Hide Comment Button
+		wmHide(".news_commentsjump");
+		//Hide Related Articles
+		wmHide(".section-related");
+
+		//Hide Footer
+		wmHide(".footer_wrap");
+	}
 })();

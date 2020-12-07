@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name		AnimeJoy Hide Elements
 // @namespace	https://vash.omnimir.ru/
-// @version		0.6
+// @version		0.8
 // @description	Hide annoying elements
 // @author		kapsilon
 // @license		MIT
@@ -13,9 +13,10 @@
 (function () {
 	"use strict";
 	//Start on page load to take effect
-	window.addEventListener(
-		"load",
-		function () {
+	window.addEventListener("load", () => hideElements(), false);
+
+	//Hide Elements
+	function hideElements() {
 			//Hide Top Header
 			wmHide("#topside");
 			wmHide("#breadcrumbs");
@@ -31,7 +32,5 @@
 			wmHide(".tab-content");
 			//Hide Footer
 			wmHide("#footer");
-		},
-		false
-	);
+		}
 })();

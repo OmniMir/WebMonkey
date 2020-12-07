@@ -13,14 +13,13 @@
 (function () {
 	"use strict";
 	//Start on page load to take effect
-	window.addEventListener(
-		"load",
-		function () {
-			//Hide Top Picture Header
-			wmHide("#top + div");
-			//Hide donations
-			wmHide("div[style='margin:10px;background:white;font-size:24px;padding: 15px;']");
-		},
-		false
-	);
+	window.addEventListener("load", () => hideElements(), false);
+
+	//Hide Elements
+	function hideElements() {
+		//Hide Top Picture Header
+		wmHide("#top + div");
+		//Hide donations
+		wmHide("div[style='margin:10px;background:white;font-size:24px;padding: 15px;']");
+	}
 })();

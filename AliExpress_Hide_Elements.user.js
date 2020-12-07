@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name		AliExpress Hide Elements
 // @namespace	https://vash.omnimir.ru/
-// @version		0.7
+// @version		0.8
 // @description	Hide annoying elements
 // @author		kapsilon
 // @license		MIT
@@ -16,27 +16,26 @@
 (function () {
 	"use strict";
 	//Start on page load to take effect
-	window.addEventListener(
-		"load",
-		function () {
-			//Hide Top Banners
-			wmHide(".top-banner-container");
-			wmHide(".col-xs-48 > div > a");
-			//Hide Mobile App Ads
-			wmHide(".ng-mobile");
-			wmHide(".mobile-app");
-			//Hide Social Buttons
-			wmHide(".product-fix-sns");
-			//Hide Shopping Cart Footer
-			wmHide(".recommend-container");
-			//Hide Survey Button
-			wmHide(".survey-link");
-			//Hide Footer
-			wmHide(".footer-copywrite");
-			wmWaitAndHide(".site-footer");
-			//Hide Eva
-			wmWaitAndHide("#J_xiaomi_dialog");
-		},
-		false
-	);
+	window.addEventListener("load", () => hideElements(), false);
+
+	//Hide Elements
+	function hideElements() {
+		//Hide Top Banners
+		wmHide(".top-banner-container");
+		wmHide(".col-xs-48 > div > a");
+		//Hide Mobile App Ads
+		wmHide(".ng-mobile");
+		wmHide(".mobile-app");
+		//Hide Social Buttons
+		wmHide(".product-fix-sns");
+		//Hide Shopping Cart Footer
+		wmHide(".recommend-container");
+		//Hide Survey Button
+		wmHide(".survey-link");
+		//Hide Footer
+		wmHide(".footer-copywrite");
+		wmWaitAndHide(".site-footer");
+		//Hide Eva
+		wmWaitAndHide("#J_xiaomi_dialog");
+	}
 })();

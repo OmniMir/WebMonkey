@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name		Wikipedia Hide Elements
 // @namespace	https://vash.omnimir.ru/
-// @version		0.6
+// @version		0.8
 // @description	Hide annoying elements
 // @author		kapsilon
 // @license		MIT
@@ -13,16 +13,15 @@
 (function () {
 	"use strict";
 	//Start on page load to take effect
-	window.addEventListener(
-		"load",
-		function () {
-			//Hide Banner
-			wmHide("#siteNotice");
-			//Hide Edit Buttons
-			wmHideAll(".mw-editsection");
-			//Hide Footer
-			wmHide("#footer");
-		},
-		false
-	);
+	window.addEventListener("load", () => hideElements(), false);
+
+	//Hide Elements
+	function hideElements() {
+		//Hide Banner
+		wmHide("#siteNotice");
+		//Hide Edit Buttons
+		wmHideAll(".mw-editsection");
+		//Hide Footer
+		wmHide("#footer");
+	}
 })();

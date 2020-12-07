@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name		uCozSites Hide Elements
 // @namespace	https://vash.omnimir.ru/
-// @version		0.7
+// @version		0.8
 // @description	Hide annoying elements
 // @author		kapsilon
 // @match		http://*.ucoz.com/*
@@ -16,12 +16,11 @@
 (function () {
 	"use strict";
 	//Start on page load to take effect
-	window.addEventListener(
-		"load",
-		function () {
-			//Hide fake notification from all uCoz sites
-			wmHide(".pshsndr");
-		},
-		false
-	);
+	window.addEventListener("load", () => hideElements(), false);
+
+	//Hide Elements
+	function hideElements() {
+		//Hide fake notification from all uCoz sites
+		wmHide(".pshsndr");
+	}
 })();
