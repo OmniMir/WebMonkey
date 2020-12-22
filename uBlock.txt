@@ -40,10 +40,11 @@ daily.afisha.ru##.adv__btn-disable-wrapper
 click-or-die.ru##.mobile-menu
 click-or-die.ru##.news-widget
 click-or-die.ru##.social-buttons
+click-or-die.ru##.wp-block-block
 click-or-die.ru##.suggest-header
 click-or-die.ru##.tags
 click-or-die.ru##.widget-row
-click-or-die.ru##.wp-block-block
+
 
 !! CyberSport
 www.cybersport.ru##.article--footer-widgets
@@ -73,8 +74,8 @@ habr.com##.footer
 habr.com##.footer-grid_menu
 habr.com##.footer-misprints
 habr.com##.for_users_only_msg
-habr.com##.icon-svg_arrow-up
 habr.com##.icon-svg_arrow-down
+habr.com##.icon-svg_arrow-up
 habr.com##.indented.content_left > .default-block_content.default-block
 habr.com##.indented.content_left > .dfp-slot
 habr.com##.inline-list_comment-nav.inline-list
@@ -82,22 +83,22 @@ habr.com##.js-sidebar_right.sidebar_comments.sidebar_right
 habr.com##.layout__row_navbar.layout__row
 habr.com##.layout__row_promo-blocks.layout__row
 habr.com##.new-block
-habr.com##.page-header__banner
 habr.com##.page-header_110.page-header
-habr.com##.post__wrapper_type-voice.post__wrapper
+habr.com##.page-header__banner
 habr.com##.post-donate
 habr.com##.post-share
+habr.com##.post__wrapper_type-voice.post__wrapper
 habr.com##.promo-block_freelansim-tasks.promo-block
 habr.com##.promo-block_questions.promo-block
 habr.com##.promo-block_vacancies.promo-block
-habr.com##.shortcuts_item.content-list__item_post.content-list__item > .dfp-slot
 habr.com##.shortcuts_item.content-list__item_post.content-list__item > .default-block
+habr.com##.shortcuts_item.content-list__item_post.content-list__item > .dfp-slot
 habr.com##.sticky_init.sidebar_content-area
 habr.com##.tabs-menu.tabs-level_top
-m.habr.com##.tm-article__sticked-counters-wrapper
-m.habr.com##.tm-article-hubs
 m.habr.com##.tm-article-donate
+m.habr.com##.tm-article-hubs
 m.habr.com##.tm-article-list-block
+m.habr.com##.tm-article__sticked-counters-wrapper
 m.habr.com##.tm-comment__button
 m.habr.com##.tm-comment__circle
 m.habr.com##.tm-comment__form
@@ -109,9 +110,9 @@ m.habr.com##.tm-jobs-list
 m.habr.com##.tm-lightning
 m.habr.com##.tm-news-block
 m.habr.com##.tm-notification
-m.habr.com##.tm-page__header
 m.habr.com##.tm-page-article__counters-panel_sticky
 m.habr.com##.tm-page-article__sharing
+m.habr.com##.tm-page__header
 m.habr.com##.tm-pinned-post
 m.habr.com##.tm-projects-blocks
 m.habr.com##.tm-projects-blocks_courses
@@ -138,11 +139,11 @@ www.iphones.ru##.c_y_style
 www.iphones.ru##.comment-content_block > .adsbygoogle
 www.iphones.ru##.comment__item_new
 www.iphones.ru##.comment__subscription
-www.iphones.ru##.comments__unauth
 www.iphones.ru##.comments__ortho
 www.iphones.ru##.comments__ortho:nth-of-type(5)
 www.iphones.ru##.comments__ortho_errmsg.comments__ortho
 www.iphones.ru##.comments__toadd
+www.iphones.ru##.comments__unauth
 www.iphones.ru##.contestlist
 www.iphones.ru##.cookie_privacy_block
 www.iphones.ru##.externalofferlist-h
@@ -158,18 +159,18 @@ www.iphones.ru##.mini_poll
 www.iphones.ru##.need-telemetry
 www.iphones.ru##.onsubject
 www.iphones.ru##.post > div:nth-of-type(1)
-www.iphones.ru##.post_author_desc
 www.iphones.ru##.post__favorites
 www.iphones.ru##.post__neighbors
 www.iphones.ru##.post__questionlist-cont
 www.iphones.ru##.post__tags-cont
-www.iphones.ru##.postitem_hot
+www.iphones.ru##.post_author_desc
 www.iphones.ru##.postitem__dpd_block
+www.iphones.ru##.postitem_hot
 www.iphones.ru##.postlis_tag_block__tags
 www.iphones.ru##.postlist__currency
+www.iphones.ru##.postpage__favorites
 www.iphones.ru##.postpage_dont_forget_other
 www.iphones.ru##.postpage_telega
-www.iphones.ru##.postpage__favorites
 www.iphones.ru##.prev
 www.iphones.ru##.push-notifier
 www.iphones.ru##.push-notifier-block
@@ -178,10 +179,10 @@ www.iphones.ru##.rand-social-like
 www.iphones.ru##.relatedlist
 www.iphones.ru##.sidebar
 www.iphones.ru##.social-share
+www.iphones.ru##.yota-pavlik-banner
 www.iphones.ru##.yota_car_brand
 www.iphones.ru##.yota_float
 www.iphones.ru##.yota_typewriter
-www.iphones.ru##.yota-pavlik-banner
 www.iphones.ru##center
 www.iphones.ru##header
 www.iphones.ru##span[style='background-color: #FFF8DC'
@@ -191,22 +192,24 @@ www.iphones.ru##span[style='background-color: #FFF8DC'
 kanobu.ru###dzen_409590
 kanobu.ru###likes-374554
 kanobu.ru###likes-423866
+kanobu.ru##.KTwPxkpWDFjfcxiOQuR6l
+kanobu.ru##.KYYV4-P-vVi7eebwpsa15
 kanobu.ru##._1chLXBlZ7_HZfQqu1R935U
 kanobu.ru##._2QPsKz14BGsIGUhguoBL84
 kanobu.ru##._33-i4_x3JBEOTiFTT0kM_0
-kanobu.ru##._3aToFnrBH_rLMNz78zlIXF
-kanobu.ru##._3cJPsqEUF6X9bmVT9l_8el
 kanobu.ru##._3CXrb3P2EpxJuecr9X26fh
 kanobu.ru##._3V25jiU8i7PleviI_UzmH4
+kanobu.ru##._3aToFnrBH_rLMNz78zlIXF
+kanobu.ru##._3cJPsqEUF6X9bmVT9l_8el
 kanobu.ru##.c-content_right
 kanobu.ru##.c-detail_title
 kanobu.ru##.c-expect
 kanobu.ru##.c-ficher
 kanobu.ru##.c-head_right
-kanobu.ru##.c-item_type
-kanobu.ru##.c-item_rock
-kanobu.ru##.c-item_comment
 kanobu.ru##.c-itemGames
+kanobu.ru##.c-item_comment
+kanobu.ru##.c-item_rock
+kanobu.ru##.c-item_type
 kanobu.ru##.c-likes
 kanobu.ru##.c-mobileFicher
 kanobu.ru##.c-notification
@@ -224,8 +227,6 @@ kanobu.ru##.header
 kanobu.ru##.is_mobile
 kanobu.ru##.js-no-swipe
 kanobu.ru##.js-relap-widget-wrapper
-kanobu.ru##.KTwPxkpWDFjfcxiOQuR6l
-kanobu.ru##.KYYV4-P-vVi7eebwpsa15
 kanobu.ru##.like-link
 kanobu.ru##.mobile.card-size_l.widget.zen-widget
 kanobu.ru##.movies-mod
@@ -302,18 +303,17 @@ lifehacker.ru##.js-new-comments-counter
 lifehacker.ru##.large-btn
 lifehacker.ru##.lh-jumper__footer
 lifehacker.ru##.lh-jumper__scroll-to-site
-!lifehacker.ru##.lightgrey-box
 lifehacker.ru##.mobile-bar
 lifehacker.ru##.mobile-promo-menu
 lifehacker.ru##.new-comments-button__wrapper
 lifehacker.ru##.primary-menu
-lifehacker.ru##.read-also
 lifehacker.ru##.promo-block__container
+lifehacker.ru##.read-also
 lifehacker.ru##.show.banner-under-header
 lifehacker.ru##.side-banner--wrapper
+lifehacker.ru##.single-post-footer > .social-and-date
 lifehacker.ru##.single__bottom-widgets
 lifehacker.ru##.single__fix-width-sidebar
-lifehacker.ru##.single-post-footer > .social-and-date
 lifehacker.ru##.social-and-date__left
 lifehacker.ru##.social-and-date__top
 lifehacker.ru##.sort-switch
@@ -324,12 +324,13 @@ lifehacker.ru##.the-paginator__cells
 lifehacker.ru##.top-header-container
 lifehacker.ru##.top-menu--wrapper
 lifehacker.ru##.web_conference
-!lifehacker.ru##.white-box
 lifehacker.ru##.widgets-above-comments.widgets-area
 lifehacker.ru##.wp-image-960216
-lifehacker.ru##[href*="https://ads.adfox.ru/200984/goLink"]
 lifehacker.ru##[class*="js-tp-powered-by-wrapper-klit"]
+lifehacker.ru##[href*="https://ads.adfox.ru/200984/goLink"]
 lifehacker.ru##label
+!lifehacker.ru##.lightgrey-box
+!lifehacker.ru##.white-box
 !lifehacker.ru##p > em
 ||ad.adriver.ru/cgi-bin/rle.cgi$image
 ||ads.adfox.ru/*/getCode$image
@@ -360,8 +361,8 @@ opennet.ru###as1
 opennet.ru###edit_link
 opennet.ru###lenta_nav
 opennet.ru###lenta_nav2
-opennet.ru###top_news
 opennet.ru###tabs_top
+opennet.ru###top_news
 opennet.ru##.ttxt
 opennet.ru##body > form
 opennet.ru##small
