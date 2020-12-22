@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name		Sites HotKey Previous
 // @namespace	https://vash.omnimir.ru/
-// @version		0.7
+// @version		1.0
 // @description	Press LEFT/RIGHT to CONTROL
 // @author		kapsilon
+// @match		https://3dtor.net/*
 // @match		https://aliexpress.com/*
 // @match		https://aliexpress.ru/*
 // @match		https://*.aliexpress.com/*
@@ -21,6 +22,7 @@
 // @match		https://www.ozon.ru/*
 // @match		https://pwnews.net/news/*
 // @match		https://repack.me/*
+// @match		https://rutracker.org/*
 // @match		http://swcomics.ru/*
 // @match		https://*.yandex.ru/*
 // @require 	https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
@@ -36,7 +38,8 @@
 			if (event.code == "ArrowLeft" && event.ctrlKey) {
 				//Disable Default Action
 				event.preventDefault();
-
+				//3DTor
+				wmClick(".prev_link");
 				//AliExpress
 				wmClick(".next-pagination-item.next-prev");
 				wmClick(".ui-pagination-prev");
@@ -63,6 +66,8 @@
 				//NONE
 				//PWNews
 				wmClick(".catPages1 a");
+				//RuTracker
+				wmClick("a.pg");
 				//SWComics
 				wmClick("td[width='100'] a");
 				//Yandex
@@ -79,6 +84,8 @@
 				//Disable Default Action
 				event.preventDefault();
 
+				//3DTor
+				wmClick(".next_link");
 				//AliExpress
 				wmClick(".next-pagination-item.next-next");
 				wmClick(".ui-pagination-next");
@@ -105,6 +112,8 @@
 				wmClick(".b8n5 a");
 				//PWNews
 				wmClickLast(".catPages1 a");
+				//RuTracker
+				wmClickLast("a.pg");
 				//SWComics
 				wmClickLast("td[width='100'] a");
 				//Yandex
