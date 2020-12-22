@@ -23,14 +23,16 @@
 // @match		https://realdealteam.blogspot.com/*
 // @match		http://rikudou.ru/*
 // @match		https://rp-universe.ru/*
+// @match		https://www.rp-universe.ru/*
 // @match		http://rus-bd.com/*
+// @match		http://www.rus-bd.com/*
 // @match		https://savageworld.ucoz.ru/*
 // @match		http://spaikcomics.moy.su/*
 // @match		https://sudya-dredd.ru/*
 // @match		http://super-comics.ru/*
 // @match		http://supercomics.3dn.ru/*
 // @match		http://supercomics.ru/*
-// @match		http://swcomics.ru/*
+// @match		https://swcomics.ru/*
 // @match		https://vk.com/*w=wall-*
 // @match		https://vk.com/@*
 // @match		https://vk.com/doc*
@@ -56,6 +58,7 @@
 
 				//Boosty
 				wmClick(".FileBase_link_1b7fa");
+				wmClickLast(".FileBase_link_1b7fa");
 				//ComicsManiac
 				wmClick(".yad a");
 				//DCComics
@@ -79,13 +82,15 @@
 				//Rikudou-Sennin Clan
 				wmClickLast("#content section a");
 				//RusBD
-				wmClickLast("a[href^='https://cloud.mail.ru/public/']");
+				wmClickLast(".contentpaneopen a[href^='https://cloud.mail.ru/public/']");
 				//RussianProjectUniverse
 				wmClick(".tabs-sel a");
 				//SavageWorld
 				wmClick(".eMessage p a");
 				//SudyaDredd
 				wmClickLast("a[href^='https://rocld.com/']");
+				//SuperComics
+				//wmClick(".eBlock a[href^='https://yadi.sk/d/']");
 				//SWComics
 				wmClick("td[width='200'] a");
 				//VK Only one Post
@@ -97,7 +102,9 @@
 				wmClick(".flat_button.fl_r");
 				//wmClick(".thumbed_link a");
 				//VK Article
-				wmClick(".article_decoration_before.article_decoration_last a[href^='/away.php?to=https%3A%2F%2Fyadi.sk']");
+				wmClick(
+					".article_decoration_before.article_decoration_last a[href^='/away.php?to=https%3A%2F%2Fyadi.sk']"
+				);
 				//wmClick(".article_decoration_before a[href^='/away.php?to=https%3A%2F%2Fyadi.sk']");
 				//wmClick(".article_decoration_last a[href^='/away.php?to=https%3A%2F%2Fyadi.sk']");
 				//VK Post in front of Wall
