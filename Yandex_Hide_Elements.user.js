@@ -29,6 +29,7 @@
 		wmHide("div[data-apiary-widget-id='/content/vendorProductLinePromo']");
 		//Hide Advertisements
 		wmHideAll("div[class*='TY__wrapper']");
+		wmWaitAndHide(".home-panel-content-view__body > div > div:nth-child(3)");
 		//Hide Footer
 		wmHide("footer");
 		wmHide("div[data-zone-name='footer']");
