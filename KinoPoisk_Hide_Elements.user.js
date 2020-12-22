@@ -66,6 +66,7 @@
 		wmHide("span[class^=styles_imaxContainer]");
 		//Hide Ads
 		wmHideAll("div[class*=styles_rootRendered]");
+		wmHide("a[href^='/afisha/new/film/']");
 		//Hide Recommended movies
 		wmWaitAndHide(".similar-films-block");
 		wmWaitAndHide("a[href='/afisha/new/city'");
@@ -79,6 +80,8 @@
 		wmWaitAndHide("div[class^=styles_adBlockWarning");
 		//Hide Footer
 		wmHide("div[class^=styles_footerContainer_]");
+		//Hide AdBlock Warning
+		wmHide("div[class^=styles_adBlockWarning]");
 
 		//FOR OLD DESIGN
 		//Hide Streaming Theater
@@ -87,7 +90,6 @@
 		//Hide Top banner
 		wmWaitAndRemove("div[style='min-height: 0px;']");
 		wmWaitWaitAndRemove("div[style='min-height: 0px;']");
-		wmHide("header > div");
 		wmAddNewStyle(`
 				._3CpeWr3-38xpWEr29rPP4h {
 					margin-top: 0px;
