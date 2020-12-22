@@ -20,12 +20,12 @@
 
 	//Hide Elements
 	function hideElements() {
-		//Hide Add Task (GMail)
-		wmRemove(".VJ");
 		//Hide Apps Button
 		wmHide(".gb_C");
+		//Hide Add Task (GMail)
+		wmHideAllInStyle(".VJ");
 		//Hide Right Menu Button (GMail)
-		wmHide(".gb_xc");
+		wmHide("div[aria-expanded]");
 		//Hide Right Menu Tooltips (GMail)
 		wmHideAllInStyle("div[role='tooltip']");
 		//Hide Side Panel (GMail)
@@ -43,11 +43,4 @@
 		//Hide Support Button (Google Photos)
 		wmWaitAndHide(".eT1oJ.fdwUje");
 	}
-
-	//Hide Add Task (GMail)
-	//Restart with changing of label&etc
-	window.onhashchange = function () {
-		//This function only for changes after '#' in URL, not for full URL change
-		wmRemove(".VJ");
-	};
 })();
