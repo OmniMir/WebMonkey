@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name		TEST Trello Hide Elements
+// @name		Trello Hide Elements
 // @namespace	https://vash.omnimir.ru/
 // @version		1.0
 // @description	Hide annoying elements
@@ -77,6 +77,8 @@
 		//CARD SCREEN
 		//Hide Add Members/Labels Button (Use Sidebar Menu)
 		wmHideAllInStyle(".card-detail-item-add-button");
+		//Hide Edit Description Button (Use Click on Description)
+		wmHideAllInStyle(".js-edit-desc-button");
 		//Hide Add Attachment Button (Use Sidebar Menu)
 		wmHideAllInStyle(".subtle.js-attach");
 		wmHideAllInStyle(".js-show-with-attachments");
