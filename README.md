@@ -16,6 +16,8 @@ NoMobile
 
 NoScrollingButton
 
+PreviousPage
+
 
 
 Hide_Elements 
