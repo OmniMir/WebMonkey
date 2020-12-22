@@ -18,6 +18,8 @@
 
 	//Hide Elements
 	function hideElements() {
+		//Hide Dark Mode Toggle
+		wmHide(".profile-color-modes");
 		//Hide Footer
 		wmHide(".footer");
 	}
