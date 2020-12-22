@@ -18,7 +18,9 @@
 		"load",
 		function () {
 			//Set Delivery from CHINA
-			wmClick(".sku-property-text");
+			if (!document.querySelector(".sku-property-item.selected > .sku-property-text")) {
+				wmClick(".sku-property-text");
+			}
 		},
 		false
 	);

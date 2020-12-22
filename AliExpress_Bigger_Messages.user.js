@@ -6,6 +6,7 @@
 // @author		kapsilon
 // @license		MIT
 // @match		https://message.aliexpress.com/*
+// @match		https://msg.aliexpress.ru/*
 // @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
