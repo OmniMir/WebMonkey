@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name		NoMobile
 // @namespace	https://vash.omnimir.ru/
-// @version		0.8
+// @version		1.0
 // @description	Leaving mobile version
 // @author		kapsilon
 // @license		MIT
@@ -9,6 +9,7 @@
 // @match		https://m.comixology.com/*
 // @match		https://m.igromania.ru/*
 // @match		https://m.lenta.ru/*
+// @match		https://m.stoloto.ru/*
 // @match		https://*.m.wikipedia.org/*
 // @match		https://*.m.wiktionary.org/*
 // @grant		none
