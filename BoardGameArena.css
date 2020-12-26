@@ -1,0 +1,44 @@
+/*
+Advanced CCS Customization of Board Game Arena
+Add this to https://boardgamearena.com/preferences?section=advanced
+*/
+
+/* Board Game Arena */
+html {
+	background-image: none;
+	background-color: #778899;
+}
+body::-webkit-scrollbar {
+	width: 0px;
+}
+#other_games_title {
+	display: none !important;
+}
+#chatbar {
+	left: 200px;
+}
+.tournamentresult {
+	font-size: 100%;
+}
+
+/*Krosmaster Arena*/
+.playerstock {
+	border-radius: 20px;
+}
+.dice_policy_zone {
+	display: none !important;
+}
+.reward_block {
+	background-color: transparent;
+}
+.player_boards {
+	font-size: 20px;
+}
+.player_score_value {
+	font-size: 24px;
+}
+.minidieface {
+	background-size: 450px 180px;
+	width: 45px;
+	height: 45px;
+}
