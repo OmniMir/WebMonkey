@@ -57,8 +57,8 @@
 				event.preventDefault();
 
 				//Boosty
-				wmClick(".FileBase_link_1b7fa");
-				wmClickLast(".FileBase_link_1b7fa");
+				wmClick("a[class*=FileBlock_link_]");
+				wmClickLast("a[class*=FileBlock_link_]");
 				//ComicsManiac
 				wmClick(".yad a");
 				//DCComics
