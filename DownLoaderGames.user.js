@@ -43,6 +43,13 @@
 					}
 				}
 			}
+			//Open All Free Games from Pack
+			let gamePack = document.querySelectorAll(".game_cell.has_cover a.thumb_link");
+			if (gamePack) {
+				for (let i = 0; i < gamePack.length; i++) {
+					window.open(gamePack[i].href);
+				}
+			}
 			//Click "No thanks, just take me to the downloads"
 			wmClick("a.direct_download_btn");
 			//Click "Download or Claim" Button
