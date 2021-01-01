@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name		Yandex Hide Elements
+// @name		Yandex Hider
 // @namespace	https://vash.omnimir.ru/
 // @version		0.8
 // @description	Hide annoying elements

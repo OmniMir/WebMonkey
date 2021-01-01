@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name		Instagram Hide Elements
+// @name		Instagram Hider
 // @namespace	https://vash.omnimir.ru/
 // @version		0.8
 // @description	Hide Annoying Elements

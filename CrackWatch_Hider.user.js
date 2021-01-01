@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name		SteamDB Hide Elements
+// @name		CrackWatch Hider
 // @namespace	https://vash.omnimir.ru/
-// @version		0.6
+// @version		0.8
 // @description	Hide annoying elements
 // @author		kapsilon
 // @license		MIT
-// @match		https://steamdb.info/*
+// @match		https://crackwatch.com/*
 // @require 	https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
@@ -17,9 +17,11 @@
 
 	//Hide Elements
 	function hideElements() {
-		//Hide Game Preview
-		wmRemove(".hover");
+		//Hide Big Ad
+		wmWaitAndHide("div[style='margin-top: 35px; text-align: center;']");
+		//Hide Chat
+		wmHide(".support");
 		//Hide Footer
-		wmHide(".footer");
+		wmHide(".Footer");
 	}
 })();

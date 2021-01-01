@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name		Trello Hide Elements
+// @name		Trello Hider
 // @namespace	https://vash.omnimir.ru/
 // @version		1.0
 // @description	Hide annoying elements

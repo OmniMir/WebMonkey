@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name		BoardGameArena Hide Elements
+// @name		BoardGameArena Hider
 // @namespace	https://vash.omnimir.ru/
 // @version		0.8
 // @description	Hide annoying elements

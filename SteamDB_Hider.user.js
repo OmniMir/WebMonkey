@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name		Wikipedia Hide Elements
+// @name		SteamDB Hider
 // @namespace	https://vash.omnimir.ru/
-// @version		0.8
+// @version		0.6
 // @description	Hide annoying elements
 // @author		kapsilon
 // @license		MIT
-// @match		https://*.wikipedia.org/*
+// @match		https://steamdb.info/*
 // @require 	https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
@@ -17,11 +17,9 @@
 
 	//Hide Elements
 	function hideElements() {
-		//Hide Banner
-		wmHide("#siteNotice");
-		//Hide Edit Buttons
-		wmHideAll(".mw-editsection");
+		//Hide Game Preview
+		wmRemove(".hover");
 		//Hide Footer
-		wmHide("#footer");
+		wmHide(".footer");
 	}
 })();

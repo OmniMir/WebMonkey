@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name		KinoPoisk Hide Elements
+// @name		KinoPoisk Hider
 // @namespace	https://vash.omnimir.ru/
 // @version		0.9
 // @description	Hide annoying elements
@@ -51,6 +51,8 @@
 		wmHide("button[class^=styles_toWatchButton]");
 		wmHide("div[class^=styles_userControlsContainer]");
 		wmHide("a[class^=styles_soundtrackButton");
+		//Hide Copyright on Poster
+		wmHide("img[class^=styles_copyrightImg");
 		//Hide Social buttons
 		wmHide("div[class^=styles_foldersMenu]");
 		wmHide("button[class^=styles_heartButton]");

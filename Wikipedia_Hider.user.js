@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name		IMDb Hide Elements
+// @name		Wikipedia Hider
 // @namespace	https://vash.omnimir.ru/
 // @version		0.8
 // @description	Hide annoying elements
 // @author		kapsilon
 // @license		MIT
-// @match		https://www.imdb.com/*
+// @match		https://*.wikipedia.org/*
 // @require 	https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
@@ -17,15 +17,11 @@
 
 	//Hide Elements
 	function hideElements() {
-		//Hide Editorial Lists
-		wmHide("#relatedEditorialListsWidget");
-		//Hide User Lists
-		wmHide("#relatedListsWidget");
-		//Hide User Pols
-		wmHide(".poll-widget-rhs");
-		//Hide Recently viewed
-		wmHide("#rvi-div");
+		//Hide Banner
+		wmHide("#siteNotice");
+		//Hide Edit Buttons
+		wmHideAll(".mw-editsection");
 		//Hide Footer
-		wmHide("footer");
+		wmHide("#footer");
 	}
 })();

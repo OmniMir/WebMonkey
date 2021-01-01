@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name		VK Hide Elements
+// @name		VK Hider
 // @namespace	https://vash.omnimir.ru/
 // @version		0.7
 // @description	Hide annoying elements

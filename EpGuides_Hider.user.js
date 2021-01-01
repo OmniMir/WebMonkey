@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name		MangaChan Hide Elements
+// @name		EpGuides Hider
 // @namespace	https://vash.omnimir.ru/
-// @version		0.6
+// @version		0.8
 // @description	Hide annoying elements
 // @author		kapsilon
 // @license		MIT
-// @match		https://manga-chan.me/*
+// @match		http://epguides.com/*
 // @require 	https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
@@ -17,9 +17,11 @@
 
 	//Hide Elements
 	function hideElements() {
-		//Hide Top Picture Header
-		wmHide("#top + div");
-		//Hide donations
-		wmHide("div[style='margin:10px;background:white;font-size:24px;padding: 15px;']");
+		//Hide Ads
+		wmHide("#justwatch");
+		wmRemove("#justwatch + iframe");
+		wmHide("#amazon");
+		//Hide Footer
+		wmHide(".footer");
 	}
 })();

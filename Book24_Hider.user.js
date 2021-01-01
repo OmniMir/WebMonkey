@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name		Book24 Hide Elements
+// @name		Book24 Hider
 // @namespace	https://vash.omnimir.ru/
 // @version		0.8
 // @description	Hide annoying elements

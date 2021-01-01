@@ -1,12 +1,15 @@
 // ==UserScript==
-// @name		AtlasForMen Hide Elements
+// @name		uCozSites Hider
 // @namespace	https://vash.omnimir.ru/
 // @version		0.8
 // @description	Hide annoying elements
 // @author		kapsilon
-// @license		MIT
-// @match		https://www.atlasformen.ru/*
-// @require 	https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
+// @match		http://*.ucoz.com/*
+// @match		http://*.ucoz.net/*
+// @match		http://*.ucoz.org/*
+// @match		http://*.ucoz.ru/*
+// @match		http://*.3dn.ru/*
+// @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
 
@@ -17,12 +20,7 @@
 
 	//Hide Elements
 	function hideElements() {
-		//Hide Full-Screen Pop-Up
-		wmWaitAndRemove(".k-popup__wrap");
-		//Hide Chat
-		setTimeout(() => {
-			wmRemove("jdiv");
-			wmRemove("jdiv");
-		}, 8000);
+		//Hide fake notification from all uCoz sites
+		wmHide(".pshsndr");
 	}
 })();

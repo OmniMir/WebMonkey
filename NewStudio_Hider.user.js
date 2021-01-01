@@ -1,17 +1,23 @@
 // ==UserScript==
-// @name		Facebook Hide Elements
+// @name		NewStudio Hider
 // @namespace	https://vash.omnimir.ru/
 // @version		0.8
 // @description	Hide annoying elements
 // @author		kapsilon
 // @license		MIT
-// @match		https://www.facebook.com/*
+// @match		http://newstudio.tv/*
 // @require 	https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
 
 (function () {
 	"use strict";
-	//Hide Promote post Buttons
-	wmHideAllInStyle(".bq4bzpyk .bkfpd7mw.j83agx80");
+	//Start on page load to take effect
+	window.addEventListener("load", () => hideElements(), false);
+
+	//Hide Elements
+	function hideElements() {
+		//Hide Big News Accordion
+		wmHide("#newswrap");
+	}
 })();

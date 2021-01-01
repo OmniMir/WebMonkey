@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name		LostFilm Hide Elements
+// @name		AnimeJoy Hider
 // @namespace	https://vash.omnimir.ru/
 // @version		0.8
 // @description	Hide annoying elements
 // @author		kapsilon
 // @license		MIT
-// @match		https://www.lostfilm.tv/*
+// @match		https://animejoy.ru/*
 // @require 	https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
@@ -17,19 +17,20 @@
 
 	//Hide Elements
 	function hideElements() {
-		
-		//Hide Topper
-		wmHide("a[href^='//www.lostfilm.tv/nelb.php']");
-		//Hide Ads
-		wmHide(".aodd");
-		//Hide Footer
-		wmHide(".footer");
-	}
-
-	//Hide All-over-page Ad
-	wmAddNewStyle(`
-		.lstfml {
-			background: #b5b5b7;
+			//Hide Top Header
+			wmHide("#topside");
+			wmHide("#breadcrumbs");
+			wmHide(".mecen");
+			//Hide Ad Banner
+			wmHide(".banner");
+			//Hide Subscribe Button
+			wmHide("#vkm");
+			//Hide Donations Button
+			wmHide("#donateb");
+			//Hide Random/Popular Tab
+			wmHide(".block_tabs");
+			wmHide(".tab-content");
+			//Hide Footer
+			wmHide("#footer");
 		}
-	`);
 })();

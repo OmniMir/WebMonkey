@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name		AnimeJoy Hide Elements
+// @name		AtlasForMen Hider
 // @namespace	https://vash.omnimir.ru/
 // @version		0.8
 // @description	Hide annoying elements
 // @author		kapsilon
 // @license		MIT
-// @match		https://animejoy.ru/*
+// @match		https://www.atlasformen.ru/*
 // @require 	https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
@@ -17,20 +17,12 @@
 
 	//Hide Elements
 	function hideElements() {
-			//Hide Top Header
-			wmHide("#topside");
-			wmHide("#breadcrumbs");
-			wmHide(".mecen");
-			//Hide Ad Banner
-			wmHide(".banner");
-			//Hide Subscribe Button
-			wmHide("#vkm");
-			//Hide Donations Button
-			wmHide("#donateb");
-			//Hide Random/Popular Tab
-			wmHide(".block_tabs");
-			wmHide(".tab-content");
-			//Hide Footer
-			wmHide("#footer");
-		}
+		//Hide Full-Screen Pop-Up
+		wmWaitAndRemove(".k-popup__wrap");
+		//Hide Chat
+		setTimeout(() => {
+			wmRemove("jdiv");
+			wmRemove("jdiv");
+		}, 8000);
+	}
 })();

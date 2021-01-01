@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name		GoogleApps Hide Elements
+// @name		GoogleApps Hider
 // @namespace	https://vash.omnimir.ru/
 // @version		0.9
 // @description	Hide annoying elements

@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name		EpGuides Hide Elements
+// @name		IMDb Hider
 // @namespace	https://vash.omnimir.ru/
 // @version		0.8
 // @description	Hide annoying elements
 // @author		kapsilon
 // @license		MIT
-// @match		http://epguides.com/*
+// @match		https://www.imdb.com/*
 // @require 	https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
@@ -17,11 +17,15 @@
 
 	//Hide Elements
 	function hideElements() {
-		//Hide Ads
-		wmHide("#justwatch");
-		wmRemove("#justwatch + iframe");
-		wmHide("#amazon");
+		//Hide Editorial Lists
+		wmHide("#relatedEditorialListsWidget");
+		//Hide User Lists
+		wmHide("#relatedListsWidget");
+		//Hide User Pols
+		wmHide(".poll-widget-rhs");
+		//Hide Recently viewed
+		wmHide("#rvi-div");
 		//Hide Footer
-		wmHide(".footer");
+		wmHide("footer");
 	}
 })();
