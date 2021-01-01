@@ -18,6 +18,8 @@ NoScrollingButton
 
 PreviousPage
 
+RealApp
+
 
 
 Hider
