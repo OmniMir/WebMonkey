@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name		Sites HotKey Previous
+// @name		PreviousPage
 // @namespace	https://vash.omnimir.ru/
 // @version		1.0
 // @description	Press LEFT/RIGHT to CONTROL
