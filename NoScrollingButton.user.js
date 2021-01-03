@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name		NoScrollingButton
 // @namespace	https://vash.omnimir.ru/
-// @version		1.0
+// @version		1.1
 // @description	Disable Smooth Scroll by Middle Mouse Button
 // @author		kapsilon
 // @license		MIT
@@ -12,14 +12,14 @@
 
 (function () {
 	"use strict";
-	window.addEventListener(
-		"mousedown",
-		function (mouseEvent) {
-			if (mouseEvent.button == 1) {
-				mouseEvent.preventDefault();
-				mouseEvent.stopPropagation();
-			}
-		},
-		true
-	);
+	//Start with Middle click
+	window.addEventListener("mousedown", (mouseEvent) => NoScrollingButton(mouseEvent), false);
+
+	//ScrollingButton Switch Off
+	function NoScrollingButton(mouseEvent) {
+		if (mouseEvent.button == 1) {
+			mouseEvent.preventDefault();
+			mouseEvent.stopPropagation();
+		}
+	}
 })();
