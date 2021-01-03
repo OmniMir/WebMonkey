@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name		RealApp
 // @namespace	https://vash.omnimir.ru/
-// @version		1.0
+// @version		1.1
 // @description	No Context Menu
 // @author		kapsilon
 // @match		https://boardgamearena.com/*
@@ -22,10 +22,10 @@
 
 (function () {
 	"use strict";
-	//Start with right click
+	//Start with Right Click
 	window.addEventListener("contextmenu", (event) => NoContextMenu(event), false);
 
-	//Context Menu Switch Off (Now It's Real App)
+	//Context Menu Switch Off
 	function NoContextMenu(event) {
 		//Context Menu Returns with Ctrl
 		if (event.ctrlKey) {
@@ -36,4 +36,12 @@
 			event.preventDefault();
 		}
 	}
+
+	//Scroll Bar Switch Off
+	wmAddNewStyle(`
+		body::-webkit-scrollbar {
+			display: none;
+		}
+	`)
+
 })();
