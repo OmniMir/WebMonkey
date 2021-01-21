@@ -20,6 +20,8 @@
 			wmHide(".section--top_panel");
 			//Hide Social Media
 			wmHide(".sidebar_block:nth-child(2)");
+			//Hide Share Panel
+			wmHide(".ya-share2");
 			//Hide Recently Watched Section
 			wmHide(".js-recently_view-wrapper");
 			//Hide Footer
