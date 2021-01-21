@@ -10,6 +10,7 @@
 // @match		https://mail.google.com/mail/*
 // @match		https://photos.google.com/*
 // @match		https://app.grammarly.com/*
+// @match		https://www.inoreader.com/*
 // @match		https://www.lingvolive.com/*
 // @match		https://noises.online/
 // @match		https://www.shazam.com/*
