@@ -46,6 +46,24 @@
 			//Click Update Attachment Button
 			wmClick(".js-edit-attachment.nch-button");
 		}
+
+		//Press Ctrl+H to Hide Empty Lists
+		if (event.code == "KeyH" && event.ctrlKey) {
+			//Disable Default Action
+			event.preventDefault();
+
+			//Get All Lists from Board
+			let lists = document.querySelectorAll(".js-list");
+			for (let i = 0; i < lists.length; i++) {
+				//Find List with at Least One Unhided Card
+				if (lists[i].querySelector(".list-card:not(.hide)")) {
+					//Set List Visible
+					lists[i].style.display = "inline-block";
+				} else {
+					//Set List Invisible
+					lists[i].style.display = "none";
+				}
+			}
+		}
 	}
 })();
-
