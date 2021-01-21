@@ -63,6 +63,8 @@
 		`);
 		//Hide Quick Card Menu Buttons (Use Right Click)
 		wmHideAllInStyle(".js-card-menu");
+		//Hide Quick Card Menu Open Card Button (Use Left Click)
+		wmHideAllInStyle(".quick-card-editor-buttons-item[href^='/c/']");
 		//Hide Add List Button (Use Double Click Between Lists)
 		wmHideAllInStyle(".mod-add");
 		//Hide Add PowerUp Button in Sidebar (Advertisement)
