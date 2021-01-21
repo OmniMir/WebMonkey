@@ -38,4 +38,11 @@
 		//Hide Eva
 		wmWaitAndHide("#J_xiaomi_dialog");
 	}
+
+	//Hide Clock Icon at Orders
+	wmAddNewStyle(`
+		.left-sendgoods-day:before {
+			display: none;
+		}
+	`)
 })();
