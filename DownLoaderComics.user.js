@@ -113,6 +113,7 @@
 				wmClick("#wk_content .mail_link");
 				wmClick("#wk_content .page_doc_title");
 				wmClick("#wk_content .media_desc .lnk");
+				wmClick("#wk_content .thumbed_link__title");
 				wmClick("#wk_content .wall_post_text a[href^='/away.php?to=https%3A%2F%2Fcloud.mail.ru']");
 				wmClick("#wk_content .wall_post_text a[href^='https://vk.com/doc-']");
 				wmClickLast("#wk_content .wk_ext_link");
