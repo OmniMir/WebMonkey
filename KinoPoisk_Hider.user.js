@@ -24,6 +24,8 @@
 		wmHide(".watch-online-button");
 		wmHide("div[class^=styles_watchOnlineDescription]");
 		wmHide("div[class^=styles_watchOnlineDescription] + div");
+		wmHide("div[class^=styles_watchOnlineContainer]");
+		wmHide("div[class^=styles_watchOnlineContainer] + div");
 		wmHideAll("a[class^=styles_nameplate]");
 		wmHideAllInStyle("a[class*=styles_rootPlus]");
 		wmHideAll("a[class*=styles_rootGhost]");
