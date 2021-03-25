@@ -82,7 +82,6 @@ function wmAddNewStyle(cssStyle) {
 	cssStyle = cssStyle.replace(/(\n|\t)/g, "");
 	//Add CSS Style to Head Section
 	let newStyle = document.createElement("style");
-	newStyle.type = "text/css";
 	newStyle.innerText = cssStyle;
 	document.head.appendChild(newStyle);
 }
