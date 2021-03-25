@@ -1,7 +1,7 @@
 // ==UserScriptLibrary==
 // @name		WebMonkey Library
 // @namespace	https://vash.omnimir.ru/
-// @version		1.8
+// @version		1.9
 // @description	Some useful functions for other WebMonkey Scripts
 // @author		kapsilon
 // @license		MIT
