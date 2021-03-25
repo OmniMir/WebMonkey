@@ -55,6 +55,10 @@ function wmRemoveAll(cssSelector) {
 function wmHideAllInStyle(cssSelector) {
 	wmAddNewStyle(cssSelector + " {display: none;}");
 }
+//Hide All elements by CSS via New Style with Important
+function wmHideAllInStyleImportant(cssSelector) {
+	wmAddNewStyle(cssSelector + " {display: none !important;}");
+}
 //Click element by CSS
 function wmClick(cssSelector) {
 	if (document.querySelector(cssSelector)) {
