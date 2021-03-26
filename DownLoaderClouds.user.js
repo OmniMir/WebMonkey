@@ -4,12 +4,12 @@
 // @version		1.0
 // @description	Press DOWN to DOWNload
 // @author		kapsilon
-// @match		https://cloud.mail.ru/*
 // @match		https://www.dropbox.com/s/*
 // @match		https://drive.google.com/file/d/*
 // @match		https://drive.google.com/u/0/uc?export=download*
 // @match		https://drive.google.com/u/0/uc?id=*export=download
 // @match		https://drive.google.com/uc?id=*
+// @match		https://cloud.mail.ru/*
 // @match		http://www.mediafire.com/*
 // @match		https://www.mediafire.com/*
 // @match		https://mega.nz/*
