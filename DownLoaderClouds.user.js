@@ -14,6 +14,9 @@
 // @match		https://www.mediafire.com/*
 // @match		https://mega.nz/*
 // @match		https://onedrive.live.com/*
+// @match		https://disk.yandex.ua/d/*
+// @match		https://disk.yandex.kz/d/*
+// @match		https://disk.yandex.ru/d/*
 // @match		https://yadi.sk/d/*
 // @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
