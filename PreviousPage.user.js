@@ -22,6 +22,7 @@
 // @match		https://www.ozon.ru/*
 // @match		https://pwnews.net/news/*
 // @match		https://repack.me/*
+// @match		http://rikudou.ru/*
 // @match		https://rutracker.org/*
 // @match		http://swcomics.ru/*
 // @match		https://*.yandex.ru/*
@@ -64,7 +65,7 @@
 				wmClick("a.series-link");
 				//Ozon
 				//NONE
-				//PWNews
+				//PWNews & Rikudou
 				wmClick(".catPages1 a");
 				//RuTracker
 				wmClick("a.pg");
@@ -110,7 +111,7 @@
 				wmClickLast("a.series-link");
 				//Ozon
 				wmClick(".b8n5 a");
-				//PWNews
+				//PWNews & Rikudou
 				wmClickLast(".catPages1 a");
 				//RuTracker
 				wmClickLast("a.pg");
