@@ -32,17 +32,14 @@
 		wmHide(".recommend-container");
 		//Hide Survey Button
 		wmHide(".survey-link");
+		//Hide Clock Icon at Orders
+		wmHideAllInStyle(".left-sendgoods-day:before");
+		//Hide iTao
+		wmHideAllInStyle(".ui-itao");
 		//Hide Footer
 		wmHide(".footer-copywrite");
 		wmWaitAndHide(".site-footer");
 		//Hide Eva
 		wmWaitAndHide("#J_xiaomi_dialog");
 	}
-
-	//Hide Clock Icon at Orders
-	wmAddNewStyle(`
-		.left-sendgoods-day:before {
-			display: none;
-		}
-	`)
 })();
