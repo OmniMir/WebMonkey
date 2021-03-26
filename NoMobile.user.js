@@ -5,8 +5,8 @@
 // @description	Leaving mobile version
 // @author		kapsilon
 // @license		MIT
-// @match		https://m.habr.com/*
 // @match		https://m.comixology.com/*
+// @match		https://m.habr.com/*
 // @match		https://m.igromania.ru/*
 // @match		https://m.lenta.ru/*
 // @match		https://m.stoloto.ru/*
