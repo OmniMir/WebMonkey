@@ -4,34 +4,33 @@ Useful TamperMonkey Scripts & AdBlock Filters
 
 
 
-**TamperMonkey User Scripts**
+#### TamperMonkey User Scripts
 
-AutoClicker
+AutoClicker: click some links without hands
 
-AutoCloser
+AutoCloser: close useless pages & use _TabAutoClose_ functionality in other scripts
 
-DownLoader(Clouds|Comics|Games|Series)
+DownLoader(Clouds|Comics|Games|Series): press _down_ at selected sites and download
 
-NoMobile
+NoMobile: saver from .m-sites without redirect
 
-NoScrollingButton
+NoScrollingButton: set scrolling with _mouse middle button_ off
 
-PreviousPage
+PreviousPage: press _ctrl+left_ at selected sites and you are on previous page
 
-RealApp
+RealApp: get application from every site
 
-TrelloBack
-
-
-
-Hider
-
-HotKeys
+TrelloBack: backup your full trello data with _ctrl+down_
 
 
 
+Hider: hide annoying elements from sites
 
-**AdBlock Filters**
+HotKeys: get extra functionality to sites
+
+
+
+#### AdBlock Filters
 
 uBlock
 
