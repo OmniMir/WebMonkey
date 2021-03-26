@@ -110,6 +110,8 @@
 				//wmClick(".article_decoration_last a[href^='/away.php?to=https%3A%2F%2Fyadi.sk']");
 				//VK Photo
 				wmClick("#pv_box .page_doc_title");
+				//VK Post as Wall
+				wmClick("#page_wall_posts .media_link__title");
 				//VK Post in front of Wall
 				wmClick("#wk_content .article_snippet");
 				wmClick("#wk_content .media_link__title");
