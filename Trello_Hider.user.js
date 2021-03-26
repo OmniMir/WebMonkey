@@ -72,13 +72,11 @@
 		//Hide Add Members/Labels Button (Use Sidebar Menu)
 		wmHideAllInStyle(".card-detail-item-add-button");
 		//Hide Edit Description Button (Use Click on Description)
-		wmHideAllInStyle(".js-edit-desc-button");
+		wmHideAllInStyleImportant(".js-edit-desc-button");
 		//Hide Add Attachment Button (Use Sidebar Menu)
 		wmHideAllInStyle(".subtle.js-attach");
 		wmHideAllInStyle(".js-show-with-attachments");
-		wmHideAllInStyle(".js-attach-trello-attachment");
-		//Hide Edit Description Button (Click to Description)
-		wmHideAllInStyle(".js-edit-desc-button");
+		wmHideAllInStyleImportant(".js-attach-trello-attachment");
 		//Hide Add PowerUp Button (Advertisement)
 		wmHideAllInStyle(".js-card-back-pup-prompt");
 		wmHideAllInStyle(".js-get-pups");
