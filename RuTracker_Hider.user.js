@@ -21,7 +21,7 @@
 		wmHide(".tCenter.w100");
 		//Hide Ads Banners
 		wmHideAll(".bn-idx");
-		wmHideAll("a[href^='https://robinbob.in/']")
+		wmHideAll("a[href^='https://robinbob.in/']");
 		//Hide AliExpress Banners
 		wmHideAll(".products");
 		//Hide Blocker After Thanks
