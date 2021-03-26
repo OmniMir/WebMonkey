@@ -4,7 +4,7 @@ Useful TamperMonkey Scripts & AdBlock Filters
 
 
 
-#### TamperMonkey User Scripts
+### TamperMonkey User Scripts
 
 **AutoClicker**: click some links without hands
 
@@ -30,7 +30,7 @@ Useful TamperMonkey Scripts & AdBlock Filters
 
 
 
-#### AdBlock Filters
+### AdBlock Filters
 
 uBlock
 
