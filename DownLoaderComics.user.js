@@ -71,7 +71,7 @@
 				//HunderBridge
 				wmClick("#links a");
 				//LBS
-				wmClickLast(".entry-content a[href^='https://drive.google.com/file/d/']");
+				wmClickLast(".entry-content a[target='_blank']");
 				//MangaChan
 				wmClick("#download_table a[href^='/engine/download.php']");
 				//OtakuTeam
