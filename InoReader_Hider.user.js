@@ -19,17 +19,8 @@
 	function hideElements() {
 		//Hide Upgrade Button
 		wmHide("#sb_rp_upgrade");
+		wmHideAllInStyle(".inno_toolbar_button_menu_item:nth-child(4)");
+		wmHideAllInStyle(".inno_toolbar_button_menu_item:nth-child(5)");
+		wmHideAllInStyle(".inno_toolbar_button_menu_item:nth-child(14)");
 	}
-
-	wmAddNewStyle(`
-		.inno_toolbar_button_menu_item:nth-child(4) {
-			display: none;
-		}
-		.inno_toolbar_button_menu_item:nth-child(5) {
-			display: none;
-		}
-		.inno_toolbar_button_menu_item:nth-child(14) {
-			display: none;
-		}
-	`)
 })();
