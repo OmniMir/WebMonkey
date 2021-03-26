@@ -39,10 +39,5 @@
 	}
 
 	//Scroll Bar Switch Off
-	wmAddNewStyle(`
-		body::-webkit-scrollbar {
-			display: none;
-		}
-	`)
-
+	wmHideAllInStyle("body::-webkit-scrollbar");
 })();
