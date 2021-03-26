@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name		Trello HotKey Control
+// @name		Trello HotKeys
 // @namespace	https://vash.omnimir.ru/
 // @version		0.8
 // @description	Ctrl+F to Search, Ctrl+S to Save

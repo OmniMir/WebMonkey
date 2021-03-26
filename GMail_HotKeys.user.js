@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name		GMail HotKey Control
+// @name		GMail HotKeys
 // @namespace	https://vash.omnimir.ru/
-// @version		0.6
+// @version		0.8
 // @description	Some external hotkeys for gmail
 // @author		kapsilon
 // @match		https://mail.google.com/*

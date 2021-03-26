@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name		BoardGameArena Hotkey Control
+// @name		BoardGameArena Hotkeys
 // @namespace	https://vash.omnimir.ru/
-// @version		0.6
+// @version		0.8
 // @description	Control YOUR game
 // @author		kapsilon
 // @license		MIT

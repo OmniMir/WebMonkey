@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name		AliExpress HotKey Control
+// @name		AliExpress HotKeys
 // @namespace	https://vash.omnimir.ru/
-// @version		0.7
+// @version		0.8
 // @description	AliExpress in Control
 // @author		kapsilon
 // @license		MIT

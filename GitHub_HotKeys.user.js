@@ -1,25 +1,24 @@
 // ==UserScript==
-// @name		EpGuides HotKey Control
+// @name		GitHub HotKeys
 // @namespace	https://vash.omnimir.ru/
-// @version		0.6
-// @description	Press W to Wikipedia
+// @version		0.8
+// @description	Press DOWN to get raw file
 // @author		kapsilon
-// @match		http://epguides.com/*
+// @match		https://github.com/*/blob/*
 // @require 	https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
 
 (function () {
 	"use strict";
-	//Press W to Wikipedia
+	//Press DOWN to RAW
 	window.addEventListener(
 		"keydown",
 		function (event) {
-			if (event.code == "KeyW") {
-				wmClick(".Wiki a");
+			if (event.code == "ArrowDown") {
+				wmClick("#raw-url");
 			}
 		},
 		false
 	);
-
 })();

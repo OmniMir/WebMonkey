@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name		Wikipedia HotKey Control
+// @name		Wikipedia HotKeys
 // @namespace	https://vash.omnimir.ru/
-// @version		0.6
+// @version		0.8
 // @description	Press E/R to change Language
 // @author		kapsilon
 // @match		https://*.wikipedia.org/*
