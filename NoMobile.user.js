@@ -10,6 +10,7 @@
 // @match		https://m.igromania.ru/*
 // @match		https://m.lenta.ru/*
 // @match		https://m.stoloto.ru/*
+// @match		https://m.vk.com/*
 // @match		https://*.m.wikipedia.org/*
 // @match		https://*.m.wiktionary.org/*
 // @grant		none
