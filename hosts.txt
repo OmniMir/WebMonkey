@@ -1,0 +1,48 @@
+# OmniMir blocklist
+# Blocking mobile ad providers and some analytics providers
+# From https://adaway.org/hosts.txt
+
+# Google
+127.0.0.1 accounts.doubleclick.net
+127.0.0.1 ad.doubleclick.net
+127.0.0.1 ad.mo.doubleclick.net
+127.0.0.1 ads-bid.l.doubleclick.net
+127.0.0.1 ads.google.com
+127.0.0.1 adservice.google.com
+127.0.0.1 ampcid.google.com
+127.0.0.1 dart.l.doubleclick.net
+127.0.0.1 ff.doubleclick.net
+127.0.0.1 fls.doubleclick.net
+127.0.0.1 fundingchoices.google.com
+127.0.0.1 g0.doubleclick.net
+127.0.0.1 g1.doubleclick.net
+127.0.0.1 g2.doubleclick.net
+127.0.0.1 g3.doubleclick.net
+127.0.0.1 gan.doubleclick.net
+127.0.0.1 googleads.g.doubleclick.net
+127.0.0.1 m.doubleclick.net
+127.0.0.1 pagead-googlehosted.l.google.com
+127.0.0.1 pubads.g.doubleclick.net
+127.0.0.1 s0.doubleclick.net
+127.0.0.1 secureframe.doubleclick.net
+127.0.0.1 securepubads.g.doubleclick.net
+127.0.0.1 static.doubleclick.net
+127.0.0.1 stats.g.doubleclick.net
+127.0.0.1 survey.g.doubleclick.net
+127.0.0.1 video-stats.video.google.com
+127.0.0.1 www-googletagmanager.l.google.com
+
+
+# Google Unstable
+127.0.0.1 ad-apac.doubleclick.net
+127.0.0.1 ad-emea.doubleclick.net
+127.0.0.1 ad-g.doubleclick.net
+127.0.0.1 adx.g.doubleclick.net
+127.0.0.1 bid.g.doubleclick.net
+127.0.0.1 cm.g.doubleclick.net
+127.0.0.1 crashlytics2.l.google.com
+127.0.0.1 googleads4.g.doubleclick.net
+127.0.0.1 s0-2mdn-net.l.google.com
+
+# Microsoft
+127.0.0.1 teams-ring.msedge.net

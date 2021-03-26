@@ -35,3 +35,4 @@ uBlock
 
 uBlockUnstable
 
+hosts
