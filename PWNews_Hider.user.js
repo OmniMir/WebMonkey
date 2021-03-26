@@ -20,15 +20,15 @@
 		//Hide Header
 		wmHide(".newlogo");
 		wmAddNewStyle(`
-				.headerer {
-					height: 39px;
+			.headerer {
+				height: 39px;
 			}
-			`);
+		`);
 		wmAddNewStyle(`
-				.inf {
-					height: 18px;
+			.inf {
+				height: 18px;
 			}
-			`);
+		`);
 		//Hide News apps
 		wmHide(".follows-channel");
 		//Hide Last news
