@@ -21,10 +21,6 @@
 		//Hide Add to Collection Button
 		wmHideAllInStyle(".game_cell_tools");
 		//Hide PopUp Window
-		wmAddNewStyle(`
-			.popup_details {
-				display: none !important;
-			}
-		`);
+		wmHideAllInStyleImportant(".popup_details");
 	}
 })();
