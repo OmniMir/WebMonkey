@@ -36,6 +36,7 @@
 // @match		https://vk.com/*w=wall-*
 // @match		https://vk.com/@*
 // @match		https://vk.com/doc*
+// @match		https://vk.com/photo-*
 // @match		https://vk.com/wall-*
 // @match		https://vk.com/*page-*
 // @match		https://vk.com/topic-*
@@ -107,6 +108,8 @@
 				);
 				//wmClick(".article_decoration_before a[href^='/away.php?to=https%3A%2F%2Fyadi.sk']");
 				//wmClick(".article_decoration_last a[href^='/away.php?to=https%3A%2F%2Fyadi.sk']");
+				//VK Photo
+				wmClick("#pv_box .page_doc_title");
 				//VK Post in front of Wall
 				wmClick("#wk_content .article_snippet");
 				wmClick("#wk_content .media_link__title");
