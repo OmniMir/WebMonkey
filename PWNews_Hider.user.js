@@ -40,9 +40,9 @@
 		);
 		wmHide(".bestCom");
 		//Hide VK
-		document.querySelectorAll(".bigblockrnews")[0].style.display = "none";
-		//Hide Best commentators
-		document.querySelectorAll(".bigblockrnews")[2].style.display = "none";
+		wmHide("#vk_groups");
+		//Hide Best commentators + Last results
+		wmHideAllInStyle(".bigblockrnews");
 		//Hide Footer
 		wmHide("#content_r + p + hr");
 		wmHide("#content_r + p + hr + p + table");
