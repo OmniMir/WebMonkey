@@ -41,11 +41,7 @@
 		//Hide Business Upgrade Buttons (Advertisement)
 		wmHideAllInStyle("button[data-test-id='team-boards-header-upgrade-button']");
 		//Hide Add Board Button (Use Global Plus Button)
-		wmAddNewStyle(`
-			.mod-add {
-				display: none !important;
-			}
-		`);
+		wmHideAllInStyleImportant(".mod-add");
 
 		//BOARD SCREEN
 		//Hide Board View Mode Button
@@ -70,11 +66,7 @@
 		//Hide Add PowerUp Button in Sidebar (Advertisement)
 		wmHideAllInStyle(".js-empty-slot-upsell");
 		//Hide Upgrade Buttons in Sidebar (Advertisement)
-		wmAddNewStyle(`
-			.board-menu-pill-upgrade {
-				display: none !important;
-			}
-		`);
+		wmHideAllInStyleImportant(".board-menu-pill-upgrade");
 
 		//CARD SCREEN
 		//Hide Add Members/Labels Button (Use Sidebar Menu)
