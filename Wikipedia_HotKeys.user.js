@@ -32,12 +32,10 @@
 		false
 	);
 	//Start on page load to take effect
-	window.addEventListener(
-		"load",
-		function () {
-			//Hide Language Menu
-			wmHide("#p-lang");
-		},
-		false
-	);
+	window.addEventListener("load", () => MenuHider(), false);
+
+	//Hide Language Menu
+	function MenuHider() {
+		wmHide("#p-lang");
+	}
 })();
