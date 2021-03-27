@@ -11,31 +11,34 @@
 
 (function () {
 	"use strict";
-	//Press E to English
-	window.addEventListener(
-		"keydown",
-		function (event) {
-			if (event.code == "KeyE") {
-				wmClick(".interwiki-en a");
-			}
-		},
-		false
-	);
-	//Press R to Russian
-	window.addEventListener(
-		"keydown",
-		function (event) {
-			if (event.code == "KeyR") {
-				wmClick(".interwiki-ru a");
-			}
-		},
-		false
-	);
 	//Start on page load to take effect
 	window.addEventListener("load", () => MenuHider(), false);
+	//Start with Keydown
+	window.addEventListener("keydown", (event) => HotKeys(event), false);
 
 	//Hide Language Menu
 	function MenuHider() {
 		wmHide("#p-lang");
+	}
+
+	//Wikipedia HotKey Control
+	function HotKeys(event) {
+		//Press E to English
+		if (event.code == "KeyE") {
+			//Disable Default Action
+			event.preventDefault();
+
+			//Click Dates Link
+			wmClick(".interwiki-en a");
+		}
+
+		//Press R to Russian
+		if (event.code == "KeyR") {
+			//Disable Default Action
+			event.preventDefault();
+
+			//Click Posters Link
+			wmClick(".interwiki-ru a");
+		}
 	}
 })();
