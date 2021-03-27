@@ -71,6 +71,13 @@
 		//CARD SCREEN
 		//Hide Add Members/Labels Button (Use Sidebar Menu)
 		wmHideAllInStyle(".card-detail-item-add-button");
+		//Thinner Titles of Card Blocks (as in Sidebar Menu))
+		wmAddNewStyle(`
+			h3.u-inline-block,
+			.card-detail-activity h3 {
+				font-weight: 500;
+			}
+		`);
 		//Hide Edit Description Button (Use Click on Description)
 		wmHideAllInStyleImportant(".js-edit-desc-button");
 		//Hide Add Attachment Button (Use Sidebar Menu)
