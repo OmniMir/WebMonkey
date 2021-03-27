@@ -2,7 +2,7 @@
 // @name		NoMobile
 // @namespace	https://vash.omnimir.ru/
 // @version		1.0
-// @description	Leaving mobile version
+// @description	Leaving m.-sites in past
 // @author		kapsilon
 // @license		MIT
 // @match		https://m.comixology.com/*
@@ -19,7 +19,7 @@
 
 (function () {
 	"use strict";
-	//Leaving .m-sites in past
+	//Replace URL without m.
 	let currentURL = document.URL;
 	currentURL = currentURL.replace("//m.", "//");
 	currentURL = currentURL.replace(".m.", ".");
