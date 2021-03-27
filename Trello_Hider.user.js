@@ -45,7 +45,7 @@
 
 		//BOARD SCREEN
 		//Hide Board View Mode Button
-		wmHideAllInStyle("a[data-test-id='board-views-switcher-button']");
+		wmHideAllInStyle("button[data-test-id='board-views-switcher-button']");
 		//Hide Star Button
 		wmHideAllInStyle(".js-star-board");
 		//Hide Butler Button (Find Butler in Side Panel)
