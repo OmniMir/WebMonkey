@@ -45,7 +45,6 @@ click-or-die.ru##.suggest-header
 click-or-die.ru##.tags
 click-or-die.ru##.widget-row
 
-
 !! CyberSport
 www.cybersport.ru##.article--footer-widgets
 www.cybersport.ru##.footer
