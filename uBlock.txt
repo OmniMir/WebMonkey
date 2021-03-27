@@ -137,7 +137,7 @@ www.iphones.ru##.author_photos_link
 www.iphones.ru##.backdrop
 www.iphones.ru##.c_y_style
 www.iphones.ru##.comment-content_block > .adsbygoogle
-www.iphones.ru##.comment__item_new
+!www.iphones.ru##.comment__item_new
 www.iphones.ru##.comment__subscription
 www.iphones.ru##.comments__ortho
 www.iphones.ru##.comments__ortho:nth-of-type(5)
