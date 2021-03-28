@@ -3,7 +3,7 @@
 ! Version: 1.0
 ! Description:
 ! Last modified: 05.12.2020
-! Expires: 30 days (update frequency)
+! Expires: 60 days (update frequency)
 ! Licence: MIT
 ! Homepage: https://vash.omnimir.ru/
 !
