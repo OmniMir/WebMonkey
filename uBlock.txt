@@ -29,6 +29,11 @@
 2x2tv.ru##.trash-close__icon
 2x2tv.ru##.trash-icon
 2x2tv.ru##.uSocial-Share
+media.2x2tv.ru##.author
+media.2x2tv.ru##.header-logo
+media.2x2tv.ru##.post-sharing
+media.2x2tv.ru##.prevnext-wrap
+media.2x2tv.ru##.section-footer
 
 !! 4PDA
 4pda.ru##.news-list > li:nth-of-type(1)
@@ -37,25 +42,40 @@
 daily.afisha.ru##.adv__btn-disable-wrapper
 
 !! ClickOrDie
+click-or-die.ru###ymarket-affiliate
+click-or-die.ru##.banner
+click-or-die.ru##.block-spacing
+click-or-die.ru##.mobile-menu
 click-or-die.ru##.mobile-menu
 click-or-die.ru##.news-widget
+click-or-die.ru##.news-widget
+click-or-die.ru##.post-content > ul
 click-or-die.ru##.social-buttons
 click-or-die.ru##.wp-block-block
 click-or-die.ru##.suggest-header
 click-or-die.ru##.tags
 click-or-die.ru##.widget-row
+click-or-die.ru##p[style*='background-color']
 
 !! CyberSport
 www.cybersport.ru##.article--footer-widgets
+www.cybersport.ru##.article__links-post
+www.cybersport.ru##.footer
 www.cybersport.ru##.footer
 www.cybersport.ru##.header
+www.cybersport.ru##.header__additionally
+www.cybersport.ru##.reply
 www.cybersport.ru##.sticky
+www.cybersport.ru##.sticky--placeholder
+www.cybersport.ru##.header__main
+www.cybersport.ru##.zen-widget
 
 !! DisgustingMen
 disgustingmen.com##.fix_social_btns
 disgustingmen.com##.mobile_head
 
 !! DTF
+dtf.ru##.booster-promo
 dtf.ru##.l-island-a.vk-happy-birthday__wrapper
 dtf.ru##.live-stream__header
 dtf.ru##.shares__open
@@ -124,7 +144,9 @@ m.igromania.ru##.footer
 m.igromania.ru##.headerline_outer
 m.igromania.ru##.remvb
 m.igromania.ru##.share_block
+m.igromania.ru##.share_block
 m.igromania.ru##.sharenav_block
+m.igromania.ru##.uninote
 
 !! iPhones
 www.iphones.ru###commentform
@@ -178,6 +200,7 @@ www.iphones.ru##.rand-social-like
 www.iphones.ru##.relatedlist
 www.iphones.ru##.sidebar
 www.iphones.ru##.social-share
+www.iphones.ru##.thdrpy
 www.iphones.ru##.yota-pavlik-banner
 www.iphones.ru##.yota_car_brand
 www.iphones.ru##.yota_float
@@ -248,7 +271,10 @@ kg-portal.ru##.footer_wrap
 kg-portal.ru##.menu_feedback
 kg-portal.ru##.menu_userbar
 kg-portal.ru##.menu_wrap
+kg-portal.ru##.news-extras
 kg-portal.ru##.news_donate_author
+kg-portal.ru##.news_related
+kg-portal.ru##.patreon_user
 kg-portal.ru##.section-related
 kg-portal.ru##.ten_ears_wrap
 kg-portal.ru##.ten_topbar
@@ -263,12 +289,19 @@ www.kinopoisk.ru##.movie-page__buttons-container-with-description
 
 !! Lenta
 m.lenta.ru##.bookmark__button
+m.lenta.ru##.bookmark__button
+m.lenta.ru##.box-external-video
 m.lenta.ru##.box-inline-topic
+m.lenta.ru##.box-snippet
 m.lenta.ru##.box-snippet
 m.lenta.ru##.chained-topic
 m.lenta.ru##.common-head__info-block-right
 m.lenta.ru##.header
+m.lenta.ru##.photo-info
+m.lenta.ru##.related-topics
 m.lenta.ru##.social-sharing
+m.lenta.ru##.social-sharingm.lenta.ru##.header
+m.lenta.ru##.voiceover
 ||vp.rambler.ru/player/*/iframe.html$subdocument
 
 !! Lifehacker
@@ -345,8 +378,18 @@ www.linux.org.ru###yandex_rtb
 www.linux.org.ru###yandex_rtb_R-A-337082-3
 
 !! Losst
+losst.ru###respond
+losst.ru###site-footer
+losst.ru##.breadcrumb
 losst.ru##.fa-chevron-up
+losst.ru##.fa-chevron-up
+losst.ru##.image-logo
+losst.ru##.related-posts
+losst.ru##.shareit
+losst.ru##.sidebar
+losst.ru##.sticky-navigation
 losst.ru##.sticky-navigation-active
+losst.ru##.toggle-mobile-menu
 
 !! MediaLeaks
 medialeaks.ru##.ads-run-blocks
@@ -354,6 +397,7 @@ medialeaks.ru##.material__seealso
 
 !! Meduza
 meduza.io##.AdvPanel-visible
+meduza.io##.Layout-bannerTop
 
 !! OpenNet
 opennet.ru###as1
@@ -379,12 +423,15 @@ www.popcornnews.ru##.header-navigation
 pwnews.net###acform
 pwnews.net###postFormContent
 pwnews.net###top100_widget
+pwnews.net##.a
 pwnews.net##.btm
 pwnews.net##.follows-channel
 pwnews.net##.icon-menu
 pwnews.net##[href="//www.liveinternet.ru/click"]
 pwnews.net##[href^="/panel/"]
 ||pwnews.net/stat/*$image
+||s2.ucoz.net/img/icon/thumbd_.png$image
+||s2.ucoz.net/img/icon/thumbu_.png$image
 
 !! Quora
 www.quora.com##.kPwyaT.CssComponent-sc-1oskqb9-0
@@ -398,6 +445,7 @@ radiokp.ru##.rr-m-submenu-wr
 !! RBC
 amp.rbc.ru##.article__inline-item
 www.rbc.ru##.article__inline-item
+www.rbc.ru##.subscription-popup__inner
 
 !! Reddit
 www.reddit.com##.XPromoInFeed
@@ -432,14 +480,21 @@ tjournal.ru##.native-support
 vc.ru##figure > .l-island-a
 vc.ru##.app--promoted
 vc.ru##.authorCard
+vc.ru##.booster-promo
 vc.ru##.comments_updates_rail__inner
 vc.ru##.content-counters--with-audio
 vc.ru##.email_subscribe
 vc.ru##.events_widget
 vc.ru##.island--company_entries
+vc.ru##.kp-br-bt
+vc.ru##.kp-br-top
+vc.ru##.kp-branding-head
+vc.ru##.kp-branding-teaser
+vc.ru##.lm-block
 vc.ru##.main_menu
 vc.ru##.push_offer
 vc.ru##.rvc-teaser
+vc.ru##.sber-startups-comments-button
 vc.ru##.shares__open
 vc.ru##.site-header
 vc.ru##.vacancies_widget
