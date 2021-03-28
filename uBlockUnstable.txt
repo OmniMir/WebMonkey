@@ -14,6 +14,7 @@
 2x2tv.ru##.justify-content-between.align-items-center.d-flex.pl-5-5.px-5.p-3.col-12
 2x2tv.ru##.mb-lg-0.mb-3.align-items-center.justify-content-start.d-flex.order-lg-1.order-md-2.col-xl-3.col-lg-3.col-md-6.col-12
 2x2tv.ru##.px-3.col-lg-3.col-md-6.col-12
+2x2tv.ru##.py-3.text-white.bg-dark
 2x2tv.ru##.stk-theme_38978__stk-btn_basic
 
 !! Instagram
@@ -433,6 +434,7 @@ lifehacker.ru##.bScsv
 lifehacker.ru##.dIglCq
 lifehacker.ru##.fLglxo
 lifehacker.ru##.fLLedX
+lifehacker.ru##.ftukRE
 lifehacker.ru##.iEmyrC
 lifehacker.ru##.iJRgIi
 lifehacker.ru##.jLfVpt
@@ -440,6 +442,7 @@ lifehacker.ru##.imTAwf
 lifehacker.ru##.iNfGwV
 lifehacker.ru##.jOjJUx
 lifehacker.ru##.jZUUkH
+lifehacker.ru##.mDWTR
 
 !! OpenNet
 www.opennet.ru##body > div:nth-of-type(4)
