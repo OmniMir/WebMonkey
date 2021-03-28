@@ -17,8 +17,8 @@
 !*$csp=manifest-src 'none'
 
 !! 2X2
-2x2tv.ru##.card
 2x2tv.ru##.Christmas
+2x2tv.ru##.card
 2x2tv.ru##.content-sidebr
 2x2tv.ru##.cook-mob
 2x2tv.ru##.font-folio
@@ -51,10 +51,10 @@ click-or-die.ru##.news-widget
 click-or-die.ru##.news-widget
 click-or-die.ru##.post-content > ul
 click-or-die.ru##.social-buttons
-click-or-die.ru##.wp-block-block
 click-or-die.ru##.suggest-header
 click-or-die.ru##.tags
 click-or-die.ru##.widget-row
+click-or-die.ru##.wp-block-block
 click-or-die.ru##p[style*='background-color']
 
 !! CyberSport
@@ -487,7 +487,6 @@ shazoo.ru##.tags
 tjournal.ru##.native-support
 
 !! VC
-vc.ru##figure > .l-island-a
 vc.ru##.app--promoted
 vc.ru##.authorCard
 vc.ru##.booster-promo
@@ -512,6 +511,7 @@ vc.ru##.vc-job-branding-head
 vc.ru##.videoStratum
 vc.ru##.vk-happy-birthday__wrapper
 vc.ru##.widget_wrapper
+vc.ru##figure > .l-island-a
 
 !! Viqeo
 cdn.viqeo.tv/js/vq_starter.js
