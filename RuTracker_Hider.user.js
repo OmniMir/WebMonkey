@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name		RuTracker Hider
 // @namespace	https://vash.omnimir.ru/
-// @version		0.8
+// @version		0.8-dev
 // @description	Hide annoying elements
 // @author		kapsilon
 // @license		MIT
@@ -23,6 +23,7 @@
 		wmHideAll(".bn-idx");
 		wmHideAll("a[href^='https://robinbob.in/']");
 		wmHide(".sb2-bg2 + div");
+		wmHide("#bn-topic-block");
 		//Hide AliExpress Banners
 		wmHideAll(".products");
 		//Hide Blocker After Thanks
