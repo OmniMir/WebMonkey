@@ -6,8 +6,6 @@
 // @author		kapsilon
 // @license		MIT
 // @match		http://octopus-zerkalo.ru
-// @match		https://pwnews.net/blog/1-0-1
-// @match		https://pwnews.net/blog/1-0-2
 // @match		https://www.kcsoftwares.com/sumo/view.php?*
 // @require		https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
@@ -22,8 +20,6 @@
 			//Click to button
 			//Octopus
 			wmClick("a.c-header__link");
-			//PWNews
-			wmClick(".example3 a");
 			//SUMO
 			wmClick(".btn-mini");
 
