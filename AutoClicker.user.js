@@ -14,18 +14,16 @@
 (function () {
 	"use strict";
 	//Start on page load to take effect
-	window.addEventListener(
-		"load",
-		function () {
-			//Click to button
-			//Octopus
-			wmClick("a.c-header__link");
-			//SUMO
-			wmClick(".btn-mini");
+	window.addEventListener("load", () => AutoClick(), false);
 
-			//And Close Opened Tab
-			wmWaitAndCloseTab();
-		},
-		false
-	);
+	//Click on Button
+	function AutoClick() {
+		//Octopus
+		wmClick("a.c-header__link");
+		//SUMO
+		wmClick(".btn-mini");
+
+		//And Close Opened Tab
+		wmWaitAndCloseTab();
+	}
 })();
