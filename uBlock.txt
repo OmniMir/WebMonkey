@@ -159,12 +159,12 @@ www.iphones.ru##.backdrop
 www.iphones.ru##.c_y_style
 !www.iphones.ru##.comment-content_block > .adsbygoogle
 !www.iphones.ru##.comment__item_new
-!www.iphones.ru##.comment__subscription
+www.iphones.ru##.comment__subscription
 !www.iphones.ru##.comments__ortho
 !www.iphones.ru##.comments__ortho:nth-of-type(5)
 !www.iphones.ru##.comments__ortho_errmsg.comments__ortho
-!www.iphones.ru##.comments__toadd
-!www.iphones.ru##.comments__unauth
+www.iphones.ru##.comments__toadd
+www.iphones.ru##.comments__unauth
 www.iphones.ru##.contestlist
 www.iphones.ru##.cookie_privacy_block
 www.iphones.ru##.externalofferlist-h
