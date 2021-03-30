@@ -13,6 +13,8 @@
 	"use strict";
 	//Start with Keydown
 	window.addEventListener("keydown", (event) => HotKeys(event), false);
+	//Hide Empty Lists and Repeat Every 4 Seconds
+	setInterval(() => hideEmptyListsFilter(), 4000);
 
 	//Trello HotKey Control
 	function HotKeys(event) {
@@ -54,6 +56,32 @@
 
 			//Hide Empty Lists
 			hideEmptyLists();
+		}
+	}
+
+	//Hide Empty Lists with Card Filtering
+	let eventAdded = false;
+	function hideEmptyListsFilter() {
+		//Filtering with Continual Hide Empty Lists
+		let cardsFilter = document.querySelector(".js-filter-cards-indicator:not(.hide)");
+		if (cardsFilter && eventAdded) {
+			hideEmptyLists();
+		//Filtering with Hide Empty Lists for First Time
+		} else if (cardsFilter) {
+			hideEmptyLists();
+			eventAdded = true;
+			//Close Filtering to Close Side Bar and Hide Empty Lists
+			document.querySelector(".js-filter-card-clear").addEventListener(
+				"click",
+				() => {
+					wmClick(".js-hide-sidebar");
+					setTimeout(() => hideEmptyLists(), 2000);
+				},
+				false
+			);
+		//Doing Nothing
+		} else {
+			eventAdded = false;
 		}
 	}
 
