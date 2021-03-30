@@ -25,7 +25,6 @@
 
 			//Click Invisible Menu Button
 			wmClick(".js-open-card-filter");
-
 			//Show Search Menu if it was closed
 			wmClick(".js-show-sidebar");
 			//Focus to search bar if not autofocused
