@@ -2,7 +2,7 @@
 // @name		Trello HotKeys
 // @namespace	https://vash.omnimir.ru/
 // @version		0.8
-// @description	Ctrl+F to Search, Ctrl+S to Save
+// @description	Ctrl+F to Search, Ctrl+S to Save, Ctrl+H to Hide
 // @author		kapsilon
 // @match		https://trello.com/*
 // @require 	https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
@@ -52,17 +52,23 @@
 			//Disable Default Action
 			event.preventDefault();
 
-			//Get All Lists from Board
-			let lists = document.querySelectorAll(".js-list");
-			for (let i = 0; i < lists.length; i++) {
-				//Find List with at Least One Unhided Card
-				if (lists[i].querySelector(".list-card:not(.hide)")) {
-					//Set List Visible
-					lists[i].style.display = "inline-block";
-				} else {
-					//Set List Invisible
-					lists[i].style.display = "none";
-				}
+			//Hide Empty Lists
+			hideEmptyLists();
+		}
+	}
+
+	//Hide Empty Lists
+	function hideEmptyLists() {
+		//Get All Lists from Board
+		let lists = document.querySelectorAll(".js-list");
+		for (let i = 0; i < lists.length; i++) {
+			//Find List with at Least One Unhided Card
+			if (lists[i].querySelector(".list-card:not(.hide)")) {
+				//Set List Visible
+				lists[i].style.display = "inline-block";
+			} else {
+				//Set List Invisible
+				lists[i].style.display = "none";
 			}
 		}
 	}
