@@ -15,6 +15,7 @@
 // @match		https://mega.nz/*
 // @match		https://onedrive.live.com/*
 // @match		https://disk.yandex.com/d/*
+// @match		https://disk.yandex.fr/d/*
 // @match		https://disk.yandex.kz/d/*
 // @match		https://disk.yandex.ru/d/*
 // @match		https://disk.yandex.ua/d/*
