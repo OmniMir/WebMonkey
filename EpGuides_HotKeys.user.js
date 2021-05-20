@@ -11,15 +11,13 @@
 
 (function () {
 	"use strict";
-	//Press W to Wikipedia
-	window.addEventListener(
-		"keydown",
-		function (event) {
-			if (event.code == "KeyW") {
-				wmClick(".Wiki a");
-			}
-		},
-		false
-	);
+	//Start with Keydown
+	window.addEventListener("keydown", (event) => HotKeys(event), false);
 
+	function HotKeys(event) {
+		//Press W to Wikipedia
+		if (event.code == "KeyW") {
+			wmClick(".Wiki a");
+		}
+	}
 })();
