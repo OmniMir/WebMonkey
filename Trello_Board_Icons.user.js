@@ -6,23 +6,33 @@
 // @author		kapsilon
 // @license		MIT
 // @match		https://trello.com/*
+// @require 	https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
 
 (function () {
 	"use strict";
+
 	//Start on page load to take effect
-	window.addEventListener(
-		"load",
-		function () {
-			//Change Icons of Boards to more sharp versions
-			document
-				.querySelectorAll(".boards-page-board-section-header-icon img")
-				.forEach((element) => {
-					element.src = element.src.replace("/30.png", "/170.png");
-					element.srcset = element.srcset.replace(/\S* 1x, /g, "");
-				});
-		},
-		false
-	);
+	window.addEventListener("load", () => boardIcons(), false);
+
+	//Hide Elements
+	function boardIcons() {
+		//Change Personal Boards Icon
+		wmAddNewStyle(`
+			.boards-page-board-section-header-icon-default-image {
+				background: transparent;
+				font-size: 18px;
+			}
+		`);
+		document.querySelector(".boards-page-board-section-header-icon-default-image").innerText = "💁‍♂️";
+
+		//Change Icons of Boards to more sharp versions
+		wmAddNewStyle(`
+			.boards-page-board-section-header-icon-image {
+				height: 34px;
+				width: 34px;
+			}
+		`);
+	}
 })();
