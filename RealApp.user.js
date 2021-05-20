@@ -17,7 +17,7 @@
 // @match		https://www.shazam.com/*
 // @match		https://spaces.fm/
 // @match		https://trello.com/*
-// @match		ttps://yandex.ru/maps/*
+// @match		https://yandex.ru/maps/*
 // @require 	https://raw.githubusercontent.com/OmniMir/WebMonkey/master/lib.min.js
 // @grant		none
 // ==/UserScript==
