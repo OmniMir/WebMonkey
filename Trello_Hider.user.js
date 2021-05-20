@@ -38,6 +38,8 @@
 		wmHideAllInStyle(".board-tile-details-sub-container");
 		//Hide Tables Buttons
 		wmHideAllInStyle(".boards-page-board-section-header-options-item[href$='tables']");
+		//Hide Team Boards Header
+		wmHideAllInStyle(".boards-page-section-header-name");
 		//Hide Business Upgrade Buttons (Advertisement)
 		wmHideAllInStyle("button[data-test-id='team-boards-header-upgrade-button']");
 		//Hide Add Board Button (Use Global Plus Button)
@@ -54,7 +56,7 @@
 		wmHideAllInStyle(".js-card-templates-button");
 		wmAddNewStyle(`
 			.js-open-card-composer {
-				margin-right: 8px
+				margin-right: 8px;
 			}
 		`);
 		//Hide Quick Card Menu Buttons (Use Right Click)
