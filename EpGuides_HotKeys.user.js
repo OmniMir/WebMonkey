@@ -19,5 +19,9 @@
 		if (event.code == "KeyW") {
 			wmClick(".Wiki a");
 		}
+		//Press G to Guide
+		if (event.code == "KeyG") {
+			wmClick(".TVMaze a");
+		}
 	}
 })();
