@@ -33,6 +33,7 @@
 // @match		http://supercomics.3dn.ru/*
 // @match		http://supercomics.ru/*
 // @match		https://swcomics.ru/*
+// @match		https://www.turtlepower.ru/*
 // @match		https://vk.com/*w=wall-*
 // @match		https://vk.com/@*
 // @match		https://vk.com/doc*
@@ -94,6 +95,8 @@
 				//wmClick(".eBlock a[href^='https://yadi.sk/d/']");
 				//SWComics
 				wmClick("td[width='200'] a");
+				//TurtlePower
+				wmClickLast(".kr_postbita_article a");
 				//VK Only one Post
 				wmClick(".big_wall .mail_link");
 				wmClick(".big_wall .lnk");
