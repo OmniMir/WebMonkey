@@ -35,8 +35,6 @@
 		//Hide Side Panel (Google Drive)
 		wmWaitAndHide(".Kk7lMc-QWPxkf-d-j");
 		//Hide Support Button (GMail)
-		wmWaitAndHide(".gb_Be");
-		wmWaitAndHide(".gb_Ee");
 		wmWaitAndHide(".zo");
 		//Hide Support Button (Google Drive)
 		wmWaitAndHide(".bMWlzf.M1zY4b");
