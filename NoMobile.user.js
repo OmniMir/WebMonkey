@@ -5,6 +5,8 @@
 // @description	Leaving m.-sites in past
 // @author		kapsilon
 // @license		MIT
+// @match		https://m.aliexpress.com/*
+// @match		https://m.aliexpress.ru/*
 // @match		https://m.comixology.com/*
 // @match		https://m.habr.com/*
 // @match		https://m.igromania.ru/*
