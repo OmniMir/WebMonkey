@@ -53,6 +53,10 @@
 			//Disable Default Action
 			event.preventDefault();
 
+			//Hide Filter
+			wmClick(".js-filter-card-clear");
+			//Hide Sidebar
+			wmClick(".js-hide-sidebar");
 			//Hide Empty Lists
 			hideEmptyLists();
 		}
@@ -65,7 +69,7 @@
 		let cardsFilter = document.querySelector(".js-filter-cards-indicator:not(.hide)");
 		if (cardsFilter && eventAdded) {
 			hideEmptyLists();
-		//Filtering with Hide Empty Lists for First Time
+			//Filtering with Hide Empty Lists for First Time
 		} else if (cardsFilter) {
 			hideEmptyLists();
 			eventAdded = true;
@@ -78,7 +82,7 @@
 				},
 				false
 			);
-		//Doing Nothing
+			//Doing Nothing
 		} else {
 			eventAdded = false;
 		}
