@@ -4,6 +4,7 @@
 // @version		1.1
 // @description	No Context Menu
 // @author		kapsilon
+// @match		http://127.0.0.1:8384/*
 // @match		https://boardgamearena.com/*
 // @match		https://cloudconvert.com/*
 // @match		https://deepwork.fm/
