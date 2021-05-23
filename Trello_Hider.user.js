@@ -51,7 +51,7 @@
 		//Hide Star Button
 		wmHideAllInStyle(".js-star-board");
 		//Hide Butler Button (Find Butler in Side Panel)
-		wmHideAllInStyle("span.board-header-btn:first-child");
+		wmHideAllInStyle(".js-butler-header-btns");
 		//Hide Card Template Buttons
 		wmHideAllInStyle(".js-card-templates-button");
 		wmAddNewStyle(`
