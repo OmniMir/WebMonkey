@@ -106,9 +106,7 @@
 				wmClick(".flat_button.fl_r");
 				//wmClick(".thumbed_link a");
 				//VK Article
-				wmClick(
-					".article_decoration_before.article_decoration_last a[href^='/away.php?to=https%3A%2F%2Fyadi.sk']"
-				);
+				wmClick(".article_decoration_before.article_decoration_last a[href^='/away.php?to=https%3A%2F%2Fyadi.sk']");
 				//wmClick(".article_decoration_before a[href^='/away.php?to=https%3A%2F%2Fyadi.sk']");
 				//wmClick(".article_decoration_last a[href^='/away.php?to=https%3A%2F%2Fyadi.sk']");
 				//VK Photo
