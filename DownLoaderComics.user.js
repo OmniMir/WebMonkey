@@ -28,6 +28,7 @@
 // @match		http://www.rus-bd.com/*
 // @match		https://savageworld.ucoz.ru/*
 // @match		http://spaikcomics.moy.su/*
+// @match		http://spawnalley.ru/*
 // @match		https://sudya-dredd.ru/*
 // @match		http://super-comics.ru/*
 // @match		http://supercomics.3dn.ru/*
@@ -67,7 +68,7 @@
 				wmClickLast(".kp"); //Maybe two links on page
 				//DrawnStories
 				wmClickLast("#idds26 a");
-				//AdamComics, ComixBase, ElfQuest, FrankenGeek, MarvelComics, Omnizod, SpaikComics & SuperComics (uCoz Sites)
+				//AdamComics, ComixBase, ElfQuest, FrankenGeek, MarvelComics, Omnizod, SpaikComics, SpawnAlley & SuperComics (uCoz Sites)
 				wmClick(".eBlock a[href^='/load/0']");
 				//HunderBridge
 				wmClick("#links a");
