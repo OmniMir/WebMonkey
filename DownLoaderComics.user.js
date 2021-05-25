@@ -9,6 +9,7 @@
 // @match		http://cm-project.com/*
 // @match		http://comix-base.moy.su/*
 // @match		http://dccomics.ru/*
+// @match		http://dccoms.ru/*
 // @match		https://drawnstories.ru/*
 // @match		http://elfquest.ucoz.ru/*
 // @match		http://frankengeek.ru/*
