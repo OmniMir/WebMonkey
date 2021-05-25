@@ -52,91 +52,90 @@
 
 (function () {
 	"use strict";
+	//Start with Keydown
+	window.addEventListener("keydown", (event) => HotKeys(event), false);
+
 	//Press Down Arrow to Action
-	window.addEventListener(
-		"keydown",
-		function (event) {
-			if (event.code == "ArrowDown") {
-				//Disable Default Action
-				event.preventDefault();
+	function HotKeys(event) {
+		if (event.code == "ArrowDown") {
+			//Disable Default Action
+			event.preventDefault();
 
-				//Boosty
-				wmClick("a[class*=FileBlock_link_]");
-				wmClickLast("a[class*=FileBlock_link_]");
-				//ComicsManiac
-				wmClick(".yad a");
-				//DCComics
-				wmClickLast(".kp"); //Maybe two links on page
-				//DrawnStories
-				wmClickLast("#idds26 a");
-				//AdamComics, ComixBase, ElfQuest, FrankenGeek, MarvelComics, Omnizod, SpaikComics, SpawnAlley & SuperComics (uCoz Sites)
-				wmClick(".eBlock a[href^='/load/0']");
-				//HunderBridge
-				wmClick("#links a");
-				//LBS
-				wmClickLast(".entry-content a[target='_blank']");
-				//MangaChan
-				wmClick("#download_table a[href^='/engine/download.php']");
-				//OtakuTeam
-				wmClickLast(".type-post > ul li a");
-				//Promethea
-				wmClickLast(".t776__btn_second");
-				//RealDealTeam
-				wmClick(".article-content a[href^='https://yadi.sk/d/']");
-				//Rikudou-Sennin Clan
-				wmClickLast("#content section a");
-				//RusBD
-				wmClickLast(".contentpaneopen a[href^='https://cloud.mail.ru/public/']");
-				//RussianProjectUniverse
-				wmClick(".tabs-sel a");
-				//SavageWorld
-				wmClick(".eMessage p a");
-				//SudyaDredd
-				wmClickLast("a[href^='https://rocld.com/']");
-				//SuperComics
-				//wmClick(".eBlock a[href^='https://yadi.sk/d/']");
-				//SWComics
-				wmClick("td[width='200'] a");
-				//TurtlePower
-				wmClickLast(".kr_postbita_article a");
-				//VK Only one Post
-				wmClick(".big_wall .mail_link");
-				wmClick(".big_wall .lnk");
-				wmClick(".big_wall .page_doc_title");
-				//wmClick(".wall_module .media_desc__doc a");
-				//VK Other
-				wmClick(".flat_button.fl_r");
-				//wmClick(".thumbed_link a");
-				//VK Article
-				wmClick(".article_decoration_before.article_decoration_last a[href^='/away.php?to=https%3A%2F%2Fyadi.sk']");
-				//wmClick(".article_decoration_before a[href^='/away.php?to=https%3A%2F%2Fyadi.sk']");
-				//wmClick(".article_decoration_last a[href^='/away.php?to=https%3A%2F%2Fyadi.sk']");
-				//VK Photo
-				wmClick("#pv_box .page_doc_title");
-				//VK Post as Wall
-				wmClick("#page_wall_posts .media_link__title");
-				//VK Post in front of Wall
-				wmClick("#wk_content .article_snippet");
-				wmClick("#wk_content .media_link__title");
-				wmClick("#wk_content .mail_link");
-				wmClick("#wk_content .page_doc_title");
-				wmClick("#wk_content .media_desc .lnk");
-				wmClick("#wk_content .thumbed_link__title");
-				wmClick("#wk_content .wall_post_text a[href^='/away.php?to=https%3A%2F%2Fcloud.mail.ru']");
-				wmClick("#wk_content .wall_post_text a[href^='https://vk.com/doc-']");
-				wmClickLast("#wk_content .wk_ext_link");
-				wmClickLast("#wk_content a.wk_photo[href^='https://vk.com/doc-']");
-				//WebOfComics
-				wmClickLast("a img[src='http://web-of-comics.3dn.ru/skachat-2.jpg']");
-				//WonderComics
-				wmClick("input[value='СКАЧАТЬ КОМИКС']");
-				//YoungComics
-				wmClick(".wn3p");
+			//Boosty
+			wmClick("a[class*=FileBlock_link_]");
+			wmClickLast("a[class*=FileBlock_link_]");
+			//ComicsManiac
+			wmClick(".yad a");
+			//DCComics
+			wmClickLast(".kp"); //Maybe two links on page
+			//DrawnStories
+			wmClickLast("#idds26 a");
+			//AdamComics, ComixBase, ElfQuest, FrankenGeek, MarvelComics, Omnizod, SpaikComics, SpawnAlley & SuperComics (uCoz Sites)
+			wmClick(".eBlock a[href^='/load/0']");
+			//HunderBridge
+			wmClick("#links a");
+			//LBS
+			wmClickLast(".entry-content a[target='_blank']");
+			//MangaChan
+			wmClick("#download_table a[href^='/engine/download.php']");
+			//OtakuTeam
+			wmClickLast(".type-post > ul li a");
+			//Promethea
+			wmClickLast(".t776__btn_second");
+			//RealDealTeam
+			wmClick(".article-content a[href^='https://yadi.sk/d/']");
+			//Rikudou-Sennin Clan
+			wmClickLast("#content section a");
+			//RusBD
+			wmClickLast(".contentpaneopen a[href^='https://cloud.mail.ru/public/']");
+			//RussianProjectUniverse
+			wmClick(".tabs-sel a");
+			//SavageWorld
+			wmClick(".eMessage p a");
+			//SudyaDredd
+			wmClickLast("a[href^='https://rocld.com/']");
+			//SuperComics
+			//wmClick(".eBlock a[href^='https://yadi.sk/d/']");
+			//SWComics
+			wmClick("td[width='200'] a");
+			//TurtlePower
+			wmClickLast(".kr_postbita_article a");
+			//VK Only one Post
+			wmClick(".big_wall .mail_link");
+			wmClick(".big_wall .lnk");
+			wmClick(".big_wall .page_doc_title");
+			//wmClick(".wall_module .media_desc__doc a");
+			//VK Other
+			wmClick(".flat_button.fl_r");
+			//wmClick(".thumbed_link a");
+			//VK Article
+			wmClick(".article_decoration_before.article_decoration_last a[href^='/away.php?to=https%3A%2F%2Fyadi.sk']");
+			//wmClick(".article_decoration_before a[href^='/away.php?to=https%3A%2F%2Fyadi.sk']");
+			//wmClick(".article_decoration_last a[href^='/away.php?to=https%3A%2F%2Fyadi.sk']");
+			//VK Photo
+			wmClick("#pv_box .page_doc_title");
+			//VK Post as Wall
+			wmClick("#page_wall_posts .media_link__title");
+			//VK Post in front of Wall
+			wmClick("#wk_content .article_snippet");
+			wmClick("#wk_content .media_link__title");
+			wmClick("#wk_content .mail_link");
+			wmClick("#wk_content .page_doc_title");
+			wmClick("#wk_content .media_desc .lnk");
+			wmClick("#wk_content .thumbed_link__title");
+			wmClick("#wk_content .wall_post_text a[href^='/away.php?to=https%3A%2F%2Fcloud.mail.ru']");
+			wmClick("#wk_content .wall_post_text a[href^='https://vk.com/doc-']");
+			wmClickLast("#wk_content .wk_ext_link");
+			wmClickLast("#wk_content a.wk_photo[href^='https://vk.com/doc-']");
+			//WebOfComics
+			wmClickLast("a img[src='http://web-of-comics.3dn.ru/skachat-2.jpg']");
+			//WonderComics
+			wmClick("input[value='СКАЧАТЬ КОМИКС']");
+			//YoungComics
+			wmClick(".wn3p");
 
-				//And Close Opened Tab
-				wmWaitAndCloseTab();
-			}
-		},
-		false
-	);
+			//And Close Opened Tab
+			wmWaitAndCloseTab();
+		}
+	}
 })();

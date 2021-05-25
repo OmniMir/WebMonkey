@@ -26,58 +26,52 @@
 
 (function () {
 	"use strict";
+	//Start on page load to take effect
+	window.addEventListener("load", () => LoadFromGoogleDrive(), false);
+	//Start with Keydown
+	window.addEventListener("keydown", (event) => HotKeys(event), false);
+
 	//Press Down Arrow to Action
-	window.addEventListener(
-		"keydown",
-		function (event) {
-			if (event.code == "ArrowDown") {
-				//Disable Default Action
-				event.preventDefault();
+	function HotKeys(event) {
+		if (event.code == "ArrowDown") {
+			//Disable Default Action
+			event.preventDefault();
 
-				//DropBox
-				wmClick(".download-button");
-				wmClick(".mc-popover-content-item");
-				//GoogleDrive
-				wmClick("#uc-download-link");
-				//MailRu
-				wmClick(".b-toolbar__btn_download");
-				wmClick(".btn_main");
-				//MediaFire
-				wmClick(".popsok");
-				//Mega
-				wmClick(".download-file");
-				//OneDrive
-				wmClick(".od-Button");
-				//YandexDisk
-				wmClick(".download-button");
+			//DropBox
+			wmClick(".download-button");
+			wmClick(".mc-popover-content-item");
+			//GoogleDrive
+			wmClick("#uc-download-link");
+			//MailRu
+			wmClick(".b-toolbar__btn_download");
+			wmClick(".btn_main");
+			//MediaFire
+			wmClick(".popsok");
+			//Mega
+			wmClick(".download-file");
+			//OneDrive
+			wmClick(".od-Button");
+			//YandexDisk
+			wmClick(".download-button");
 
-				//And Close Opened Tab
-				wmWaitAndCloseTab()
+			//And Close Opened Tab
+			wmWaitAndCloseTab();
+		}
+	}
+
+	//Download from Google Drive
+	function LoadFromGoogleDrive() {
+		//View mode is blocked🙁 Therefore only automated opening new tab to downloading page
+		setTimeout(() => {
+			if (
+				//Only with "Add to Drive" Button that appear some time later
+				document.querySelector(".ndfHFb-c4YZDc-Wrql6b-htvI8d-wcotoc-wHEfpf-ndfHFb-Bz112c")
+			) {
+				//Open Page with download link
+				let downURL = document.baseURI;
+				downURL = downURL.replace("file/d/", "u/0/uc?id=").replace("/view", "&export=download");
+				window.open(downURL);
 			}
-		},
-		false
-	);
-	//GoogleDrive, Start on page load to take effect
-	window.addEventListener(
-		"load",
-		function () {
-			//View mode is blocked🙁 Therefore only automated opening new tab to downloading page
-			setTimeout(() => {
-				if (
-					//Only with "Add to Drive" Button that appear some time later
-					document.querySelector(
-						".ndfHFb-c4YZDc-Wrql6b-htvI8d-wcotoc-wHEfpf-ndfHFb-Bz112c"
-					)
-				) {
-					//Open Page with download link
-					let downURL = document.baseURI;
-					downURL = downURL
-						.replace("file/d/", "u/0/uc?id=")
-						.replace("/view", "&export=download");
-					window.open(downURL);
-				}
-			}, 1000);
-		},
-		false
-	);
+		}, 1000);
+	}
 })();

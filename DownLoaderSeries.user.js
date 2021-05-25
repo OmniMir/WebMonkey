@@ -19,32 +19,31 @@
 
 (function () {
 	"use strict";
+	//Start with Keydown
+	window.addEventListener("keydown", (event) => HotKeys(event), false);
+
 	//Press Down Arrow to Action
-	window.addEventListener(
-		"keydown",
-		function (event) {
-			if (event.code == "ArrowDown") {
-				//Disable Default Action
-				event.preventDefault();
+	function HotKeys(event) {
+		if (event.code == "ArrowDown") {
+			//Disable Default Action
+			event.preventDefault();
 
-				//AnimeJoy
-				wmClick("#softsub a");
-				//Baibako
-				wmClick(".fa-download");
-				//LostFilm
-				wmClickLast(".external-btn");
-				//LostFilm Insearch
-				wmClickNumber(".inner-box--link.main a", 2);
-				wmClickNumber(".block_3 a", 2);
-				//NewStudio
-				wmClick("a.genmed");
-				//Octopus
-				wmClick(".torrent a");
+			//AnimeJoy
+			wmClick("#softsub a");
+			//Baibako
+			wmClick(".fa-download");
+			//LostFilm
+			wmClickLast(".external-btn");
+			//LostFilm Insearch
+			wmClickNumber(".inner-box--link.main a", 2);
+			wmClickNumber(".block_3 a", 2);
+			//NewStudio
+			wmClick("a.genmed");
+			//Octopus
+			wmClick(".torrent a");
 
-				//And Close Opened Tab
-				wmWaitAndCloseTab();
-			}
-		},
-		false
-	);
+			//And Close Opened Tab
+			wmWaitAndCloseTab();
+		}
+	}
 })();
