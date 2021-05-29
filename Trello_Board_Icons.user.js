@@ -18,14 +18,14 @@
 
 	//Hide Elements
 	function boardIcons() {
-		wmAddNewStyle(`
-			}
-		`);
 		//Change Icons of Boards to more sharp versions
 		wmAddNewStyle(`
 			.boards-page-board-section-header-icon-image {
-				height: 34px;
-				width: 34px;
+				height: 30px;
+				width: 30px;
+			}
+		`);
+		wmAddNewStyle(`
 			}
 		`);
 	}
