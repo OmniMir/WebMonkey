@@ -18,15 +18,9 @@
 
 	//Hide Elements
 	function boardIcons() {
-		//Change Personal Boards Icon
 		wmAddNewStyle(`
-			.boards-page-board-section-header-icon-default-image {
-				background: transparent;
-				font-size: 18px;
 			}
 		`);
-		document.querySelector(".boards-page-board-section-header-icon-default-image").innerText = "💁‍♂️";
-
 		//Change Icons of Boards to more sharp versions
 		wmAddNewStyle(`
 			.boards-page-board-section-header-icon-image {
