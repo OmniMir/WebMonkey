@@ -25,7 +25,11 @@
 				width: 30px;
 			}
 		`);
+		//Set Headers of Workspaces Bigger
 		wmAddNewStyle(`
+			.boards-page-board-section-header-name {
+				margin: 2px 0 0;
+				font-size: 20px;
 			}
 		`);
 	}
