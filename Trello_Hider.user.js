@@ -44,6 +44,8 @@
 		wmHideAllInStyle("button[data-test-id='team-boards-header-upgrade-button']");
 		//Hide Add Board Button (Use Global Plus Button)
 		wmHideAllInStyleImportant(".mod-add");
+		//Hide Blank Space Under Boards Blocks
+		wmHideAllInStyle("._3qp4wO2bWQzPuV");
 
 		//BOARD SCREEN
 		//Hide Board View Mode Button
