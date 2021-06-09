@@ -8,6 +8,7 @@
 // @match		http://playinfo.gomlab.com/ending_browser.gom?product=GOMPLAYER
 // @match		http://www.gomtv.com/gomtvplus/
 // @match		https://www.kcsoftwares.com/?page=postinstall&sw=*
+// @match		http://track.wg-aff.com/disabled.html
 // @match		https://vash.omnimir.ru/tabautoclose/
 // @grant		window.close
 // @run-at		document-start
