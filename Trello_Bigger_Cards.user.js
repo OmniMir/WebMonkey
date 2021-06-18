@@ -43,6 +43,12 @@
 					display: none !important;
 				}
 			`);
+			//Set Card Sidebar Smaller
+			wmAddNewStyle(`
+				.window-sidebar {
+					width: 170px;
+				}
+			`);
 		},
 		false
 	);
