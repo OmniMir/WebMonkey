@@ -61,6 +61,8 @@
 				margin-right: 8px;
 			}
 		`);
+		//Hide Video Conference Loom Button
+		wmHideAllInStyle(".js-card-record-button");
 		//Hide Quick Card Menu Buttons (Use Right Click)
 		wmHideAllInStyle(".js-card-menu");
 		//Hide Quick Card Menu Open Card Button (Use Left Click)
