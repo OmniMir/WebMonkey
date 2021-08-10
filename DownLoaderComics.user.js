@@ -13,6 +13,7 @@
 // @match		https://drawnstories.ru/*
 // @match		http://elfquest.ucoz.ru/*
 // @match		http://frankengeek.ru/*
+// @match		https://getcomics.info/*
 // @match		https://hunderbridge.bitbucket.io/*
 // @match		https://lectoribenevolosalutem.blogspot.com/*
 // @match		https://manga-chan.me/*
@@ -72,6 +73,8 @@
 			wmClickLast("#idds26 a");
 			//AdamComics, ComixBase, ElfQuest, FrankenGeek, MarvelComics, Omnizod, SpaikComics, SpawnAlley & SuperComics (uCoz Sites)
 			wmClick(".eBlock a[href^='/load/0']");
+			//GetComics
+			wmClick(".aio-pulse a");
 			//HunderBridge
 			wmClick("#links a");
 			//LBS
